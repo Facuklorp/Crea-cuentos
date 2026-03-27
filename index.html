@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#0f0a1e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Crea cuentos mágicos para tus hijos antes de dormir. Elige personajes, escenarios y objetos mágicos.">
+  <title>Crea Cuentos ✨</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+  <!-- Stars Background -->
+  <div class="stars-bg" id="starsBg"></div>
+
+  <!-- Generating Overlay -->
+  <div class="generating-overlay" id="generatingOverlay">
+    <div class="generating-sparkle">✨📖✨</div>
+    <div class="generating-text"><span data-i18n="generatingText">Creando tu cuento mágico</span><span class="generating-dots"></span></div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <div class="app-container">
+
+    <!-- ========== HOME SCREEN ========== -->
+    <section class="screen active" id="screenHome">
+      <div class="home-header">
+        <div class="app-logo"><img src="icon-512.png" alt="Crea Cuentos" class="app-logo-img"></div>
+        <h1 class="app-title" data-i18n="appTitle">Crea Cuentos</h1>
+        <p class="app-subtitle" data-i18n="appSubtitle">Crea cuentos mágicos para tus hijos<br>antes de irse a dormir 🌙</p>
+      </div>
+      <div class="home-actions">
+        <div class="lang-buttons">
+          <button class="btn btn-lang" onclick="setLanguage('es-latam')" data-lang="es-latam"><img src="https://flagcdn.com/w40/ar.png" class="lang-flag" alt="AR"> LATAM</button>
+          <button class="btn btn-lang" onclick="setLanguage('es')" data-lang="es"><img src="https://flagcdn.com/w40/es.png" class="lang-flag" alt="ES"> ES</button>
+          <button class="btn btn-lang" onclick="setLanguage('en')" data-lang="en"><img src="https://flagcdn.com/w40/us.png" class="lang-flag" alt="US"> EN</button>
+          <button class="btn btn-lang" onclick="setLanguage('fr')" data-lang="fr"><img src="https://flagcdn.com/w40/fr.png" class="lang-flag" alt="FR"> FR</button>
+          <button class="btn btn-lang" onclick="setLanguage('de')" data-lang="de"><img src="https://flagcdn.com/w40/de.png" class="lang-flag" alt="DE"> DE</button>
+          <button class="btn btn-lang" onclick="setLanguage('pt')" data-lang="pt"><img src="https://flagcdn.com/w40/br.png" class="lang-flag" alt="BR"> PT</button>
+        </div>
+        <button class="btn btn-primary" id="btnNewStory" onclick="showScreen('screenSelector')">
+          <span data-i18n="btnNewStory">✨ Crear un Cuento</span>
+        </button>
+        <button class="btn btn-secondary" id="btnHistory" onclick="showScreen('screenHistory')">
+          <span data-i18n="btnHistory">📖 Mis Cuentos Guardados</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ========== SELECTOR SCREEN ========== -->
+    <section class="screen screen-with-bottom-bar" id="screenSelector">
+      <button class="back-btn" onclick="showScreen('screenHome')" data-i18n="backBtn">← Volver</button>
+
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="selectorTitle">Elige los ingredientes ✨</h2>
+        <p class="section-subtitle" data-i18n="selectorSubtitle">Selecciona un elemento de cada categoría</p>
+      </div>
+
+      <!-- Personajes -->
+      <div class="category-group">
+        <div class="category-label" data-i18n="catPersonaje">🧑 Personaje</div>
+        <div class="elements-grid" id="gridPersonajes"></div>
+      </div>
+
+      <!-- Escenarios -->
+      <div class="category-group">
+        <div class="category-label" data-i18n="catEscenario">🏰 Escenario</div>
+        <div class="elements-grid" id="gridEscenarios"></div>
+      </div>
+
+      <!-- Objetos -->
+      <div class="category-group">
+        <div class="category-label" data-i18n="catObjeto">✨ Objeto Mágico</div>
+        <div class="elements-grid" id="gridObjetos"></div>
+      </div>
+    </section>
+
+    <!-- ========== STORY SCREEN ========== -->
+    <section class="screen story-screen screen-with-bottom-bar" id="screenStory">
+      <button class="back-btn" onclick="showScreen('screenSelector')" data-i18n="backBtnSelector">← Volver al Selector</button>
+
+      <div class="story-header-badge" id="storyBadges"></div>
+      <h2 class="story-title" id="storyTitle"></h2>
+      <div class="story-body" id="storyBody"></div>
+    </section>
+
+    <!-- ========== HISTORY SCREEN ========== -->
+    <section class="screen" id="screenHistory">
+      <button class="back-btn" onclick="showScreen('screenHome')" data-i18n="backBtn">← Volver</button>
+
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="historyTitle">Mis Cuentos 📖</h2>
+        <p class="section-subtitle" data-i18n="historySubtitle">Tus cuentos guardados para releer</p>
+      </div>
+
+      <div id="historyContainer"></div>
+    </section>
+
+  </div>
+
+  <!-- Selection Summary Bar -->
+  <div class="selection-summary" id="selectionSummary">
+    <div class="selection-pills" id="selectionPills"></div>
+    <button class="btn btn-primary" id="btnGenerate" onclick="onGenerate()" disabled>
+      <span data-i18n="btnGenerate">✨ Generar Cuento</span>
+    </button>
+  </div>
+
+  <!-- Story Actions Bar -->
+  <div class="story-actions" id="storyActions" style="display:none;">
+    <button class="btn btn-secondary btn-small" onclick="onSaveStory()">
+      <span data-i18n="btnSave">💾 Guardar</span>
+    </button>
+    <button class="btn btn-primary btn-small" onclick="onNewStory()">
+      <span data-i18n="btnNewStorySmall">✨ Nuevo Cuento</span>
+    </button>
+  </div>
+
+  <script src="translations.js"></script>
+  <script src="stories.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

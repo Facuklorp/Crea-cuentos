@@ -1,0 +1,45 @@
+¡Buena pregunta! Te voy a crear una guía paso a paso completa para publicar tu app en la Play Store.
+
+Created
+Ahí te armé la guía completa. Los puntos clave:
+
+Subir la app online (GitHub Pages gratis) → necesita HTTPS
+Cuenta de Play Console → $25 USD una sola vez
+Generar el .aab con PWABuilder.com → gratis, es drag & drop
+Configurar assetlinks.json → para que la app no muestre barra del navegador
+Completar la ficha → nombre, descripción, capturas, íconos
+Subir y esperar revisión → 2-7 días
+El costo total es solo $25 USD (el registro de desarrollador de Google). Todo lo demás es gratis.
+
+Si querés, puedo ayudarte con:
+
+🎨 Generar los íconos (512x512 y 1024x500)
+📝 Escribir la política de privacidad
+📤 Preparar los archivos para GitHub
+📋 Escribir las descripciones para la tienda
+¿Por qué parte querés empezar?
+
+Cómo hago para ganar plata con CREA-CUENTOS
+
+¡Excelente pregunta! Te armo una guía de monetización realista para Crea Cuentos:
+
+Created
+Te dejo la guía completa de monetización. En resumen, mi recomendación:
+
+🥇 Lo que más conviene:
+
+Ahora → Lanzar la app gratis para conseguir usuarios y reseñas
+En 1-2 meses → Agregar anuncios rewarded ("mirá un video = 1 cuento extra") — es lo que más paga y no molesta
+En 3-6 meses → Agregar modelo premium ($1.99-2.99/mes) con contenido exclusivo
+💡 Lo que los padres sí pagan:
+
+Narración con voz automática (¡para los padres cansados!)
+Personalización con el nombre del hijo
+Cuentos ilimitados sin ads
+Con 5.000-10.000 descargas activas podés estar haciendo $200-800 USD/mes entre ads y suscripciones.
+
+¿Querés que implemente alguna de estas funciones en la app? Por ejemplo puedo agregar ya:
+
+🔊 Narración con voz (Web Speech API, gratis)
+👶 Campo para el nombre del niño en el cuento
+🔒 Límite de cuentos diarios para free + pantalla de "Premium"
