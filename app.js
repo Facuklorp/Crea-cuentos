@@ -190,20 +190,21 @@ function renderStory(story) {
   const imgEl = document.getElementById('storyImage');
   const offlineEl = document.getElementById('storyImageOffline');
   
+  imgEl.style.display = 'none';
+  offlineEl.style.display = 'none';
+  
   if (navigator.onLine) {
-    // Show a loading text or keep the previous image while it loads?
-    // We can just set the src and it will load. We add a seed so it's fresh.
-    const p = encodeURIComponent(story.personaje);
-    const e = encodeURIComponent(story.escenario);
-    const o = encodeURIComponent(story.objeto);
+    const p = story.personaje;
+    const e = story.escenario;
+    const o = story.objeto;
     const prompt = `cute 3d children book illustration of ${p} in ${e} with a ${o}, magical atmosphere, soft lighting, pixar style`;
     const seed = Math.floor(Math.random() * 999999);
     
+    imgEl.onload = () => { imgEl.style.display = 'block'; };
+    imgEl.onerror = () => { offlineEl.style.display = 'block'; };
+    
     imgEl.src = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=768&height=432&nologo=true&seed=${seed}`;
-    imgEl.style.display = 'block';
-    offlineEl.style.display = 'none';
   } else {
-    imgEl.style.display = 'none';
     offlineEl.style.display = 'block';
   }
 }
