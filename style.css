@@ -45,7 +45,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 17px;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -319,13 +319,15 @@ body {
 
 .category-label {
   font-family: var(--font-story);
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: var(--accent-gold);
   margin-bottom: 14px;
   display: flex;
   align-items: center;
   gap: 8px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .elements-grid {
@@ -381,8 +383,8 @@ body {
 }
 
 .element-name {
-  font-size: 0.82rem;
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 600;
   color: var(--text-secondary);
   position: relative;
   z-index: 1;
@@ -513,8 +515,8 @@ body {
 
 .story-body {
   font-family: var(--font-story);
-  font-size: 1.1rem;
-  line-height: 1.85;
+  font-size: 1.2rem;
+  line-height: 1.9;
   color: var(--text-primary);
   white-space: pre-wrap;
   background: var(--bg-card);
