@@ -107,6 +107,14 @@ function renderCategory(cat, gridId) {
         selected[catKey] = null;
       } else {
         selected[catKey] = el.id;
+        // Auto-scroll logic
+        setTimeout(() => {
+          if (cat === 'personajes') {
+            document.getElementById('gridEscenarios').parentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          } else if (cat === 'escenarios') {
+            document.getElementById('gridObjetos').parentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }, 300);
       }
       renderCategory(cat, gridId);
       updateSelectionSummary();
@@ -177,6 +185,27 @@ function renderStory(story) {
   `;
   document.getElementById('storyTitle').textContent = story.titulo;
   document.getElementById('storyBody').textContent = story.cuerpo;
+
+  // Render Image
+  const imgEl = document.getElementById('storyImage');
+  const offlineEl = document.getElementById('storyImageOffline');
+  
+  if (navigator.onLine) {
+    // Show a loading text or keep the previous image while it loads?
+    // We can just set the src and it will load. We add a seed so it's fresh.
+    const p = encodeURIComponent(story.personaje);
+    const e = encodeURIComponent(story.escenario);
+    const o = encodeURIComponent(story.objeto);
+    const prompt = `cute 3d children book illustration of ${p} in ${e} with a ${o}, magical atmosphere, soft lighting, pixar style`;
+    const seed = Math.floor(Math.random() * 999999);
+    
+    imgEl.src = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=768&height=432&nologo=true&seed=${seed}`;
+    imgEl.style.display = 'block';
+    offlineEl.style.display = 'none';
+  } else {
+    imgEl.style.display = 'none';
+    offlineEl.style.display = 'block';
+  }
 }
 
 // ============================================

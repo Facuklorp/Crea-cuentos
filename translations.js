@@ -26,7 +26,8 @@ const TRANSLATIONS = {
     emptyHistory: "Aún no tienes cuentos guardados",
     emptyHistorySub: "¡Crea tu primer cuento mágico!",
     btnDelete: "🗑️ Eliminar",
-    deletedSuccess: "Cuento eliminado 🗑️"
+    deletedSuccess: "Cuento eliminado 🗑️",
+    offlineImageMsg: "Para cargar la imagen debes estar conectado a internet"
   },
   en: {
     appTitle: "Story Maker",
@@ -55,7 +56,8 @@ const TRANSLATIONS = {
     emptyHistory: "You don't have any saved stories yet",
     emptyHistorySub: "Create your first magical story!",
     btnDelete: "🗑️ Delete",
-    deletedSuccess: "Story deleted 🗑️"
+    deletedSuccess: "Story deleted 🗑️",
+    offlineImageMsg: "You must be connected to the internet to load the image"
   },
   fr: {
     appTitle: "Créateur d'Histoires",
@@ -84,7 +86,8 @@ const TRANSLATIONS = {
     emptyHistory: "Vous n'avez pas encore d'histoires enregistrées",
     emptyHistorySub: "Créez votre première histoire magique !",
     btnDelete: "🗑️ Supprimer",
-    deletedSuccess: "Histoire supprimée 🗑️"
+    deletedSuccess: "Histoire supprimée 🗑️",
+    offlineImageMsg: "Vous devez être connecté à Internet pour charger l'image"
   },
   de: {
     appTitle: "Geschichtenmacher",
@@ -113,7 +116,8 @@ const TRANSLATIONS = {
     emptyHistory: "Du hast noch keine gespeicherten Geschichten",
     emptyHistorySub: "Erstelle deine erste magische Geschichte!",
     btnDelete: "🗑️ Löschen",
-    deletedSuccess: "Geschichte gelöscht 🗑️"
+    deletedSuccess: "Geschichte gelöscht 🗑️",
+    offlineImageMsg: "Sie müssen mit dem Internet verbunden sein, um das Bild zu laden"
   },
   pt: {
     appTitle: "Criar Histórias",
@@ -142,7 +146,8 @@ const TRANSLATIONS = {
     emptyHistory: "Você não tem histórias salvas",
     emptyHistorySub: "Crie sua primeira história mágica!",
     btnDelete: "🗑️ Excluir",
-    deletedSuccess: "História excluída 🗑️"
+    deletedSuccess: "História excluída 🗑️",
+    offlineImageMsg: "Você deve estar conectado à internet para carregar a imagem"
   }
 };
 
