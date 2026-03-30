@@ -1,4 +1,4 @@
-const CACHE_NAME = 'creacuentos-v4';
+const CACHE_NAME = 'creacuentos-v5';
 const ASSETS = [
   './',
   './index.html',
@@ -9,7 +9,17 @@ const ASSETS = [
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
-  './privacy.html'
+  './privacy.html',
+  './images/char-princesa.png',
+  './images/char-caballero.png',
+  './images/char-dragon.png',
+  './images/char-hada.png',
+  './images/char-pirata.png',
+  './images/char-unicornio.png',
+  './images/char-robot.png',
+  './images/char-sirena.png',
+  './images/char-conejito.png',
+  './images/char-bruja_buena.png'
 ];
 
 self.addEventListener('install', event => {

@@ -178,25 +178,6 @@ function onGenerate() {
 }
 
 function renderStory(story) {
-  // English keywords for AI image generation (avoids URL issues with accented chars)
-  const IMG_KEYWORDS = {
-    personaje: {
-      princesa: 'princess', caballero: 'knight', dragon: 'cute dragon', hada: 'fairy',
-      pirata: 'pirate', unicornio: 'unicorn', robot: 'friendly robot', sirena: 'mermaid',
-      conejito: 'cute bunny', bruja_buena: 'friendly witch'
-    },
-    escenario: {
-      castillo: 'enchanted castle', bosque: 'magical forest', isla: 'treasure island',
-      nube: 'giant cloud', mar: 'underwater world', montana: 'snowy mountain',
-      jardin: 'secret garden', estrellas: 'city of stars'
-    },
-    objeto: {
-      espada: 'glowing sword', corona: 'magical crown', mapa: 'treasure map',
-      varita: 'magic wand', pocion: 'shiny potion', llave: 'golden key',
-      libro: 'enchanted book', amuleto: 'magical amulet'
-    }
-  };
-
   document.getElementById('storyBadges').innerHTML = `
     <span class="story-badge">${story.personajeEmoji} ${story.personaje}</span>
     <span class="story-badge">${story.escenarioEmoji} ${story.escenario}</span>
@@ -205,26 +186,21 @@ function renderStory(story) {
   document.getElementById('storyTitle').textContent = story.titulo;
   document.getElementById('storyBody').textContent = story.cuerpo;
 
-  // Render Image
+  // Render local illustration based on character
   const imgEl = document.getElementById('storyImage');
   const offlineEl = document.getElementById('storyImageOffline');
   
   imgEl.style.display = 'none';
   offlineEl.style.display = 'none';
   
-  if (navigator.onLine) {
-    const p = IMG_KEYWORDS.personaje[story.personajeId] || story.personajeId;
-    const e = IMG_KEYWORDS.escenario[story.escenarioId] || story.escenarioId;
-    const o = IMG_KEYWORDS.objeto[story.objetoId] || story.objetoId;
-    const prompt = `cute 3d children book illustration of a ${p} in a ${e} holding a ${o}, magical soft lighting, pixar disney style, vibrant colors`;
-    const seed = Math.floor(Math.random() * 999999);
-    
+  const localImages = ['princesa','caballero','dragon','hada','pirata',
+                       'unicornio','robot','sirena','conejito','bruja_buena'];
+  const charId = story.personajeId;
+
+  if (localImages.includes(charId)) {
     imgEl.onload = () => { imgEl.style.display = 'block'; };
-    imgEl.onerror = () => { offlineEl.style.display = 'block'; };
-    
-    imgEl.src = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=768&height=432&nologo=true&seed=${seed}`;
-  } else {
-    offlineEl.style.display = 'block';
+    imgEl.onerror = () => { imgEl.style.display = 'none'; };
+    imgEl.src = `images/char-${charId}.png`;
   }
 }
 
