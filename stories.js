@@ -407,6 +407,7 @@ function generateStory(personajeId, escenarioId, objetoId) {
     titulo, cuerpo,
     personaje: personaje.nombre, escenario: escenario.nombre, objeto: objeto.nombre,
     personajeEmoji: personaje.emoji, escenarioEmoji: escenario.emoji, objetoEmoji: objeto.emoji,
+    personajeId, escenarioId, objetoId,
     fecha: new Date().toISOString(), templateId: templates.indexOf(tpl), lang: currentLang
   };
 }
