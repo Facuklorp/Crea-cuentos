@@ -48,19 +48,18 @@ const STORY_DATA = {
     },
     artPers: function(id) {
       const p = this.elementos.personajes.find(x => x.id === id);
-      if (id === 'hada') return 'el ' + p.nombre; // Especial: el hada
+      if (id === 'hada') return 'el ' + p.nombre; 
       const g = this.generoMap[id];
       return (g === 'f' ? 'la ' : 'el ') + p.nombre;
     },
     artEscDef: function(id) {
-      const e = this.elementos.escenarios.find(x => x.id === id);
       const defs = {
         castillo:'el Castillo Encantado', bosque:'el Bosque Mágico',
         isla:'la Isla del Tesoro', nube:'la Nube Gigante',
         mar:'el Fondo del Mar', montana:'la Montaña Nevada',
         jardin:'el Jardín Secreto', estrellas:'la Ciudad de Estrellas',
       };
-      return defs[id] || e.nombre;
+      return defs[id] || 'el lugar';
     },
     artObj: function(id) {
       const g = this.generoObj[id];
@@ -70,23 +69,63 @@ const STORY_DATA = {
     plantillas: [
       {
         titulo: "{pe} {P} y el secreto de {E}",
-        cuerpo: `Había una vez, en {ea}, un pequeñ{oa} {p_base} que soñaba con vivir una gran aventura.\n\nUna mañana, mientras paseaba entre los rincones más escondidos del lugar, descubrió algo que brillaba con una luz especial: ¡{oa_art}! Al tocar{lola}, sintió un cosquilleo mágico en las manos.\n\n"{pe} ¡Qué maravilla!" — exclamó {P} con los ojos bien abiertos.\n\n{O} tenía un poder increíble: podía hacer que todo {E} se llenara de colores brillantes y música suave. Las flores bailaban, los árboles cantaban y las estrellas se asomaban incluso antes de que llegara la noche.\n\nPero había una condición: la magia solo funcionaba cuando {P} hacía algo amable por alguien más. Así que decidió compartir su descubrimiento con todos los habitantes del lugar.\n\nJuntos, hicieron de {E} el lugar más bonito y feliz del mundo. And every night, antes de dormir, {P} susurraba: "Gracias, {O}, por enseñarme que la magia más grande es la bondad."\n\nY así, con el corazón lleno de alegría, {P} se durmió soñando con las aventuras del día siguiente. 🌙✨`
+        cuerpo: `Había una vez, en {ea}, un pequeñ{oa} {p_base} que soñaba con vivir una gran aventura.\n\nUna mañana, mientras paseaba entre los rincones más escondidos del lugar, descubrió algo que brillaba con una luz especial: ¡{oa_art}! Al tocar{lola}, sintió un cosquilleo mágico en las manos.\n\n"{pe} ¡Qué maravilla!" — exclamó {P} con los ojos bien abiertos.\n\n{O} tenía un poder increíble: podía hacer que todo {E} se llenara de colores brillantes y música suave.\n\nJuntos, hicieron de {E} el lugar más bonito del mundo. Antes de dormir, {P} susurraba: "Gracias, {O}, por la magia." 🌙✨`
       },
       {
         titulo: "✨ La aventura de {P} en {E}",
-        cuerpo: `En un lugar muy especial llamado {E}, vivía un valiente {p_base} que tenía un sueño: encontrar {oa_art} legendari{ao}.\n\nTodos decían que {O} estaba escondid{ao} en el corazón de {E}, protegid{ao} por un acertijo que nadie había podido resolver.\n\n{P} caminó por senderos luminosos, cruzó puentes de arcoíris y escaló colinas de algodón hasta llegar a una puerta mágica. En ella había una inscripción que decía:\n\n"Solo quien tenga un corazón generoso podrá pasar."\n\n{pe} {P} pensó un momento, sacó de su bolsillo su dulce favorito y lo dejó junto a la puerta como regalo. ¡And la puerta se abrió!\n\nDentro encontró {oa_art}, que brillaba como mil estrellas. Pero lo mejor de todo fue que, al tocar{lola}, todos los habitantes de {E} recibieron un poquito de su magia.\n\nEsa noche, {P} regresó a casa con una gran sonrisa. Había aprendido que el verdadero tesoro no es lo que encuentras, sino lo que compartes.\n\nBuenas noches, pequeño aventurero. 🌟💤`
+        cuerpo: `En un lugar muy especial llamado {E}, vivía un valiente {p_base} que tenía un sueño: encontrar {oa_art} legendari{ao}.\n\nTodos decían que {O} estaba escondid{ao} en el corazón de {E}, protegid{ao} por un acertijo.\n\n{P} caminó por senderos luminosos hasta llegar a una puerta mágica. "Solo quien tenga un corazón generoso podrá pasar."\n\n{pe} {P} dejó su dulce favorito como regalo. ¡Y la puerta se abrió! Dentro encontró {oa_art}, que brillaba como mil estrellas. Había aprendido que el verdadero tesoro es lo que compartes. 🌟💤`
       },
       {
         titulo: "🌙 {P} y {O} mágic{ao}",
-        cuerpo: `Cuando el sol se escondía detrás de {E}, la magia comenzaba. And nadie lo sabía mejor que {P}, quien cada noche miraba cómo las estrellas empezaban a bailar en el cielo.\n\nUna noche especial, una estrella fugaz cayó justo frente a {P}. ¡Pero no era una estrella! Era {oa_art} que brillaba con todos los colores del arcoíris.\n\n"{pe} ¿Qué haces aquí, pequeñ{ao} {O}?" — preguntó {P} con curiosidad.\n\n{O} respondió con un destello mágico y, de pronto, {P} podía entender el idioma de los animales, el susurro del viento y las canciones de las flores.\n\nLos animales de {E} le contaron historias increíbles: de ríos que cantaban, de montañas que reían y de nubes que hacían cosquillas. {P} rió tanto que las estrellas brillaron aún más fuerte.\n\nCuando llegó la hora de dormir, {P} abrazó {oa_art} y susurró: "Mañana viviremos otra aventura."\n\nY así, arropado por la noche estrellada, {P} cerró los ojos con una sonrisa. 🌙🌟`
+        cuerpo: `Cuando el sol se escondía detrás de {E}, la magia comenzaba. Nadie lo sabía mejor que {P}, quien cada noche miraba las estrellas.\n\nUna noche especial, una estrella fugaz cayó justo frente a {P}. Era {oa_art} que brillaba con colores del arcoíris.\n\n"{pe} ¿Qué haces aquí, pequeñ{ao} {O}?" — preguntó {P}. {O} respondió con un destello y, de pronto, {P} podía entender el idioma de los animales.\n\nCuando llegó la hora de dormir, {P} abrazó {oa_art} y sonrió. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} y el misterio de {E}",
-        cuerpo: `Todo comenzó cuando {P} encontró una nota misteriosa debajo de una piedra en {E}. La nota decía: "Sigue las huellas brillantes y encontrarás algo maravilloso."\n\n¡{P} no lo dudó ni un segundo! Se puso su capa de aventurer{oa} y siguió las huellas que brillaban como polvo de estrellas por todo {E}.\n\nLas huellas lo llevaron por caminos llenos de flores luminosas, pasaron junto a un río que cantaba melodías dulces y llegaron hasta un gran árbol que tocaba el cielo.\n\nEn la copa del árbol, envuelt{ao} en hojas doradas, estaba {oa_art}. Cuando {P} la tomó entre sus manos, todo {E} se iluminó como si fueran las fiestas más bonitas del mundo.\n\n"{pe} ¡Es hermoso!" — dijo {P}.\n\n{O} le mostró que cada habitante de {E} tenía algo especial que ofrecer. El viento sabía contar chistes, las rocas sabían abrazar y las nubes preparaban los sueños más bonitos.\n\n{P} entendió que la magia no estaba en {oa_art}, sino en descubrir lo especial que hay en cada uno.\n\nCon esa lección en el corazón, se acurrucó bajo las estrellas y soñó los sueños más dulces. 🌜💫`
+        cuerpo: `Todo comenzó cuando {P} encontró una nota misteriosa en {E}: "Sigue las huellas brillantes."\n\n¡{P} no lo dudó! Siguió las huellas de polvo de estrellas por todo {E} hasta llegar a un gran árbol.\n\nEn la copa, estaba {oa_art}. Cuando {P} la tomó, todo {E} se iluminó de alegría. {P} entendió que la magia estaba en descubrir lo especial que hay en cada uno.\n\nSe acurrucó bajo las estrellas y soñó cuentos dulces. 🌜💫`
       },
       {
         titulo: "💫 El viaje de {P} a {E}",
-        cuerpo: `{P} siempre había querido visitar {E}, ese lugar mágico del que hablaban todos los cuentos. Un día, finalmente, decidió emprender el viaje.\n\nLlevó en su mochila un bocadillo de mermelada, una linterna y mucha valentía. El camino fue largo pero emocionante: cruzó ríos de limonada, saltó charcos de caramelo y caminó bajo arcoíris dobles.\n\nCuando por fin llegó a {E}, se quedó sin palabras. ¡Era aún más bonito de lo que imaginaba! And justo en la entrada, esperándol{oa}, había {oa_art}.\n\n"{pe} Te estaba esperando" — dijo {O} con voz suave como una brisa.\n\n{O} le explicó que {E} necesitaba un guardián especial: alguien amable, valiente y con muchísima imaginación. ¿And quién mejor que {P}?\n\nDesde ese día, {P} se convirtió en el guardián de {E}. Cuidaba de los animales, contaba cuentos a las flores y pintaba el cielo de atardeceres con colores increíbles con ayuda de {oa_art}.\n\nY cada noche, los habitantes de {E} le cantaban una canción de cuna:\n\n"Duerme, {P}, duerme ya,\nque mañana más aventuras habrá."\n\n🌙⭐💤`
+        cuerpo: `{P} siempre había querido visitar {E}. Un día, finalmente, decidió emprender el viaje con mucha valentía.\n\nCruzó ríos de limonada y caminó bajo arcoíris dobles. Cuando por fin llegó a {E}, se quedó sin palabras. ¡Era hermoso!\n\nY justo en la entrada, esperándol{oa}, había {oa_art}. "{pe} Te estaba esperando" — dijo {O}.\n\nDesde ese día, {P} se convirtió en el guardián de {E}, cuidando de todos con ayuda de {oa_art}. 🌙⭐💤`
+      },
+      {
+        titulo: "🎭 {P} y el Gran Festival de {E}",
+        cuerpo: `¡Todo estaba listo para la fiesta en {E}! {P} preparaba guirnaldas de luces, pero faltaba la música.\n\nRecordó que en un rincón guardaba {oa_art}. Al tocar {O}, una melodía dulce llenó {E} y todos empezaron a bailar.\n\n{pe} "{P}, gracias por traer la armonía" — dijeron sus amigos. {P} comprendió que compartir el talento es la mejor magia.\n\nCansad{oa} de bailar, se fue a dormir con una sonrisa. 🌜✨`
+      },
+      {
+        titulo: "🎁 Un Regalo de las Estrellas para {P}",
+        cuerpo: `Una noche en {E}, algo cayó suavemente sobre la hierba. ¡Era {oa_art} con el brillo de las galaxias!\n\nAl tomarlo, {P} sintió que podía convertir los miedos en sueños bonitos. "{pe} ¡Es un regalo especial!" — exclamó.\n\nUsó la magia de {O} para que todos en {E} durmieran tranquilos esa noche. {P} se sintió feliz de ayudar y cerró los ojos agradecido. 🌟💤`
+      },
+      {
+        titulo: "🐾 {P} al Rescate en {E}",
+        cuerpo: `{P} escuchó un gemido en {E}: era un pequeño animalito perdido. Para ayudarlo, {P} usó {oa_art}.\n\nEl objeto iluminó el camino como si fuera de día, guiando al pequeño de vuelta a su hogar.\n\n{pe} "{P} eres muy valiente" — susurró el animalito. {P} sonrió sabiendo que {O} era perfecto para hacer el bien.\n\nCon paz en el corazón, {P} regresó a descansar. 🌛💨`
+      },
+      {
+        titulo: "🌸 {P} y el Cambio de Estación en {E}",
+        cuerpo: `La primavera llegaba a {E}, pero los campos seguían con nieve. {P} tomó {oa_art} y sopló sobre las flores dormidas.\n\nDe pronto, todo {E} se llenó de colores y perfumes. "{pe} ¡Qué bonito está todo!" — pensó {P}.\n\nTodos en {E} salieron a saludar al sol. {P} guardó {oa_art} y se preparó para un día de juegos. 🌼🌜`
+      },
+      {
+        titulo: "🎶 La Melodía de {O} en {E}",
+        cuerpo: `Había un gran silencio en {E}. {P} se propuso encontrar el sonido perdido y buscó hasta hallar {oa_art}.\n\nAl moverlo, {O} empezó a cantar una canción que hacía bailar a las nubes. "{pe} ¡La música ha vuelto!" — gritó {P}.\n\nTodo {E} volvió a llenarse de vida. Esa noche, {P} se durmió escuchando el latido feliz del lugar. 🎵💤`
+      },
+      {
+        titulo: "🚀 {P} y el Amigo Galáctico",
+        cuerpo: `Un cohete aterrizó en {E} y un visitante espacial salió saludando. {P} usó {oa_art} para traducir sus deseos en luces.\n\n"{pe} ¡Ahora somos amigos!" — dijo {P}. Pasaron la tarde descubriendo secretos del cosmos en {E}.\n\nCuando el visitante partió, {P} miró a las estrellas y supo que nunca estaría solo. 🌌✨`
+      },
+      {
+        titulo: "🏆 El Concurso de Talentos de {P}",
+        cuerpo: `Hoy era el día del concurso en {E}. {P} estaba nervios{oa}, ¡todos tenían talentos increíbles!\n\nPero cuando llegó su turno, {P} enseñó {oa_art}. {O} empezó a crear figuras de luz que contaban historias fantásticas.\n\n{pe} "¡Es el ganador{a}!" — exclamaron. {P} aprendió que su mayor talento era su imaginación. 🏅🌟`
+      },
+      {
+        titulo: "📚 {P} en la Biblioteca de Sueños",
+        cuerpo: `En {E} hay una biblioteca donde los libros vuelan. {P} entró y un libro dorado cayó en sus manos.\n\nSus páginas estaban vacías, pero {P} usó {oa_art} y se llenaron de dibujos sobre su vida. "{pe} ¡Mi vida es un cuento!" — dijo {P}.\n\nCada día es una página nueva que él escribe en {E}. Se durmió soñando historias nuevas. 📖✨`
+      },
+      {
+        titulo: "🎨 {P} y el Día de los Colores",
+        cuerpo: `Un viento gris había quitado el color a {E}. Pero {P} sacó {oa_art} y, como un pincel, pintó el cielo de azul profundo.\n\n{pe} "¡Mirad qué maravilla!" — decían en {E} mientras los colores volvían gracias a {O}.\n\nCuando terminó, {P} contempló su obra de arte y cerró los ojos feliz. 🌈😴`
+      },
+      {
+        titulo: "🕯️ La Promesa del Mañana",
+        cuerpo: `{P} estaba bajo el gran árbol de {E}. {oa_art} empezó a brillar con una luz cálida y suave.\n\n{O} le mostró visiones de campos llenos de flores y risas de nuevos amigos. "{pe} El mañana será increíble" — prometió {P}.\n\nCon mucha esperanza, se quedó dormid{oa} mientras una brisa suave lo acariciaba en {E}. 🌜💤`
       }
     ]
   },
@@ -138,23 +177,63 @@ const STORY_DATA = {
     plantillas: [
       {
         titulo: "{pe} {P} and the secret of {E}",
-        cuerpo: `Once upon a time, in {ea}, a little {p} dreamed of living a great adventure.\n\nOne morning, while walking through the most hidden corners of the place, they discovered something glowing with a special light: {oa_art}! Touching it caused a magical tingle in their hands.\n\n"{pe} How wonderful!" — exclaimed {P} with wide eyes.\n\n{O} had an incredible power: it could fill all of {E} with bright colors and soft music. The flowers danced, the trees sang, and the stars peeked out even before night arrived.\n\nBut there was a condition: the magic only worked when {P} did something kind for someone else. So they decided to share their discovery with all the inhabitants of the place.\n\nTogether, they made {E} the most beautiful and happiest place in the world. And every night, before sleeping, {P} whispered: "Thank you, {O}, for teaching me that the greatest magic is kindness."\n\nAnd so, with a heart full of joy, {P} fell asleep dreaming of the next day's adventures. 🌙✨`
+        cuerpo: `Once upon a time, in {ea}, a little {p} dreamed of a great adventure.\n\nOne morning, they discovered something glowing: {oa_art}! Touching it caused a magical tingle.\n\n"{pe} How wonderful!" — exclaimed {P}. {O} had an incredible power to fill {E} with bright colors. Before sleeping, {P} whispered: "Thank you, {O}, for the magic." 🌙✨`
       },
       {
         titulo: "✨ The adventure of {P} in {E}",
-        cuerpo: `In a very special place called {E}, lived a brave {p} who had a dream: to find the legendary {O}.\n\nEveryone said that {O} was hidden in the heart of {E}, protected by a riddle no one could solve.\n\n{P} walked along luminous paths, crossed rainbow bridges, and climbed cotton hills until reaching a magic door. On it was an inscription that read:\n\n"Only one with a generous heart may pass."\n\n{pe} {P} thought for a moment, took their favorite candy from their pocket, and left it by the door as a gift. And the door opened!\n\nInside they found {oa_art}, shining like a thousand stars. But the best part was that, by touching it, all the inhabitants of {E} received a little bit of its magic.\n\nThat night, {P} returned home with a big smile. They had learned that the true treasure is not what you find, but what you share.\n\nGoodnight, little adventurer. 🌟💤`
+        cuerpo: `In a special place called {E}, a brave {p} wanted to find the legendary {O}.\n\nAt the heart of {E}, {P} found a magic door. "Only a generous heart may pass." {P} left a gift, and the door opened!\n\nInside was {oa_art}, shining like stars. {P} learned that the true treasure is what you share. 🌟💤`
       },
       {
         titulo: "🌙 {P} and the magic {O}",
-        cuerpo: `When the sun hid behind {E}, the magic began. And no one knew it better than {P}, who every night watched the stars start to dance in the sky.\n\nOne special night, a shooting star fell right in front of {P}. But it wasn't a star! It was {oa_art} glowing with all the colors of the rainbow.\n\n"{pe} What are you doing here, little {O}?" — asked {P} curiously.\n\n{O} responded with a magical flash and, suddenly, {P} could understand the language of the animals, the whisper of the wind, and the songs of the flowers.\n\nThe animals of {E} told incredible stories: of singing rivers, laughing mountains, and tickling clouds. {P} laughed so much that the stars shone even brighter.\n\nWhen bedtime came, {P} hugged {oa_art} and whispered: "Tomorrow we will have another adventure."\n\nAnd so, tucked in by the starry night, {P} closed their eyes with a smile. 🌙🌟`
+        cuerpo: `When the sun hid behind {E}, magic began. {P} watched the stars every night.\n\nOne night, a shooting star fell—it was {oa_art}! "{pe} What are you doing here, little {O}?" asked {P}.\n\n{O} flashed, and suddenly {P} understood the language of animals. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} and the mystery of {E}",
-        cuerpo: `It all started when {P} found a mysterious note under a stone in {E}. The note said: "Follow the glowing footprints... and you will find something wonderful."\n\n{P} didn't hesitate for a second! They put on their adventurer cape and followed the footprints that glowed like stardust all over {E}.\n\nThe footprints led them along paths full of luminous flowers, past a river that sang sweet melodies, and to a great tree that touched the sky.\n\nAt the top of the tree, wrapped in golden leaves, was {oa_art}. When {P} took it in their hands, all of {E} lit up as if it were the most beautiful festival in the world.\n\n"{pe} It's beautiful!" — said {P}.\n\n{O} showed them that every inhabitant of {E} had something special to offer. The wind knew how to tell jokes, the rocks knew how to hug, and the clouds prepared the most beautiful dreams.\n\n{P} understood that the magic was not in {oa_art}, but in discovering how special everyone is.\n\nWith that lesson in their heart, they curled up under the stars and dreamed the sweetest dreams. 🌜💫`
+        cuerpo: `It started with a note in {E}: "Follow the glowing footprints." {P} followed them to a great tree.\n\nAt the top was {oa_art}. When {P} took it, all of {E} lit up. {P} understood that magic is discovering how special everyone is. 🌜💫`
       },
       {
         titulo: "💫 {P}'s journey to {E}",
-        cuerpo: `{P} had always wanted to visit {E}, that magical place everyone talked about in stories. One day, finally, they decided to embark on the journey.\n\nThey packed a jam sandwich, a flashlight, and a lot of bravery in their backpack. The path was long but exciting: crossing lemonade rivers, jumping caramel puddles, and walking under double rainbows.\n\nWhen they finally arrived at {E}, they were speechless. It was even more beautiful than they imagined! And right at the entrance, waiting for them, was {oa_art}.\n\n"{pe} I was waiting for you" — said {O} with a voice soft as a breeze.\n\n{O} explained that {E} needed a special guardian: someone kind, brave, and with a lot of imagination. And who better than {P}?\n\nFrom that day on, {P} became the guardian of {E}. They took care of the animals, told stories to the flowers, and painted the sky with incredible colors with the help of {oa_art}.\n\nAnd every night, the inhabitants of {E} sang them a lullaby:\n\n"Sleep, {P}, sleep now,\nfor tomorrow there will be more adventures."\n\n🌙⭐💤`
+        cuerpo: `{P} always wanted to visit {E}. One day, they set off with bravery.\n\nThey arrived at {E} and were speechless. It was beautiful! Right at the entrance was {oa_art}. "{pe} I was waiting for you," said {O}.\n\nFrom then on, {P} became the guardian of {E} with the help of {oa_art}. 🌙⭐💤`
+      },
+      {
+        titulo: "🎭 {P} and the Great Festival in {E}",
+        cuerpo: `The party in {E} was ready, but the music was missing. {P} used {oa_art}.\n\nA sweet melody filled {E} and everyone danced. "{pe} {P}, thank you for the harmony!" said their friends. Sharing talent is the best magic. 🌜✨`
+      },
+      {
+        titulo: "🎁 A Gift from the Stars for {P}",
+        cuerpo: `One night in {E}, {oa_art} fell from the sky with the glow of galaxies.\n\n{P} felt it could turn fears into beautiful dreams. "{pe} What a special gift!" they cried.\n\nUsing {O}, everyone in {E} slept peacefully. {P} felt happy to help and closed their eyes. 🌟💤`
+      },
+      {
+        titulo: "🐾 {P} to the Rescue in {E}",
+        cuerpo: `{P} heard a sound in {E}: a lost little animal. To help, {P} used {oa_art}.\n\nThe object lit the way like day, guiding the little one home. "{pe} {P}, you are so brave," whispered the animal. {P} smiled, knowing {O} was perfect for doing good. 🌛💨`
+      },
+      {
+        titulo: "🌸 {P} and the Seasonal Change in {E}",
+        cuerpo: `Spring was coming to {E}, but snow remained. {P} took {oa_art} and breathed on the flowers.\n\nSuddenly, {E} was full of colors and scents. "{pe} Everything is so beautiful!" thought {P}.\n\nEveryone in {E} cheered for the sun. {P} got ready for a day of games. 🌼🌜`
+      },
+      {
+        titulo: "🎶 The Melody of {O} in {E}",
+        cuerpo: `Silence filled {E}. {P} wanted to find the lost sound and searched until they found {oa_art}.\n\nAs it moved, {O} sang a song that made clouds dance. "{pe} Music is back!" cried {P}.\n\n{E} was full of life again. {P} fell asleep to the happy heartbeat of the world. 🎵💤`
+      },
+      {
+        titulo: "🚀 {P} and the Galactical Friend",
+        cuerpo: `A rocket landed in {E} and a space visitor stepped out. {P} used {oa_art} to translate wishes into lights.\n\n"{pe} Now we are friends!" said {P}. They spent the afternoon discovering secrets of the cosmos in {E}.\n\nWhen the visitor left, {P} knew they were never alone. 🌌✨`
+      },
+      {
+        titulo: "🏆 {P}'s Talent Show",
+        cuerpo: `Today was the talent show in {E}. {P} was nervous—everyone was so talented!\n\nBut when it was their turn, {P} showed {oa_art}. {O} created light figures telling fantastic stories.\n\n"{pe} Winner!" everyone cheered. {P} learned that their greatest talent was imagination. 🏅🌟`
+      },
+      {
+        titulo: "📚 {P} in the Library of Dreams",
+        cuerpo: `In {E} there's a library where books fly. {P} found a golden book with empty pages.\n\n{P} used {oa_art} and pages filled with drawings of their life. "{pe} My life is a story!" said {P}.\n\nEach day is a new page they write in {E}. They fell asleep dreaming of new tales. 📖✨`
+      },
+      {
+        titulo: "🎨 {P} and the Day of Colors",
+        cuerpo: `A grey wind took the color from {E}. But {P} used {oa_art} like a brush to paint the sky blue.\n\n"{pe} Look how wonderful!" they said in {E} as colors returned thanks to {O}.\n\nWhen finished, {P} looked at the masterpiece and closed their eyes happy. 🌈😴`
+      },
+      {
+        titulo: "🕯️ The Promise of Tomorrow",
+        cuerpo: `{P} sat under the big tree in {E}. {oa_art} began to glow with a warm, soft light.\n\n{O} showed visions of fields full of flowers and laughter. "{pe} Tomorrow will be amazing," promised {P}.\n\nWith hope, they fell asleep while a soft breeze brushed them in {E}. 🌜💤`
       }
     ]
   },
@@ -206,23 +285,63 @@ const STORY_DATA = {
     plantillas: [
       {
         titulo: "{pe} {P} et le secret de {E}",
-        cuerpo: `Il était une fois, dans {ea}, un(e) petit(e) {p} qui rêvait de vivre une grande aventure.\n\nUn matin, en se promenant, il a découvert quelque chose qui brillait avec une lumière spéciale : {oa_art} ! Le toucher lui a fait ressentir un frisson magique.\n\n"{pe} Quelle merveille !" — s'est exclamé(e) {P}.\n\n{O} avait un pouvoir incroyable : il pouvait remplir tout(e) {E} de couleurs vives. Les fleurs dansaient et les arbres chantaient.\n\nEt ainsi, avec un cœur plein de joie, {P} s'est endormi(e) en rêvant aux aventures du lendemain. 🌙✨`
+        cuerpo: `Il était une fois, dans {ea}, un(e) petit(e) {p} qui rêvait d'aventure.\n\nUn matin, il a découvert {oa_art} qui brillait. Le toucher lui a fait ressentir un frisson magique.\n\n"{pe} Quelle merveille !" s'est exclamé {P}. {O} pouvait remplir {E} de couleurs vives. Avant de dormir, il a chuchoté : "Merci pour la magie." 🌙✨`
       },
       {
         titulo: "✨ L'aventure de {P} dans {E}",
-        cuerpo: `Dans un endroit très spécial appelé {E}, vivait un(e) courageux(se) {p} qui avait un rêve : trouver {oa_art} légendaire.\n\nTous disaient que {O} était caché(e) au cœur de {E}, protégé(e) par une énigme que personne n'avait pu résoudre.\n\nÀ l'intérieur, il(elle) a trouvé {oa_art}, qui brillait comme mille étoiles. Mais le meilleur de tout, c'est qu'en le touchant, tous les habitants en ont reçu un peu de magie.\n\nBonne nuit, petit(e) aventurier(ère). 🌟💤`
+        cuerpo: `Dans un endroit spécial appelé {E}, {p} voulait trouver {O} légendaire. {P} a trouvé une porte : "Seul un cœur généreux peut passer."\n\n{pe} {P} a laissé un cadeau et la porte s'est ouverte ! À l'intérieur se trouvait {oa_art}. {P} a appris que le vrai trésor est ce que l'on partage. 🌟💤`
       },
       {
         titulo: "🌙 {P} et {O} magique",
-        cuerpo: `Quand le soleil se cachait derrière {E}, la magie commençait. Et personne ne le savait mieux que {P}.\n\nUne nuit spéciale, une étoile filante est tombée juste devant {P}. Mais ce n'était pas une étoile ! C'était {oa_art} qui brillait de toutes les couleurs de l'arc-en-ciel.\n\nLes animaux de {E} racontaient des histoires incroyables : de rivières qui chantaient et de nuages qui chatouillaient. {P} a tellement ri que les étoiles ont brillé encore plus fort.\n\nEt ainsi, bordé(e) par la nuit étoilée, {P} a fermé les yeux avec le sourire. 🌙🌟`
+        cuerpo: `Quand le soleil se cachait derrière {E}, la magie commençait. Une nuit, une étoile filante est tombée: c'était {oa_art}!\n\n"{pe} Que fais-tu ici, petit(e) {O} ?" a demandé {P}. {O} a répondu par un éclair et {P} a compris le langage des animaux. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} et le mystère de {E}",
-        cuerpo: `Tout a commencé quand {P} a trouvé une note mystérieuse sous une pierre dans {E}. La note disait : "Suis les empreintes brillantes."\n\nAu sommet de l'arbre, enveloppé(e) dans des feuilles dorées, se trouvait {oa_art}. Quand {P} l'a pris dans ses mains, tout(e) {E} s'est illuminé(e) comme si c'était la plus belle fête du monde.\n\nAvec cette leçon dans le cœur, il(elle) s'est blotti(e) sous les étoiles et a fait les rêves les plus doux. 🌜💫`
+        cuerpo: `Tout a commencé avec une note dans {E}: "Suis les empreintes." {P} les a suivies jusqu'à un grand arbre.\n\nAu sommet se trouvait {oa_art}. Quand {P} l'a pris, tout {E} s'est illuminé. La magie, c'est découvrir la beauté en chacun. 🌜💫`
       },
       {
-        titulo: "💫 Le voyage de {P} à {E}",
-        cuerpo: `{P} avait toujours voulu visiter {E}, cet endroit magique dont tout le monde parlait dans les histoires.\n\nQuand il(elle) est enfin arrivé(e) à {E}, il(elle) est resté(e) sans voix. C'était encore plus beau qu'il(elle) ne l'imaginait ! Et juste à l'entrée, {oa_art} l'attendait.\n\nEt chaque nuit, les habitants de {E} lui chantaient une berceuse :\n\n"Dors, {P}, dors maintenant,\ncar demain il y aura plus d'aventures."\n\n🌙⭐💤`
+        titulo: "💫 Le voyage de {P} vers {E}",
+        cuerpo: `{P} avait toujours voulu visiter {E}. Un jour, il est parti avec courage. Arrivé à {E}, il était sans voix.\n\nÀ l'entrée, {oa_art} l'attendait. "{pe} Je t'attendais," a dit {O}. {P} est devenu le gardien de {E}. 🌙⭐💤`
+      },
+      {
+        titulo: "🎭 {P} et le Grand Festival de {E}",
+        cuerpo: `La fête à {E} était prête, mais la musique manquait. {P} a utilisé {oa_art}. Une mélodie a rempli {E} et tout le monde a dansé.\n\n{pe} "{P}, merci pour l'harmonie !" Partager son talent est la plus belle magie. 🌜✨`
+      },
+      {
+        titulo: "🎁 Un Cadeau des Étoiles pour {P}",
+        cuerpo: `Une nuit à {E}, {oa_art} est tombé du ciel. {P} a senti qu'il pouvait transformer les peurs en rêves.\n\n"{pe} Quel cadeau spécial !" En utilisant {O}, tout le monde à {E} a dormi paisiblement. 🌟💤`
+      },
+      {
+        titulo: "🐾 {P} au Secours dans {E}",
+        cuerpo: `{P} a entendu un cri dans {E} : un animal perdu. Pour l'aider, {P} a utilisé {oa_art}.\n\nL'objet a éclairé le chemin comme en plein jour. "{pe} {P}, tu es si brave." {P} a souri en sachant que {O} servait à faire le bien. 🌛💨`
+      },
+      {
+        titulo: "🌸 {P} et le Changement de Saison à {E}",
+        cuerpo: `Le printemps arrivait mais la neige restait à {E}. {P} a pris {oa_art} et a soufflé sur les fleurs.\n\nSoudain, {E} s'est rempli de couleurs. {pe} "Tout est si beau !" Tout le monde a fêté le soleil. 🌼🌜`
+      },
+      {
+        titulo: "🎶 La Mélodie de {O} dans {E}",
+        cuerpo: `Le silence régnait sur {E}. {P} a cherché le son perdu jusqu'à trouver {oa_art}.\n\nEn bougeant, {O} a chanté et les nuages ont dansé. "{pe} La musique est de retour !" {E} était à nouveau plein de vie. 🎵💤`
+      },
+      {
+        titulo: "🚀 {P} et l'Ami Galactique",
+        cuerpo: `Une fusée a atterri à {E}. {P} a utilisé {oa_art} para traduire les souhaits en lumières.\n\n"{pe} Nous sommes amis !" Ils ont découvert les secrets del cosmos à {E}. {P} a su qu'il n'était plus seul. 🌌✨`
+      },
+      {
+        titulo: "🏆 Le Concours de Talents de {P}",
+        cuerpo: `C'était le jour del concours à {E}. {P} était nerveux. Mais quand vint son tour, il a montré {oa_art}.\n\n{O} a créé des figures de lumière racontant des histoires. "{pe} Gagnant !" Son plus grand talent était son imagination. 🏅🌟`
+      },
+      {
+        titulo: "📚 {P} dans la Bibliothèque des Rêves",
+        cuerpo: `À {E}, il y a une bibliothèque où les livres volent. {P} a trouvé un livre d'or aux pages vides.\n\n{P} a utilisé {oa_art} et les pages se sont remplies de dessins de sa vie. "{pe} Ma vie est un conte !" 📖✨`
+      },
+      {
+        titulo: "🎨 {P} et le Jour des Couleurs",
+        cuerpo: `Un vent gris avait volé les couleurs de {E}. Mais {P} a utilisé {oa_art} comme un pinceau pour repeindre le ciel.\n\n"{pe} Regardez !" Les couleurs sont revenues grâce à {O}. Tout le monde était heureux. 🌈😴`
+      },
+      {
+        titulo: "🕯️ La Promesse de Demain",
+        cuerpo: `{P} s'est assis sous le grand arbre de {E}. {oa_art} brillait d'une lumière douce. {O} lui a montré des champs de fleurs.\n\n"{pe} Demain sera incroyable," a promis {P}. Avec espoir, il s'est endormi. 🌜💤`
       }
     ]
   },
@@ -274,23 +393,63 @@ const STORY_DATA = {
     plantillas: [
       {
         titulo: "{pe} {P} und das Geheimnis von {E}",
-        cuerpo: `Es war einmal, in {ea}, ein kleines {p}, das davon träumte, ein großes Abenteuer zu erleben.\n\nEines Morgens entdeckte es etwas, das mit einem besonderen Licht leuchtete: {oa_art}! Es zu berühren, fühlte sich magisch an.\n\n"{pe} Wie wunderbar!" — rief {P}.\n\n{O} hatte eine unglaubliche Kraft: Es konnte ganz {E} mit bunten Farben füllen. Die Blumen tanzten und die Bäume sangen.\n\nUnd so schlief {P} mit einem Herzen voller Freude ein und träumte von den Abenteuern des nächsten Tages. 🌙✨`
+        cuerpo: `Es war einmal, in {ea}, ein kleines {p}, das von Abenteuern träumte. Eines Morgens entdeckte es {oa_art}.\n\n"{pe} Wie wunderbar!" rief {P}. {O} erfüllte {E} mit bunten Farben. Gute Nacht! 🌙✨`
       },
       {
         titulo: "✨ Das Abenteuer von {P} in {E}",
-        cuerpo: `An einem ganz besonderen Ort namens {E} lebte ein mutiges {p}, das einen Traum hatte: {oa_art} zu finden.\n\nAlle sagten, dass {O} im Herzen von {E} versteckt sei.\n\nDarin fand es {oa_art}, das wie tausend Sterne leuchtete. Aber das Beste war, dass durch die Berührung alle Bewohner ein wenig von seiner Magie erhielten.\n\nGute Nacht, kleiner Abenteurer. 🌟💤`
+        cuerpo: `In {E} wollte {p} {O} finden. {P} fand eine magische Tür: "Nur ein großzügiges Herz darf eintreten."\n\n{pe} {P} gab ein Geschenk und die Tür öffnete sich ! Darin war {oa_art}. Teilen ist der wahre Schatz. 🌟💤`
       },
       {
         titulo: "🌙 {P} und das magische {O}",
-        cuerpo: `Wenn sich die Sonne hinter {E} versteckte, begann die Magie. Und niemand wusste das besser als {P}.\n\nIn einer besonderen Nacht fiel eine Sternschnuppe genau vor {P}. Aber es war kein Stern! Es war {oa_art}, das in allen Farben des Regenbogens leuchtete.\n\nDie Tiere von {E} erzählten unglaubliche Geschichten. {P} lachte so sehr, dass die Sterne noch heller leuchteten.\n\nUnd so schloss {P}, eingekuschelt von der sternenklaren Nacht, mit einem Lächeln die Augen. 🌙🌟`
+        cuerpo: `Wenn die Sonne hinter {E} verschwand, begann die Magie. Eine Sternschnuppe fiel—es war {oa_art}!\n\n"{pe} Kleines {O}, was machst du hier?" fragte {P}. {O} leuchtete und plötzlich verstand {P} die Tiere. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} und das Geheimnis von {E}",
-        cuerpo: `Alles begann, als {P} eine mysteriöse Notiz unter einem Stein in {E} fand. Die Notiz besagte: "Folge den leuchtenden Fußspuren."\n\nAuf der Spitze des Baumes lag {oa_art}. Als {P} es in die Hände nahm, leuchtete ganz {E} auf.\n\nMit dieser Lektion im Herzen rollte es sich unter den Sternen zusammen und träumte die süßesten Träume. 🌜💫`
+        cuerpo: `Alles begann mit einer Notiz in {E}: "Folge den Spuren." {P} folgte ihnen zu einem Baum.\n\nOben war {oa_art}. Ganz {E} leuchtete auf. Magie ist, das Besondere in jedem zu finden. 🌜💫`
       },
       {
-        titulo: "💫 Die Reise von {P} nach {E}",
-        cuerpo: `{P} wollte schon immer {E} besuchen, diesen magischen Ort, über den alle in Geschichten sprachen.\n\nAls es schließlich in {E} ankam, war es sprachlos. Es war noch schöner, als es sich vorgestellt hatte! Und direkt am Eingang wartete {oa_art} darauf.\n\nUnd jede Nacht sangen ihm die Bewohner von {E} ein Schlaflied:\n\n"Schlaf, {P}, schlaf jetzt,\ndenn morgen gibt es mehr Abenteuer."\n\n🌙⭐💤`
+        titulo: "💫 {P}s Reise nach {E}",
+        cuerpo: `{P} wollte schon immer {E} besuchen. Eines Tages kam er an und war sprachlos. Es war so schön!\n\nAm Eingang wartete {oa_art}. "{pe} Ich habe auf dich gewartet," sagte {O}. {P} wurde der Wächter von {E}. 🌙⭐💤`
+      },
+      {
+        titulo: "🎭 {P} und das Große Festival in {E}",
+        cuerpo: `Das Fest in {E} war bereit, aber die Musik fehlte. {P} benutzte {oa_art}.\n\nEine Melodie erfüllte {E} und alle tanzten. "{pe} Danke für die Harmonie!" Sharing is the best magic. 🌜✨`
+      },
+      {
+        titulo: "🎁 Ein Geschenk der Sterne für {P}",
+        cuerpo: `In {E} fiel {oa_art} vom Himmel. {P} spürte, dass es Angst in Träume verwandeln konnte.\n\n"{pe} Was für ein Geschenk!" Alle in {E} schliefen friedlich. 🌟💤`
+      },
+      {
+        titulo: "🐾 {P} zur Rettung in {E}",
+        cuerpo: `{P} hörte ein Tier in {E}. Er benutzte {oa_art}, um den Weg zu beleuchten.\n\nDas Objekt leuchtete wie am Tag. "{pe} Du bist so tapfer." {O} war perfekt, um Gutes zu tun. 🌛💨`
+      },
+      {
+        titulo: "🌸 {P} und der Jahreszeitenwechsel in {E}",
+        cuerpo: `Der Frühling kam nach {E}, aber es lag noch Schnee. {P} nahm {oa_art} und pustete.\n\nPlötzlich war {E} voller Farben. {pe} "Alles ist so schön!" Alle feierten die Sonne. 🌼🌜`
+      },
+      {
+        titulo: "🎶 Die Melodie von {O} in {E}",
+        cuerpo: `Es war still in {E}. {P} suchte den Klang und fand {oa_art}.\n\n{O} sang ein Lied und die Wolken tanzten. "{pe} Die Musik ist zurück!" {E} war wieder voller Leben. 🎵💤`
+      },
+      {
+        titulo: "🚀 {P} und der galaktische Freund",
+        cuerpo: `In {E} landete eine Rakete. {P} benutzte {oa_art}, um Wünsche in Lichter zu übersetzen.\n\n"{pe} Jetzt sind wir Freunde!" Sie entdeckten die Geheimnisse des Kosmos in {E}. 🌌✨`
+      },
+      {
+        titulo: "🏆 {P}s Talent-Show",
+        cuerpo: `Heute war die Show in {E}. {P} war nervös. Aber dann zeigte er {oa_art}.\n\n{O} erschuf Lichtfiguren. "{pe} Gewinner!" Fantasie war sein größtes Talent. 🏅🌟`
+      },
+      {
+        titulo: "📚 {P} in der Bibliothek der Träume",
+        cuerpo: `In {E} fliegen Bücher. {P} fand ein goldenes Buch mit leeren Seiten.\n\n{P} benutzte {oa_art} und die Seiten füllten sich mit Bildern. "{pe} Mein Leben ist ein Märchen!" 📖✨`
+      },
+      {
+        titulo: "🎨 {P} und der Tag der Farben",
+        cuerpo: `Ein grauer Wind stahl die Farben in {E}. Doch {P} benutzte {oa_art} wie einen Pinsel.\n\n"{pe} Schaut mal!" Alle Farben kehrten dank {O} zurück. Alle waren glücklich. 🌈😴`
+      },
+      {
+        titulo: "🕯️ Das Versprechen von Morgen",
+        cuerpo: `{P} saß unter dem Baum in {E}. {oa_art} glühte sanft und zeigte schöne Blumen.\n\n"{pe} Morgen wird wunderbar," versprach {P}. Voller Hoffnung schlief er ein. 🌜💤`
       }
     ]
   },
@@ -342,23 +501,63 @@ const STORY_DATA = {
     plantillas: [
       {
         titulo: "{pe} {P} e o segredo de {E}",
-        cuerpo: `Era uma vez, em {ea}, um pequeno {p} que sonhava em viver uma grande aventura.\n\nUma manhã, enquanto caminhava, descobriu algo que brilhava com uma luz especial: {oa_art}! Tocá-lo causou um frio mágico na barriga.\n\n"{pe} Que maravilha!" — exclamou {P}.\n\n{O} tinha um poder incrível: podia encher todo o {E} com cores brilhantes. As flores dançavam e as árvores cantavam.\n\nE assim, com o coração cheio de alegria, {P} adormeceu sonhando com as aventuras do dia seguinte. 🌙✨`
+        cuerpo: `Era uma vez, em {ea}, um pequeno {p} que sonhava com aventuras. Um dia descobriu {oa_art}.\n\n"{pe} Que maravilha!" exclamou {P}. {O} encheu {E} de cores. Antes de dormir, ele sussurrou: "Obrigado pela magia." 🌙✨`
       },
       {
         titulo: "✨ A aventura de {P} em {E}",
-        cuerpo: `Em um lugar muito especial chamado {E}, vivia um corajoso {p} que tinha um sonho: encontrar {oa_art} lendário.\n\nTodos diziam que {O} estava escondido no coração de {E}.\n\nLá dentro encontrou {oa_art}, que brilhava como mil estrelas. Mas o melhor de tudo foi que, ao tocá-lo, todos os habitantes receberam um pouco de sua magia.\n\nBoa noite, pequeno aventureiro. 🌟💤`
+        cuerpo: `Em {E}, {p} queria encontrar {O} lendário. {P} encontrou uma porta: "Apenas um coração generoso pode passar."\n\n{pe} {P} deixou um presente e a porta abriu! Lá dentro estava {oa_art}. Compartilhar é o verdadeiro tesouro. 🌟💤`
       },
       {
-        titulo: "🌙 {P} e {O} mágico",
-        cuerpo: `Quando o sol se escondia atrás de {E}, a magia começava. E ninguém sabia disso melhor que {P}.\n\nUma noite especial, uma estrela cadente caiu bem na frente de {P}. Mas não era uma estrela! Era {oa_art} que brilhava com todas as cores do arco-íris.\n\nOs animais de {E} contavam histórias incríveis. {P} riu tanto que as estrelas brilharam ainda mais forte.\n\nE assim, aconchegado pela noite estrelada, {P} fechou os olhos com um sorriso. 🌙🌟`
+        titulo: "🌙 {P} e o {O} mágico",
+        cuerpo: `Quando o sol se escondia atrás de {E}, a magia começava. Uma estrela caiu: era {oa_art}!\n\n"{pe} Pequeno {O}, o que fazes aqui?" perguntou {P}. {O} brilhou e {P} entendeu os animais. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} e o mistério de {E}",
-        cuerpo: `Tudo começou quando {P} encontrou uma nota misteriosa debaixo de uma pedra em {E}. A nota dizia: "Siga as pegadas brilhantes."\n\nNo topo da árvore, estava {oa_art}. Quando {P} o pegou em suas mãos, todo o {E} se iluminou.\n\nCom essa lição em seu coração, se encolheu sob as estrelas e sonhou os sonhos mais doces. 🌜💫`
+        cuerpo: `Começou com uma nota em {E}: "Siga as pegadas." {P} seguiu-as até uma grande árvore.\n\nNo topo estava {oa_art}. Todo o {E} se iluminou. A magia é descobrir o especial em cada um. 🌜💫`
       },
       {
         titulo: "💫 A jornada de {P} para {E}",
-        cuerpo: `{P} sempre quis visitar {E}, aquele lugar mágico de que todos falavam nas histórias.\n\nQuando finalmente chegou a {E}, ficou sem palavras. Era ainda mais bonito do que imaginava! E bem na entrada, {oa_art} o esperava.\n\nE todas as noites, os habitantes de {E} cantavam uma canção de ninar:\n\n"Durma, {P}, durma agora,\npois amanhã haverá mais aventuras."\n\n🌙⭐💤`
+        cuerpo: `{P} sempre quis visitar {E}. Um dia ele chegou e ficou sem palavras. Era tão bonito!\n\nNa entrada, {oa_art} esperava por ele. "{pe} Eu estava esperando," disse {O}. {P} tornou-se o guardião de {E}. 🌙⭐💤`
+      },
+      {
+        titulo: "🎭 {P} e o Grande Festival em {E}",
+        cuerpo: `A festa em {E} estava pronta mas faltava a música. {P} usou {oa_art}.\n\nUma melodia encheu {E} e todos dançaram. "{pe} Obrigado pela harmonia!" Compartilhar talento é a melhor magia. 🌜✨`
+      },
+      {
+        titulo: "🎁 Um Presente das Estrelas para {P}",
+        cuerpo: `Em {E}, {oa_art} caiu do céu. {P} sentiu que podia transformar o medo em sonhos.\n\n"{pe} Que presente especial!" Todos em {E} dormiram em paz. 🌟💤`
+      },
+      {
+        titulo: "🐾 {P} ao Resgate em {E}",
+        cuerpo: `{P} ouviu um animal em {E}. Ele usou {oa_art} para iluminar o caminho.\n\nO objeto brilhou como o dia. "{pe} Tu és tão corajoso." {O} era perfeito para fazer o bem. 🌛💨`
+      },
+      {
+        titulo: "🌸 {P} e a Mudança de Estação em {E}",
+        cuerpo: `A primavera chegava em {E} mas havia neve. {P} pegou {oa_art} e soprou.\n\nDe repente {E} ficou cheio de cores. {pe} "Tudo é tão lindo!" Todos celebraram o sol. 🌼🌜`
+      },
+      {
+        titulo: "🎶 A Melodia de {O} em {E}",
+        cuerpo: `Estava silêncio em {E}. {P} procurou o som e encontrou {oa_art}.\n\n{O} cantou uma música e as nuvens dançaram. "{pe} A música voltou!" {E} estava cheio de vida outra vez. 🎵💤`
+      },
+      {
+        titulo: "🚀 {P} e o Amigo Galáctico",
+        cuerpo: `Um foguetão pousou em {E}. {P} usou {oa_art} para traduzir desejos em luzes.\n\n"{pe} Agora somos amigos!" Eles descobriram segredos do cosmos em {E}. 🌌✨`
+      },
+      {
+        titulo: "🏆 O Show de Talentos de {P}",
+        cuerpo: `Hoje era o show em {E}. {P} estava nervoso. Mas depois mostrou {oa_art}.\n\n{O} criou figuras de luz. "{pe} Vencedor!" Imaginação era o seu maior talento. 🏅🌟`
+      },
+      {
+        titulo: "📚 {P} na Biblioteca dos Sonhos",
+        cuerpo: `Em {E} os livros voam. {P} encontrou um livro de ouro com páginas vazias.\n\n{P} usó {oa_art} e as páginas encheram-se de desenhos da sua vida. "{pe} A minha vida é um conto!" 📖✨`
+      },
+      {
+        titulo: "🎨 {P} e o Dia das Cores",
+        cuerpo: `Um vento cinzento roubou as cores de {E}. Mas {P} usou {oa_art} como um pincel.\n\n"{pe} Olhem só!" As cores voltaram graças a {O}. Todos ficaram felizes. 🌈😴`
+      },
+      {
+        titulo: "🕯️ A Promessa de Amanhã",
+        cuerpo: `{P} sentou-se sob a árvore em {E}. {oa_art} brilhava suavemente e mostrava flores.\n\n"{pe} Amanhã será incrível," prometeu {P}. Dormiu com esperança. 🌜💤`
       }
     ]
   }
@@ -378,7 +577,38 @@ function generateStory(personajeId, escenarioId, objetoId) {
   if (!personaje || !escenario || !objeto) return null;
 
   const templates = data.plantillas;
-  const tpl = templates[Math.floor(Math.random() * templates.length)];
+  
+  // Anti-repetición: Obtener índice del historial local
+  let selectedIdx = 0;
+  
+  // Clave única por combinación y lenguaje
+  const key = `cc_history_${currentLang}_${personajeId}_${escenarioId}_${objetoId}`;
+  let used = [];
+  try {
+    used = JSON.parse(localStorage.getItem(key)) || [];
+  } catch(e) { used = []; }
+
+  // Encontrar índices disponibles
+  let available = [];
+  for(let i=0; i<templates.length; i++) {
+     if (!used.includes(i)) available.push(i);
+  }
+
+  // Si se usaron todos, reiniciar
+  if (available.length === 0) {
+    available = templates.map((_, i) => i);
+    used = [];
+  }
+
+  // Elegir uno de los disponibles al azar
+  const randomPos = Math.floor(Math.random() * available.length);
+  selectedIdx = available[randomPos];
+
+  // Guardar en historial
+  used.push(selectedIdx);
+  localStorage.setItem(key, JSON.stringify(used));
+
+  const tpl = templates[selectedIdx];
   
   // Español gramática
   const isEs = currentLang === 'es';
@@ -386,18 +616,18 @@ function generateStory(personajeId, escenarioId, objetoId) {
   const gO = isEs ? (data.generoMap[objetoId] || 'm') : 'm';
 
   const reps = {
-    // Personaje: {P} (La Princesa), {p} (la princesa), {p_base} (princesa)
+    // Personaje: {P}, {p}, {p_base}
     '{P}': isEs ? data.artPers(personajeId) : personaje.nombre, 
     '{p}': isEs ? data.artPers(personajeId).toLowerCase() : personaje.nombre.toLowerCase(),
     '{p_base}': personaje.nombre.toLowerCase(),
     '{pe}': personaje.emoji,
 
-    // Escenario: {E} (el Castillo), {ea} (un Castillo), {ee} (emoji)
+    // Escenario: {E}, {ea}, {ee}
     '{E}': isEs ? data.artEscDef(escenarioId) : escenario.nombre, 
     '{ea}': data.artEsc[escenarioId] || escenario.nombre,
     '{ee}': escenario.emoji,
 
-    // Objeto: {O} (el Mapa), {oa_art} (el Mapa), {oe} (emoji)
+    // Objeto: {O}, {oa_art}, {oe}
     '{O}': isEs ? data.artObj(objetoId) : objeto.nombre, 
     '{oa_art}': data.artObj(objetoId),
     '{oe}': objeto.emoji,
@@ -424,6 +654,6 @@ function generateStory(personajeId, escenarioId, objetoId) {
     personaje: personaje.nombre, escenario: escenario.nombre, objeto: objeto.nombre,
     personajeEmoji: personaje.emoji, escenarioEmoji: escenario.emoji, objetoEmoji: objeto.emoji,
     personajeId, escenarioId, objetoId,
-    fecha: new Date().toISOString(), templateId: templates.indexOf(tpl), lang: currentLang
+    fecha: new Date().toISOString(), templateId: selectedIdx, lang: currentLang
   };
 }
