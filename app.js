@@ -174,7 +174,7 @@ function onGenerate() {
       overlay.classList.remove('active');
       showToast(TRANSLATIONS[currentLang].errorGenerate);
     }
-  }, 1800);
+  }, 600);
 }
 
 function renderStory(story) {
