@@ -46,11 +46,21 @@ const STORY_DATA = {
       espada:'f', corona:'f', mapa:'m', varita:'f',
       pocion:'f', llave:'f', libro:'m', amuleto:'m',
     },
-    artEsc: {
-      castillo:'un Castillo Encantado', bosque:'un Bosque Mágico',
-      isla:'una Isla del Tesoro', nube:'una Nube Gigante',
-      mar:'el Fondo del Mar', montana:'una Montaña Nevada',
-      jardin:'un Jardín Secreto', estrellas:'la Ciudad de Estrellas',
+    artPers: function(id) {
+      const p = this.elementos.personajes.find(x => x.id === id);
+      if (id === 'hada') return 'el ' + p.nombre; // Especial: el hada
+      const g = this.generoMap[id];
+      return (g === 'f' ? 'la ' : 'el ') + p.nombre;
+    },
+    artEscDef: function(id) {
+      const e = this.elementos.escenarios.find(x => x.id === id);
+      const defs = {
+        castillo:'el Castillo Encantado', bosque:'el Bosque Mágico',
+        isla:'la Isla del Tesoro', nube:'la Nube Gigante',
+        mar:'el Fondo del Mar', montana:'la Montaña Nevada',
+        jardin:'el Jardín Secreto', estrellas:'la Ciudad de Estrellas',
+      };
+      return defs[id] || e.nombre;
     },
     artObj: function(id) {
       const g = this.generoObj[id];
@@ -60,15 +70,15 @@ const STORY_DATA = {
     plantillas: [
       {
         titulo: "{pe} {P} y el secreto de {E}",
-        cuerpo: `Había una vez, en {ea}, un pequeñ{oa} {p} que soñaba con vivir una gran aventura.\n\nUna mañana, mientras paseaba entre los rincones más escondidos del lugar, descubrió algo que brillaba con una luz especial: ¡{oa_art}! Al tocar{lola}, sintió un cosquilleo mágico en las manos.\n\n"{pe} ¡Qué maravilla!" — exclamó {P} con los ojos bien abiertos.\n\n{O} tenía un poder increíble: podía hacer que todo {E} se llenara de colores brillantes y música suave. Las flores bailaban, los árboles cantaban y las estrellas se asomaban incluso antes de que llegara la noche.\n\nPero había una condición: la magia solo funcionaba cuando {P} hacía algo amable por alguien más. Así que decidió compartir su descubrimiento con todos los habitantes del lugar.\n\nJuntos, hicieron de {E} el lugar más bonito y feliz del mundo. Y cada noche, antes de dormir, {P} susurraba: "Gracias, {O}, por enseñarme que la magia más grande es la bondad."\n\nY así, con el corazón lleno de alegría, {P} se durmió soñando con las aventuras del día siguiente. 🌙✨`
+        cuerpo: `Había una vez, en {ea}, un pequeñ{oa} {p_base} que soñaba con vivir una gran aventura.\n\nUna mañana, mientras paseaba entre los rincones más escondidos del lugar, descubrió algo que brillaba con una luz especial: ¡{oa_art}! Al tocar{lola}, sintió un cosquilleo mágico en las manos.\n\n"{pe} ¡Qué maravilla!" — exclamó {P} con los ojos bien abiertos.\n\n{O} tenía un poder increíble: podía hacer que todo {E} se llenara de colores brillantes y música suave. Las flores bailaban, los árboles cantaban y las estrellas se asomaban incluso antes de que llegara la noche.\n\nPero había una condición: la magia solo funcionaba cuando {P} hacía algo amable por alguien más. Así que decidió compartir su descubrimiento con todos los habitantes del lugar.\n\nJuntos, hicieron de {E} el lugar más bonito y feliz del mundo. And every night, antes de dormir, {P} susurraba: "Gracias, {O}, por enseñarme que la magia más grande es la bondad."\n\nY así, con el corazón lleno de alegría, {P} se durmió soñando con las aventuras del día siguiente. 🌙✨`
       },
       {
         titulo: "✨ La aventura de {P} en {E}",
-        cuerpo: `En un lugar muy especial llamado {E}, vivía un valiente {p} que tenía un sueño: encontrar {oa_art} legendari{ao}.\n\nTodos decían que {O} estaba escondid{ao} en el corazón de {E}, protegid{ao} por un acertijo que nadie había podido resolver.\n\n{P} caminó por senderos luminosos, cruzó puentes de arcoíris y escaló colinas de algodón hasta llegar a una puerta mágica. En ella había una inscripción que decía:\n\n"Solo quien tenga un corazón generoso podrá pasar."\n\n{pe} {P} pensó un momento, sacó de su bolsillo su dulce favorito y lo dejó junto a la puerta como regalo. ¡Y la puerta se abrió!\n\nDentro encontró {oa_art}, que brillaba como mil estrellas. Pero lo mejor de todo fue que, al tocar{lola}, todos los habitantes de {E} recibieron un poquito de su magia.\n\nEsa noche, {P} regresó a casa con una gran sonrisa. Había aprendido que el verdadero tesoro no es lo que encuentras, sino lo que compartes.\n\nBuenas noches, pequeño aventurero. 🌟💤`
+        cuerpo: `En un lugar muy especial llamado {E}, vivía un valiente {p_base} que tenía un sueño: encontrar {oa_art} legendari{ao}.\n\nTodos decían que {O} estaba escondid{ao} en el corazón de {E}, protegid{ao} por un acertijo que nadie había podido resolver.\n\n{P} caminó por senderos luminosos, cruzó puentes de arcoíris y escaló colinas de algodón hasta llegar a una puerta mágica. En ella había una inscripción que decía:\n\n"Solo quien tenga un corazón generoso podrá pasar."\n\n{pe} {P} pensó un momento, sacó de su bolsillo su dulce favorito y lo dejó junto a la puerta como regalo. ¡And la puerta se abrió!\n\nDentro encontró {oa_art}, que brillaba como mil estrellas. Pero lo mejor de todo fue que, al tocar{lola}, todos los habitantes de {E} recibieron un poquito de su magia.\n\nEsa noche, {P} regresó a casa con una gran sonrisa. Había aprendido que el verdadero tesoro no es lo que encuentras, sino lo que compartes.\n\nBuenas noches, pequeño aventurero. 🌟💤`
       },
       {
         titulo: "🌙 {P} y {O} mágic{ao}",
-        cuerpo: `Cuando el sol se escondía detrás de {E}, la magia comenzaba. Y nadie lo sabía mejor que {P}, quien cada noche miraba cómo las estrellas empezaban a bailar en el cielo.\n\nUna noche especial, una estrella fugaz cayó justo frente a {P}. ¡Pero no era una estrella! Era {oa_art} que brillaba con todos los colores del arcoíris.\n\n"{pe} ¿Qué haces aquí, pequeñ{ao} {O}?" — preguntó {P} con curiosidad.\n\n{O} respondió con un destello mágico y, de pronto, {P} podía entender el idioma de los animales, el susurro del viento y las canciones de las flores.\n\nLos animales de {E} le contaron historias increíbles: de ríos que cantaban, de montañas que reían y de nubes que hacían cosquillas. {P} rió tanto que las estrellas brillaron aún más fuerte.\n\nCuando llegó la hora de dormir, {P} abrazó {oa_art} y susurró: "Mañana viviremos otra aventura."\n\nY así, arropado por la noche estrellada, {P} cerró los ojos con una sonrisa. 🌙🌟`
+        cuerpo: `Cuando el sol se escondía detrás de {E}, la magia comenzaba. And nadie lo sabía mejor que {P}, quien cada noche miraba cómo las estrellas empezaban a bailar en el cielo.\n\nUna noche especial, una estrella fugaz cayó justo frente a {P}. ¡Pero no era una estrella! Era {oa_art} que brillaba con todos los colores del arcoíris.\n\n"{pe} ¿Qué haces aquí, pequeñ{ao} {O}?" — preguntó {P} con curiosidad.\n\n{O} respondió con un destello mágico y, de pronto, {P} podía entender el idioma de los animales, el susurro del viento y las canciones de las flores.\n\nLos animales de {E} le contaron historias increíbles: de ríos que cantaban, de montañas que reían y de nubes que hacían cosquillas. {P} rió tanto que las estrellas brillaron aún más fuerte.\n\nCuando llegó la hora de dormir, {P} abrazó {oa_art} y susurró: "Mañana viviremos otra aventura."\n\nY así, arropado por la noche estrellada, {P} cerró los ojos con una sonrisa. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} y el misterio de {E}",
@@ -76,7 +86,7 @@ const STORY_DATA = {
       },
       {
         titulo: "💫 El viaje de {P} a {E}",
-        cuerpo: `{P} siempre había querido visitar {E}, ese lugar mágico del que hablaban todos los cuentos. Un día, finalmente, decidió emprender el viaje.\n\nLlevó en su mochila un bocadillo de mermelada, una linterna y mucha valentía. El camino fue largo pero emocionante: cruzó ríos de limonada, saltó charcos de caramelo y caminó bajo arcoíris dobles.\n\nCuando por fin llegó a {E}, se quedó sin palabras. ¡Era aún más bonito de lo que imaginaba! Y justo en la entrada, esperándol{oa}, había {oa_art}.\n\n"{pe} Te estaba esperando" — dijo {O} con voz suave como una brisa.\n\n{O} le explicó que {E} necesitaba un guardián especial: alguien amable, valiente y con muchísima imaginación. ¿Y quién mejor que {P}?\n\nDesde ese día, {P} se convirtió en el guardián de {E}. Cuidaba de los animales, contaba cuentos a las flores y pintaba el cielo de atardeceres con colores increíbles con ayuda de {oa_art}.\n\nY cada noche, los habitantes de {E} le cantaban una canción de cuna:\n\n"Duerme, {P}, duerme ya,\nque mañana más aventuras habrá."\n\n🌙⭐💤`
+        cuerpo: `{P} siempre había querido visitar {E}, ese lugar mágico del que hablaban todos los cuentos. Un día, finalmente, decidió emprender el viaje.\n\nLlevó en su mochila un bocadillo de mermelada, una linterna y mucha valentía. El camino fue largo pero emocionante: cruzó ríos de limonada, saltó charcos de caramelo y caminó bajo arcoíris dobles.\n\nCuando por fin llegó a {E}, se quedó sin palabras. ¡Era aún más bonito de lo que imaginaba! And justo en la entrada, esperándol{oa}, había {oa_art}.\n\n"{pe} Te estaba esperando" — dijo {O} con voz suave como una brisa.\n\n{O} le explicó que {E} necesitaba un guardián especial: alguien amable, valiente y con muchísima imaginación. ¿And quién mejor que {P}?\n\nDesde ese día, {P} se convirtió en el guardián de {E}. Cuidaba de los animales, contaba cuentos a las flores y pintaba el cielo de atardeceres con colores increíbles con ayuda de {oa_art}.\n\nY cada noche, los habitantes de {E} le cantaban una canción de cuna:\n\n"Duerme, {P}, duerme ya,\nque mañana más aventuras habrá."\n\n🌙⭐💤`
       }
     ]
   },
@@ -376,13 +386,19 @@ function generateStory(personajeId, escenarioId, objetoId) {
   const gO = isEs ? (data.generoMap[objetoId] || 'm') : 'm';
 
   const reps = {
-    '{P}': personaje.nombre, 
-    '{p}': personaje.nombre.toLowerCase(),
+    // Personaje: {P} (La Princesa), {p} (la princesa), {p_base} (princesa)
+    '{P}': isEs ? data.artPers(personajeId) : personaje.nombre, 
+    '{p}': isEs ? data.artPers(personajeId).toLowerCase() : personaje.nombre.toLowerCase(),
+    '{p_base}': personaje.nombre.toLowerCase(),
     '{pe}': personaje.emoji,
-    '{E}': escenario.nombre, 
+
+    // Escenario: {E} (el Castillo), {ea} (un Castillo), {ee} (emoji)
+    '{E}': isEs ? data.artEscDef(escenarioId) : escenario.nombre, 
     '{ea}': data.artEsc[escenarioId] || escenario.nombre,
     '{ee}': escenario.emoji,
-    '{O}': objeto.nombre, 
+
+    // Objeto: {O} (el Mapa), {oa_art} (el Mapa), {oe} (emoji)
+    '{O}': isEs ? data.artObj(objetoId) : objeto.nombre, 
     '{oa_art}': data.artObj(objetoId),
     '{oe}': objeto.emoji,
     
