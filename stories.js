@@ -69,15 +69,15 @@ const STORY_DATA = {
     plantillas: [
       {
         titulo: "{pe} {P} y el secreto de {E}",
-        cuerpo: `Había una vez, en {ea}, un pequeñ{oa} {p_base} que soñaba con vivir una gran aventura.\n\nUna mañana, mientras paseaba entre los rincones más escondidos del lugar, descubrió algo que brillaba con una luz especial: ¡{oa_art}! Al tocar{lola}, sintió un cosquilleo mágico en las manos.\n\n"{pe} ¡Qué maravilla!" — exclamó {P} con los ojos bien abiertos.\n\n{O} tenía un poder increíble: podía hacer que todo {E} se llenara de colores brillantes y música suave.\n\nJuntos, hicieron de {E} el lugar más bonito del mundo. Antes de dormir, {P} susurraba: "Gracias, {O}, por la magia." 🌙✨`
+        cuerpo: `Había una vez, en {ea}, {un_p} pequeñ{oa} {p_base} que soñaba con vivir una gran aventura.\n\nUna mañana, mientras paseaba entre los rincones más escondidos del lugar, descubrió algo que brillaba con una luz especial: ¡{oa_art}! Al tocar{lola}, sintió un cosquilleo mágico en las manos.\n\n"{pe} ¡Qué maravilla!" — exclamó {P} con los ojos bien abiertos.\n\n{O} tenía un poder increíble: podía hacer que todo {E} se llenara de colores brillantes y música suave.\n\nJuntos, hicieron de {E} el lugar más bonito del mundo. Antes de dormir, {P} susurraba: "Gracias, {O}, por la magia." 🌙✨`
       },
       {
         titulo: "✨ La aventura de {P} en {E}",
-        cuerpo: `En un lugar muy especial llamado {E}, vivía un valiente {p_base} que tenía un sueño: encontrar {oa_art} legendari{ao}.\n\nTodos decían que {O} estaba escondid{ao} en el corazón de {E}, protegid{ao} por un acertijo.\n\n{P} caminó por senderos luminosos hasta llegar a una puerta mágica. "Solo quien tenga un corazón generoso podrá pasar."\n\n{pe} {P} dejó su dulce favorito como regalo. ¡Y la puerta se abrió! Dentro encontró {oa_art}, que brillaba como mil estrellas. Había aprendido que el verdadero tesoro es lo que compartes. 🌟💤`
+        cuerpo: `En un lugar muy especial llamado {E}, vivía {un_p} valiente {p_base} que tenía un sueño: encontrar {oa_art} legendari{ao}.\n\nTodos decían que {O} estaba escondid{ao} en el corazón de {E}, protegid{ao} por un acertijo.\n\n{P} caminó por senderos luminosos hasta llegar a una puerta mágica. "Solo quien tenga un corazón generoso podrá pasar."\n\n{pe} {P} dejó su dulce favorito como regalo. ¡Y la puerta se abrió! Dentro encontró {oa_art}, que brillaba como mil estrellas. Había aprendido que el verdadero tesoro es lo que compartes. 🌟💤`
       },
       {
         titulo: "🌙 {P} y {O} mágic{ao}",
-        cuerpo: `Cuando el sol se escondía detrás de {E}, la magia comenzaba. Nadie lo sabía mejor que {P}, quien cada noche miraba las estrellas.\n\nUna noche especial, una estrella fugaz cayó justo frente a {P}. Era {oa_art} que brillaba con colores del arcoíris.\n\n"{pe} ¿Qué haces aquí, pequeñ{ao} {O}?" — preguntó {P}. {O} respondió con un destello y, de pronto, {P} podía entender el idioma de los animales.\n\nCuando llegó la hora de dormir, {P} abrazó {oa_art} y sonrió. 🌙🌟`
+        cuerpo: `Cuando el sol se escondía detrás de {E}, la magia comenzaba. Nadie lo sabía mejor que {P}, quien cada noche miraba las estrellas.\n\nUna noche especial, una estrella fugaz cayó justo frente a {P}. Era {oa_art} que brillaba con colores del arcoíris.\n\n"{pe} ¿Qué haces aquí, pequeñ{ao} {O_base}?" — preguntó {P}. {O} respondió con un destello y, de pronto, {P} podía entender el idioma de los animales.\n\nCuando llegó la hora de dormir, {P} abrazó {oa_art} y sonrió. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} y el misterio de {E}",
@@ -611,9 +611,9 @@ function generateStory(personajeId, escenarioId, objetoId) {
   const tpl = templates[selectedIdx];
   
   // Español gramática
-  const isEs = currentLang === 'es';
+  const isEs = currentLang.startsWith('es');
   const gP = isEs ? (data.generoMap[personajeId] || 'm') : 'm';
-  const gO = isEs ? (data.generoMap[objetoId] || 'm') : 'm';
+  const gO = isEs ? (data.generoObj[objetoId] || 'm') : 'm';
 
   const reps = {
     // Personaje: {P}, {p}, {p_base}
@@ -624,7 +624,7 @@ function generateStory(personajeId, escenarioId, objetoId) {
 
     // Escenario: {E}, {ea}, {ee}
     '{E}': isEs ? data.artEscDef(escenarioId) : escenario.nombre, 
-    '{ea}': data.artEsc[escenarioId] || escenario.nombre,
+    '{ea}': isEs ? data.artEscDef(escenarioId) : (data.artEsc[escenarioId] || escenario.nombre),
     '{ee}': escenario.emoji,
 
     // Objeto: {O}, {oa_art}, {oe}
@@ -633,6 +633,9 @@ function generateStory(personajeId, escenarioId, objetoId) {
     '{oe}': objeto.emoji,
     
     // Solo relevante para español
+    '{un_p}': isEs ? (gP === 'f' ? 'una' : 'un') : 'a',
+    '{un_o}': isEs ? (gO === 'f' ? 'una' : 'un') : 'a',
+    '{O_base}': objeto.nombre.toLowerCase(),
     '{oa}': gP === 'f' ? 'a' : 'o',
     '{ao}': gO === 'f' ? 'a' : 'o',
     '{lola}': gO === 'f' ? 'la' : 'lo',
