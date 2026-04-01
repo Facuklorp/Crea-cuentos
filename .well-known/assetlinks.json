@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.netlify.crea_cuentos.twa",
+      "sha256_cert_fingerprints": [
+        "A7:6A:B7:72:83:A7:9B:68:86:66:16:FE:F0:A8:BD:9E:60:1A:61:E4:4E:28:1A:B9:87:5C:7F:88:7E:EF:3D:2B",
+        "F3:0D:AC:F9:1A:4E:33:1C:6C:05:D8:61:EE:35:5F:61:80:88:E9:19:7C:E1:03:EB:9F:7F:42:4D:DE:78:CD:02"
+      ]
+    }
+  }
+]
