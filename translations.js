@@ -27,7 +27,10 @@ const TRANSLATIONS = {
     emptyHistorySub: "¡Crea tu primer cuento mágico!",
     btnDelete: "🗑️ Eliminar",
     deletedSuccess: "Cuento eliminado 🗑️",
-    offlineImageMsg: "Para cargar la imagen debes estar conectado a internet"
+    offlineImageMsg: "Para cargar la imagen debes estar conectado a internet",
+    footerCreatedBy: "Una aventura creada por Facundo Strano",
+    footerSupport: "Soporte Mágico",
+    footerPrivacy: "Privacidad"
   },
   en: {
     appTitle: "Story Maker",
@@ -57,7 +60,10 @@ const TRANSLATIONS = {
     emptyHistorySub: "Create your first magical story!",
     btnDelete: "🗑️ Delete",
     deletedSuccess: "Story deleted 🗑️",
-    offlineImageMsg: "You must be connected to the internet to load the image"
+    offlineImageMsg: "You must be connected to the internet to load the image",
+    footerCreatedBy: "An adventure created by Facundo Strano",
+    footerSupport: "Magic Support",
+    footerPrivacy: "Privacy"
   },
   fr: {
     appTitle: "Créateur d'Histoires",
@@ -87,7 +93,10 @@ const TRANSLATIONS = {
     emptyHistorySub: "Créez votre première histoire magique !",
     btnDelete: "🗑️ Supprimer",
     deletedSuccess: "Histoire supprimée 🗑️",
-    offlineImageMsg: "Vous devez être connecté à Internet pour charger l'image"
+    offlineImageMsg: "Vous devez être connecté à Internet pour charger l'image",
+    footerCreatedBy: "Une aventure créée par Facundo Strano",
+    footerSupport: "Support Magique",
+    footerPrivacy: "Confidentialité"
   },
   de: {
     appTitle: "Geschichtenmacher",
@@ -117,7 +126,10 @@ const TRANSLATIONS = {
     emptyHistorySub: "Erstelle deine erste magische Geschichte!",
     btnDelete: "🗑️ Löschen",
     deletedSuccess: "Geschichte gelöscht 🗑️",
-    offlineImageMsg: "Sie müssen mit dem Internet verbunden sein, um das Bild zu laden"
+    offlineImageMsg: "Sie müssen mit dem Internet verbunden sein, um das Bild zu laden",
+    footerCreatedBy: "Ein Abenteuer erstellt von Facundo Strano",
+    footerSupport: "Magischer Support",
+    footerPrivacy: "Datenschutz"
   },
   pt: {
     appTitle: "Criar Histórias",
@@ -147,7 +159,10 @@ const TRANSLATIONS = {
     emptyHistorySub: "Crie sua primeira história mágica!",
     btnDelete: "🗑️ Excluir",
     deletedSuccess: "História excluída 🗑️",
-    offlineImageMsg: "Você deve estar conectado à internet para carregar a imagem"
+    offlineImageMsg: "Você deve estar conectado à internet para carregar a imagem",
+    footerCreatedBy: "Uma aventura criada por Facundo Strano",
+    footerSupport: "Suporte Mágico",
+    footerPrivacy: "Privacidade"
   }
 };
 

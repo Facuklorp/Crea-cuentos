@@ -738,6 +738,56 @@ body {
   transform: translateX(-50%) translateY(0);
 }
 
+/* === Footer Credits === */
+.footer-credits {
+  text-align: center;
+  padding: 40px 20px 60px;
+  margin-top: 20px;
+}
+
+.credits-line {
+  width: 50px;
+  height: 2px;
+  background: var(--gradient-gold);
+  margin: 0 auto 20px;
+  border-radius: 2px;
+  opacity: 0.6;
+}
+
+.credits-text {
+  font-family: var(--font-story);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.credits-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.credits-links a {
+  color: var(--accent-purple);
+  text-decoration: none;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+.credits-links a:hover {
+  color: var(--accent-gold);
+}
+
+.credits-links .dot {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
 /* === Responsive adjustments === */
 @media (max-width: 360px) {
   .app-title { font-size: 1.8rem; }
@@ -745,6 +795,7 @@ body {
   .element-card { padding: 12px 8px; }
   .element-emoji { font-size: 1.8rem; }
   .story-body { padding: 20px 16px; font-size: 1rem; }
+  .credits-text { font-size: 0.85rem; }
 }
 
 @media (min-width: 481px) {
