@@ -15,6 +15,15 @@
 </head>
 <body>
 
+  <!-- Botón de Mute flotante -->
+  <button class="btn-mute" id="btnMute" onclick="AudioManager.toggleMute()" aria-label="Silenciar">🔊</button>
+  
+  <!-- Notificación de pista de audio -->
+  <div class="track-notification" id="trackNotification">
+    <div class="track-title" id="trackTitle"></div>
+    <div class="track-artist" id="trackArtist"></div>
+  </div>
+
 
 
   <!-- Stars Background -->
@@ -76,7 +85,7 @@
       <button class="back-btn" onclick="showScreen('screenHome')" data-i18n="backBtn">← Volver</button>
 
       <div class="section-header">
-        <h2 class="section-title" data-i18n="selectorTitle">Elige los ingredientes ✨</h2>
+        <h2 class="section-title" data-i18n="selectorTitle">Crea tu cuento mágico ✨</h2>
         <p class="section-subtitle" data-i18n="selectorSubtitle">Selecciona un elemento de cada categoría</p>
       </div>
 

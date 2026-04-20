@@ -1,0 +1,55 @@
+{
+  "packageId": "app.netlify.crea_cuentos.twa",
+  "host": "crea-cuentos-magicos.vercel.app",
+  "name": "Crea Cuentos",
+  "launcherName": "Crea Cuentos",
+  "display": "standalone",
+  "themeColor": "#0F0A1E",
+  "themeColorDark": "#0F0A1E",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#0F0A1E",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://crea-cuentos-magicos.vercel.app/icon-512.png",
+  "maskableIconUrl": "https://crea-cuentos-magicos.vercel.app/icon-512.png",
+  "monochromeIconUrl": "",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "my-release-key.jks",
+    "alias": "creacuentos"
+  },
+  "appVersionName": "2.2.0.0",
+  "appVersionCode": 20203,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://crea-cuentos-magicos.vercel.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://crea-cuentos-magicos.vercel.app/",
+  "minSdkVersion": 21,
+  "shareTarget": {
+    "action": "",
+    "method": "GET",
+    "enctype": "",
+    "params": {
+      "title": "",
+      "text": "",
+      "url": ""
+    }
+  },
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "displayOverride": [],
+  "appVersion": "2.2.0.0"
+}
