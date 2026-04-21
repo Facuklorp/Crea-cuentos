@@ -3,7 +3,7 @@
 // ============================================
 
 // State
-let currentLang = localStorage.getItem('creacuentos_lang') || 'es';
+let currentLang = localStorage.getItem('creacuentos_lang') || 'es-latam';
 let selected = { personaje: null, escenario: null, objeto: null };
 let currentStory = null;
 
