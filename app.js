@@ -145,7 +145,9 @@ const AudioManager = (() => {
           fadeIn(newAudio);
           showTrackNotification(trackInfo.title, trackInfo.artist);
         }).catch(() => {
-          // Autoplay bloqueado, se reproducirá en el primer gesto del usuario
+          // Autoplay bloqueado, se anotará para hacer fade-in en el primer gesto
+          newAudio.autoplayBlocked = true;
+          newAudio.trackInfoSaved = trackInfo;
         });
       }
 
@@ -190,7 +192,15 @@ const AudioManager = (() => {
   // Intentar reanudar después de un gesto del usuario
   function resumeOnGesture() {
     if (currentAudio && !isMuted && currentAudio.paused) {
-      currentAudio.play().catch(() => {});
+      currentAudio.play().then(() => {
+        if (currentAudio.autoplayBlocked) {
+          currentAudio.autoplayBlocked = false;
+          fadeIn(currentAudio);
+          if (currentAudio.trackInfoSaved) {
+            showTrackNotification(currentAudio.trackInfoSaved.title, currentAudio.trackInfoSaved.artist);
+          }
+        }
+      }).catch(() => {});
     }
   }
 
