@@ -301,7 +301,14 @@ function showScreen(id) {
     selBar.classList.add('visible');
     storyBar.style.display = 'none';
     updateSelectionSummary();
-    AudioManager.playRandomHome(); // Música general mientras elige
+    
+    // Si ya hay un personaje elegido (ej: volviendo atrás), poner su música. 
+    // Si no, poner la música de home.
+    if (selected.personaje) {
+      AudioManager.play(selected.personaje);
+    } else {
+      AudioManager.playRandomHome();
+    }
   } else if (id === 'screenStory') {
     selBar.classList.remove('visible');
     storyBar.style.display = 'flex';
