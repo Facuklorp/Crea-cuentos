@@ -334,8 +334,13 @@ function renderCategory(cat, gridId) {
     card.addEventListener('click', () => {
       if (selected[catKey] === el.id) {
         selected[catKey] = null;
+        // Si deseleccionó el personaje, volvemos a música de inicio
+        if (cat === 'personajes') AudioManager.playRandomHome();
       } else {
         selected[catKey] = el.id;
+        // Si acaba de elegir un personaje, reproducir su música para que lo escuche
+        if (cat === 'personajes') AudioManager.play(el.id);
+
         // Auto-scroll logic
         setTimeout(() => {
           if (cat === 'personajes') {
