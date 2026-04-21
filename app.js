@@ -381,10 +381,34 @@ function updateSelectionSummary() {
 function onGenerate() {
   if (!selected.personaje || !selected.escenario || !selected.objeto) return;
 
-  // Show generating overlay
   const overlay = document.getElementById('generatingOverlay');
+  
+  // Extraer los emojis de las opciones seleccionadas
+  const emojis = [
+    STORY_DATA[currentLang].elementos.personajes.find(e => e.id === selected.personaje).emoji,
+    STORY_DATA[currentLang].elementos.escenarios.find(e => e.id === selected.escenario).emoji,
+    STORY_DATA[currentLang].elementos.objetos.find(e => e.id === selected.objeto).emoji
+  ];
+
+  // Insertar los emojis elegidos
+  document.getElementById('generatingEmojis').innerHTML = `
+    <span class="anim-emoji left">${emojis[0]}</span>
+    <span class="anim-emoji center">${emojis[1]}</span>
+    <span class="anim-emoji right">${emojis[2]}</span>
+  `;
+
+  // Asegurarnos que la poción esté reseteada
+  const potion = document.getElementById('generatingPotion');
+  potion.classList.remove('burst');
+
   overlay.classList.add('active');
 
+  // A los 2 segundos, detonar la explosión de la magia
+  setTimeout(() => {
+    if (potion) potion.classList.add('burst');
+  }, 2200);
+
+  // A los 2.8 segundos, revelar el cuento
   setTimeout(() => {
     currentStory = generateStory(selected.personaje, selected.escenario, selected.objeto);
 
@@ -396,7 +420,7 @@ function onGenerate() {
       overlay.classList.remove('active');
       showToast(TRANSLATIONS[currentLang].errorGenerate);
     }
-  }, 600);
+  }, 2800);
 }
 
 function renderStory(story) {
