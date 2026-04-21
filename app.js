@@ -69,28 +69,40 @@ const AudioManager = (() => {
 
   function fadeOut(audio, onDone) {
     if (!audio) { if (onDone) onDone(); return; }
-    const step = audio.volume / 20;
-    const interval = setInterval(() => {
+    if (audio.fadeInterval) clearInterval(audio.fadeInterval);
+    
+    // Asegurarse de que step no sea 0
+    let step = audio.volume / 20;
+    if (step <= 0) {
+      audio.pause();
+      audio.volume = VOLUME;
+      if (onDone) onDone();
+      return;
+    }
+
+    audio.fadeInterval = setInterval(() => {
       if (audio.volume > step) {
         audio.volume = Math.max(0, audio.volume - step);
       } else {
         audio.pause();
         audio.volume = VOLUME;
-        clearInterval(interval);
+        clearInterval(audio.fadeInterval);
         if (onDone) onDone();
       }
     }, FADE_DURATION / 20);
   }
 
   function fadeIn(audio) {
+    if (!audio) return;
+    if (audio.fadeInterval) clearInterval(audio.fadeInterval);
     audio.volume = 0;
     const step = VOLUME / 20;
-    const interval = setInterval(() => {
+    audio.fadeInterval = setInterval(() => {
       if (audio.volume < VOLUME - step) {
         audio.volume = Math.min(VOLUME, audio.volume + step);
       } else {
         audio.volume = VOLUME;
-        clearInterval(interval);
+        clearInterval(audio.fadeInterval);
       }
     }, FADE_DURATION / 20);
   }
@@ -137,30 +149,32 @@ const AudioManager = (() => {
       return; 
     }
 
-    fadeOut(currentAudio, () => {
-      const newAudio = new Audio(trackInfo.src);
-      newAudio.loop = true;
-      newAudio.volume = 0;
+    const previousAudio = currentAudio;
 
-      newAudio.addEventListener('error', () => {
-        // Si el archivo no existe, ignorar silenciosamente
-        console.warn('[AudioManager] Archivo no encontrado:', trackInfo.src);
-      });
+    const newAudio = new Audio(trackInfo.src);
+    newAudio.loop = true;
+    newAudio.volume = 0;
 
-      if (!isMuted) {
-        newAudio.play().then(() => {
-          fadeIn(newAudio);
-          showTrackNotification(trackInfo.title, trackInfo.artist);
-        }).catch(() => {
-          // Autoplay bloqueado, se anotará para hacer fade-in en el primer gesto
-          newAudio.autoplayBlocked = true;
-          newAudio.trackInfoSaved = trackInfo;
-        });
-      }
-
-      currentAudio = newAudio;
-      currentTrack = trackKey;
+    newAudio.addEventListener('error', () => {
+      console.warn('[AudioManager] Archivo no encontrado:', trackInfo.src);
     });
+
+    currentAudio = newAudio;
+    currentTrack = trackKey;
+
+    if (!isMuted) {
+      newAudio.play().then(() => {
+        fadeIn(newAudio);
+        showTrackNotification(trackInfo.title, trackInfo.artist);
+      }).catch(() => {
+        newAudio.autoplayBlocked = true;
+        newAudio.trackInfoSaved = trackInfo;
+      });
+    }
+
+    if (previousAudio) {
+      fadeOut(previousAudio);
+    }
   }
 
   function toggleMute() {
