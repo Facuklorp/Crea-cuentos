@@ -11,49 +11,55 @@ let currentStory = null;
 // Audio Manager
 // ============================================
 const AudioManager = (() => {
-  // Mapeo de escenarios y personajes a archivos de música
+  // Mapeo de personajes a archivos de música
   // Los archivos deben colocarse en la carpeta audio/
   // Usar Pixabay Music (gratis, royalty-free, uso comercial permitido)
   const TRACKS = {
     // Pantalla de inicio
     home:        { src: 'audio/HOME-geoffharvey-magical-music-box-389086.mp3', title: 'Magical Music Box', artist: 'geoffharvey' },
 
-    // Escenarios
-    castillo:    { src: 'audio/CASTILLO-geoffharvey-magical-storytime-389087.mp3', title: 'Magical Storytime', artist: 'geoffharvey' },
-    bosque:      { src: 'audio/BOSQUE-mandakimdk-xylophone-and-forest-307174.mp3', title: 'Xylophone and Forest', artist: 'mandakimdk' },
-    isla:        { src: 'audio/ISLA-alex_besss-a-pirate-343849.mp3', title: 'A Pirate', artist: 'alex_besss' },
-    nube:        { src: 'audio/NUBE-viramiller-ethereal-magical-reverie-276713.mp3', title: 'Ethereal Magical Reverie', artist: 'viramiller' },
-    mar:         { src: 'audio/MAR-musicword-bubbles-309433.mp3', title: 'Bubbles', artist: 'musicword' },
-    montana:     { src: 'audio/MONTAÑA-saseendran-wind-from-the-mountain-raga-pahad-364841.mp3', title: 'Wind From The Mountain', artist: 'saseendran' },
-    jardin:      { src: 'audio/JARDIN-46851258-musique-spring-travel-337522.mp3', title: 'Musique Spring Travel', artist: '46851258' },
-    estrellas:   { src: 'audio/ESTRELLAS-victorvantast-fionax27s-fairy-song-152743.mp3', title: 'Fiona\'s Fairy Song', artist: 'victorvantast' },
-
-    // Personajes
-    princesa:    { src: 'audio/PRINCESA-good_b_music-cinematic-fairy-tale-story-short-kikc-8698.mp3', title: 'Cinematic Fairy Tale', artist: 'good_b_music' },
-    caballero:   { src: 'audio/CABALLERO-magiksolo-light-magic-163952.mp3', title: 'Light Magic', artist: 'magiksolo' },
-    dragon:      { src: 'audio/DRAGON-hitslab-magic-mystery-harry-potter-music-320643.mp3', title: 'Magic Mystery', artist: 'hitslab' },
-    hada:        { src: 'audio/HADA-geoffharvey-magic-in-the-air-43177.mp3', title: 'Magic In The Air', artist: 'geoffharvey' },
-    pirata:      { src: 'audio/PIRATA-crissa-steampunk-pirates-289789.mp3', title: 'Steampunk Pirates', artist: 'crissa' },
-    unicornio:   { src: 'audio/UNICORNIO-croxroc-flight-of-the-unicorn-instrumental-391707.mp3', title: 'Flight Of The Unicorn', artist: 'croxroc' },
-    robot:       { src: 'audio/ROBOT-hd-studio-robot-art-206392.mp3', title: 'Robot Art', artist: 'hd-studio' },
-    sirena:      { src: 'audio/SIRENA-backgroundmusicforvideos-fairy-tale-music-amazing-beautiful-magic-background-intro-theme-287517.mp3', title: 'Fairy Tale Music', artist: 'backgroundmusicforvideos' },
-    conejito:    { src: 'audio/CONEJITO-playlistsons-the-ukulele-magic-song-joy-and-fun-306996.mp3', title: 'The Ukulele Magic Song', artist: 'playlistsons' },
-    bruja_buena: { src: 'audio/BRUJABUENA-yana126-the-magic-vortex1-482369.mp3', title: 'The Magic Vortex', artist: 'yana126' },
+    // Personajes (cada uno acepta un array de múltiples opciones)
+    princesa:    [ 
+      { src: 'audio/PRINCESA-good_b_music-cinematic-fairy-tale-story-short-kikc-8698.mp3', title: 'Cinematic Fairy Tale', artist: 'good_b_music' },
+      { src: 'audio/PRINCESA-geoffharvey-the-princess-and-her-jewels-120679.mp3', title: 'The Princess And Her Jewels', artist: 'geoffharvey' }
+    ],
+    caballero:   [ 
+      { src: 'audio/CABALLERO-magiksolo-light-magic-163952.mp3', title: 'Light Magic', artist: 'magiksolo' },
+      { src: 'audio/CABALLERO-tunetank-medieval-happy-music-412790.mp3', title: 'Medieval Happy Music', artist: 'tunetank' }
+    ],
+    dragon:      [ 
+      { src: 'audio/DRAGON-hitslab-magic-mystery-harry-potter-music-320643.mp3', title: 'Magic Mystery', artist: 'hitslab' },
+      { src: 'audio/DRAGON-tyufyakin-act-1-pack-your-bags-itx27s-time-to-go-455438.mp3', title: 'Act 1 Pack Your Bags', artist: 'tyufyakin' }
+    ],
+    hada:        [ 
+      { src: 'audio/HADA-geoffharvey-magic-in-the-air-43177.mp3', title: 'Magic In The Air', artist: 'geoffharvey' },
+      { src: 'audio/HADA-leberch-quirky-orchestra-244600.mp3', title: 'Quirky Orchestra', artist: 'leberch' }
+    ],
+    pirata:      [ 
+      { src: 'audio/PIRATA-crissa-steampunk-pirates-289789.mp3', title: 'Steampunk Pirates', artist: 'crissa' },
+      { src: 'audio/PIRATAS-ebunny-pirate-adventure-361663.mp3', title: 'Pirate Adventure', artist: 'ebunny' }
+    ],
+    unicornio:   [ 
+      { src: 'audio/UNICORNIO-croxroc-flight-of-the-unicorn-instrumental-391707.mp3', title: 'Flight Of The Unicorn', artist: 'croxroc' },
+      { src: 'audio/UNICORNIO-hitslab-fantasy-fantasy-magic-fairy-tale-music-460585.mp3', title: 'Fantasy Fairy Tale Music', artist: 'hitslab' }
+    ],
+    robot:       [ 
+      { src: 'audio/ROBOT-hd-studio-robot-art-206392.mp3', title: 'Robot Art', artist: 'hd-studio' },
+      { src: 'audio/ROBOT-raspberrymusic-arcade-hero-children-video-game-cartoon-379376.mp3', title: 'Arcade Hero', artist: 'raspberrymusic' }
+    ],
+    sirena:      [ 
+      { src: 'audio/SIRENA-backgroundmusicforvideos-fairy-tale-music-amazing-beautiful-magic-background-intro-theme-287517.mp3', title: 'Fairy Tale Music', artist: 'backgroundmusicforvideos' },
+      { src: 'audio/SIRENA-soundfreezone_24-x27a-cradle-of-winter-lightx27-443545.mp3', title: 'A Cradle Of Winter Light', artist: 'soundfreezone_24' }
+    ],
+    conejito:    [ 
+      { src: 'audio/CONEJITO-playlistsons-the-ukulele-magic-song-joy-and-fun-306996.mp3', title: 'The Ukulele Magic Song', artist: 'playlistsons' },
+      { src: 'audio/CONEJITO-geoffharvey-catch-that-rabbit-175651.mp3', title: 'Catch That Rabbit', artist: 'geoffharvey' }
+    ],
+    bruja_buena: [ 
+      { src: 'audio/BRUJABUENA-yana126-the-magic-vortex1-482369.mp3', title: 'The Magic Vortex', artist: 'yana126' },
+      { src: 'audio/BRUJABUENA-whatssmooth-the-fairy-of-crimson-light-426355.mp3', title: 'The Fairy Of Crimson Light', artist: 'whatssmooth' }
+    ],
   };
-
-  // Elige aleatoriamente entre música de personaje o de escenario
-  // Si uno de los dos no existe, usa el que exista
-  function pickStoryTrack(personajeId, escenarioId) {
-    const hasPersonaje = !!TRACKS[personajeId];
-    const hasEscenario = !!TRACKS[escenarioId];
-    if (hasPersonaje && hasEscenario) {
-      // 50/50 aleatorio
-      return Math.random() < 0.5 ? personajeId : escenarioId;
-    }
-    if (hasPersonaje) return personajeId;
-    if (hasEscenario) return escenarioId;
-    return 'home'; // fallback
-  }
 
   let currentAudio = null;
   let currentTrack = null;
@@ -112,9 +118,17 @@ const AudioManager = (() => {
   }
 
   function play(trackKey) {
-    if (trackKey === currentTrack) return; // Ya está tocando
-    const trackInfo = TRACKS[trackKey];
+    let trackInfo = TRACKS[trackKey];
     if (!trackInfo) return;
+
+    if (Array.isArray(trackInfo)) {
+      trackInfo = trackInfo[Math.floor(Math.random() * trackInfo.length)];
+    }
+
+    if (currentAudio && currentAudio.src.endsWith(trackInfo.src.split('/').pop())) {
+      currentTrack = trackKey;
+      return; 
+    }
 
     fadeOut(currentAudio, () => {
       const newAudio = new Audio(trackInfo.src);
@@ -183,7 +197,7 @@ const AudioManager = (() => {
   function getMuted() { return isMuted; }
 
   // Array de música permitida para el menú y selección
-  const HOME_TRACKS = ['home', 'castillo', 'bosque', 'nube', 'jardin', 'estrellas', 'princesa', 'hada', 'unicornio', 'conejito'];
+  const HOME_TRACKS = ['home'];
 
   function playRandomHome() {
     const trackKey = HOME_TRACKS[Math.floor(Math.random() * HOME_TRACKS.length)];
@@ -192,7 +206,7 @@ const AudioManager = (() => {
 
   function getCurrentTrack() { return currentTrack; }
 
-  return { play, pickStoryTrack, toggleMute, initMuteButton, resumeOnGesture, getMuted, playRandomHome, getCurrentTrack };
+  return { play, toggleMute, initMuteButton, resumeOnGesture, getMuted, playRandomHome, getCurrentTrack };
 })();
 
 
@@ -260,14 +274,13 @@ function showScreen(id) {
   } else if (id === 'screenStory') {
     selBar.classList.remove('visible');
     storyBar.style.display = 'flex';
-    // Elegir aleatoriamente entre música de personaje o de escenario
+    // Tocar música de personaje
     if (currentStory) {
-      const trackKey = AudioManager.pickStoryTrack(currentStory.personajeId, currentStory.escenarioId);
-      AudioManager.play(trackKey);
-    } else if (selected.escenario) {
-      // Fallback si no hay cuento todavía
-      const trackKey = AudioManager.pickStoryTrack(selected.personaje, selected.escenario);
-      AudioManager.play(trackKey);
+      AudioManager.play(currentStory.personajeId || 'home');
+    } else if (selected.personaje) {
+      AudioManager.play(selected.personaje);
+    } else {
+      AudioManager.play('home');
     }
   } else if (id === 'screenHome') {
     selBar.classList.remove('visible');
@@ -318,8 +331,6 @@ function renderCategory(cat, gridId) {
           if (cat === 'personajes') {
             document.getElementById('gridEscenarios').parentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
           } else if (cat === 'escenarios') {
-            // Preview musical del escenario al seleccionarlo
-            AudioManager.play(el.id);
             document.getElementById('gridObjetos').parentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
           }
         }, 300);
@@ -486,12 +497,8 @@ function openHistoryStory(index) {
   if (history[index]) {
     currentStory = history[index];
     renderStory(currentStory);
-    // Elegir aleatoriamente entre música de personaje o de escenario del cuento guardado
-    const trackKey = AudioManager.pickStoryTrack(
-      currentStory.personajeId,
-      currentStory.escenarioId
-    );
-    AudioManager.play(trackKey);
+    // Tocar música del personaje correspondiente al cuento guardado
+    AudioManager.play(currentStory.personajeId || 'home');
     showScreen('screenStory');
   }
 }
@@ -526,14 +533,20 @@ document.addEventListener('DOMContentLoaded', () => {
   createStars();
   AudioManager.initMuteButton();
 
-  // Intentar iniciar música al primer gesto del usuario en la pantalla home
-  document.addEventListener('click', () => {
+  // Iniciar música imperceptible al primer gesto real en la pantalla
+  const startAudioOnFirstInteraction = () => {
     AudioManager.resumeOnGesture();
     // Solo reproducir home si no hay nada sonando aún
     if (!AudioManager.getCurrentTrack()) {
       AudioManager.playRandomHome();
     }
-  }, { once: true });
+    // Remover los eventos una vez disparado para que no consuma recursos
+    document.removeEventListener('click', startAudioOnFirstInteraction);
+    document.removeEventListener('touchstart', startAudioOnFirstInteraction);
+  };
+
+  document.addEventListener('click', startAudioOnFirstInteraction);
+  document.addEventListener('touchstart', startAudioOnFirstInteraction);
 
   // Iniciar música home al cargar
   AudioManager.playRandomHome();

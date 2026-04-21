@@ -8,7 +8,7 @@ const STORY_DATA = {
     elementos: {
       personajes: [
         { id: 'princesa', nombre: 'Princesa', emoji: '👸' },
-        { id: 'caballero', nombre: 'Caballero', emoji: '🤺' },
+        { id: 'caballero', nombre: 'Caballero', emoji: '🛡️' },
         { id: 'dragon', nombre: 'Dragón', emoji: '🐉' },
         { id: 'hada', nombre: 'Hada', emoji: '🧚' },
         { id: 'pirata', nombre: 'Pirata', emoji: '🏴‍☠️' },
@@ -367,7 +367,7 @@ La brisa suave de {E} los arrulló hasta que ambos se quedaron dormidos, uno jun
     elementos: {
       personajes: [
         { id: 'princesa', nombre: 'Princess', emoji: '👸' },
-        { id: 'caballero', nombre: 'Knight', emoji: '🤺' },
+        { id: 'caballero', nombre: 'Knight', emoji: '🛡️' },
         { id: 'dragon', nombre: 'Dragon', emoji: '🐉' },
         { id: 'hada', nombre: 'Fairy', emoji: '🧚' },
         { id: 'pirata', nombre: 'Pirate', emoji: '🏴‍☠️' },
@@ -708,7 +708,7 @@ The gentle breeze of {E} rocked them both until they fell asleep, side by side, 
     elementos: {
       personajes: [
         { id: 'princesa', nombre: 'Princesse', emoji: '👸' },
-        { id: 'caballero', nombre: 'Chevalier', emoji: '🤺' },
+        { id: 'caballero', nombre: 'Chevalier', emoji: '🛡️' },
         { id: 'dragon', nombre: 'Dragon', emoji: '🐉' },
         { id: 'hada', nombre: 'Fée', emoji: '🧚' },
         { id: 'pirata', nombre: 'Pirate', emoji: '🏴‍☠️' },
@@ -1049,7 +1049,7 @@ La douce brise de {E} les berça tous les deux jusqu'à ce qu'ils s'endorment, c
     elementos: {
       personajes: [
         { id: 'princesa', nombre: 'Prinzessin', emoji: '👸' },
-        { id: 'caballero', nombre: 'Ritter', emoji: '🤺' },
+        { id: 'caballero', nombre: 'Ritter', emoji: '🛡️' },
         { id: 'dragon', nombre: 'Drache', emoji: '🐉' },
         { id: 'hada', nombre: 'Fee', emoji: '🧚' },
         { id: 'pirata', nombre: 'Pirat', emoji: '🏴‍☠️' },
@@ -1390,7 +1390,7 @@ Die sanfte Brise von {E} wiegte sie beide, bis sie nebeneinander einschliefen, w
     elementos: {
       personajes: [
         { id: 'princesa', nombre: 'Princesa', emoji: '👸' },
-        { id: 'caballero', nombre: 'Cavaleiro', emoji: '🤺' },
+        { id: 'caballero', nombre: 'Cavaleiro', emoji: '🛡️' },
         { id: 'dragon', nombre: 'Dragão', emoji: '🐉' },
         { id: 'hada', nombre: 'Fada', emoji: '🧚' },
         { id: 'pirata', nombre: 'Pirata', emoji: '🏴‍☠️' },
