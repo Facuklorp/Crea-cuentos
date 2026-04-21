@@ -117,12 +117,19 @@ const AudioManager = (() => {
     }, 4000);
   }
 
+  let trackIndexes = {};
+
   function play(trackKey) {
     let trackInfo = TRACKS[trackKey];
     if (!trackInfo) return;
 
     if (Array.isArray(trackInfo)) {
-      trackInfo = trackInfo[Math.floor(Math.random() * trackInfo.length)];
+      if (trackIndexes[trackKey] === undefined) {
+        trackIndexes[trackKey] = Math.floor(Math.random() * trackInfo.length);
+      } else {
+        trackIndexes[trackKey] = (trackIndexes[trackKey] + 1) % trackInfo.length;
+      }
+      trackInfo = trackInfo[trackIndexes[trackKey]];
     }
 
     if (currentAudio && currentAudio.src.endsWith(trackInfo.src.split('/').pop())) {
