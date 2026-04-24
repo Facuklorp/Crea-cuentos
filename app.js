@@ -255,6 +255,9 @@ const AudioManager = (() => {
       fadeIn(currentAudio);
     }
   }
+  function getCurrentTrack() {
+    return currentTrack;
+  }
 
   return { play, toggleMute, initMuteButton, resumeOnGesture, getMuted, playRandomHome, getCurrentTrack, pauseMusic, resumeMusic, silenceMusic };
 })();
@@ -643,6 +646,9 @@ function onReadStory() {
 
   if (!currentStory) return;
 
+  // Silence music immediately
+  AudioManager.silenceMusic();
+
   const btn = document.getElementById('btnReadStory');
   const config = CHARACTER_VOICES[currentStory.personajeId] || { pitch: 1.0, rate: 1.0, gender: 'female' };
   
@@ -665,7 +671,7 @@ function onReadStory() {
   utterance.onstart = () => {
     btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnStop}</span>`;
     btn.classList.add('reading');
-    AudioManager.pauseMusic();
+    AudioManager.silenceMusic(); // Double check music is off
   };
 
   utterance.onend = () => {
@@ -683,7 +689,6 @@ function onReadStory() {
   };
 
   currentUtterance = utterance;
-  AudioManager.silenceMusic(); // Use immediate silence for better experience during narration
   window.speechSynthesis.speak(utterance);
 }
 
