@@ -91,13 +91,13 @@ Una mañana dorada, mientras exploraba los rincones más escondidos del lugar, a
 
 "¡{pe} Qué maravilla!" — exclamó {P} con los ojos bien abiertos.
 
-Pero justo en ese momento apareció {V}, el villano más... sorprendente de {E}. {V} no era malvado de verdad: era tan pequeño y despistado que sin querer tropezó con {oa_art} y lo escondió debajo de su enorme almohada de nubes.
+Pero justo en ese momento [[p: apareció {V}, el villano más... sorprendente de {E}. {V} no era malvado de verdad: era tan pequeño y despistado que sin querer tropezó con {oa_art} y lo escondió debajo de su enorme almohada de nubes. | e: las cosas cambiaron en {E} y se desató {V}. No era algo malo de verdad, pero era tan fuerte que sin querer movió {oa_art} y lo ocultó en un rincón profundo. ]]
 
-"¡Eso es mío!" — dijo {V} bostezando —. "¡Necesito algo suave para dormir!"
+[[p: "¡Eso es mío!" — dijo {V} bostezando —. "¡Necesito algo suave para dormir!" | e: ]]
 
-{P} no se enojó. En vez de eso, se sentó junto a {V} y le preguntó con dulzura: "¿Por qué no puedes dormir?" Y así descubrió que {V} tenía miedo de la oscuridad.
+{P} no se enojó. [[p: En vez de eso, se sentó junto a {V} y le preguntó con dulzura: "¿Por qué no puedes dormir?" Y así descubrió que {V} tenía miedo de la oscuridad. | e: En su lugar, buscó con paciencia una solución y descubrió que el lugar necesitaba un poco de luz y calma para que todo volviera a la normalidad. ]]
 
-{P} usó el poder de {oa_art} para crear una pequeña luz suave y cálida que iluminó el rincón de {V}. Desde ese momento, {V} ya no necesitaba robar nada porque tenía su propia luz mágica... ¡y un nuevo amigo!
+{P} usó el poder de {oa_art} para crear una pequeña luz suave y cálida que iluminó [[p: el rincón de {V}. Desde ese momento, {V} ya no necesitaba robar nada porque tenía su propia luz mágica... ¡y un nuevo amigo! | e: cada rincón de {E}. Desde ese momento, la fuerza de {V} se calmó y se convirtió en una suave brisa que acompañaba los sueños de todos. ]]
 
 Juntos hicieron de {E} el lugar más bonito y acogedor del mundo. Antes de dormir, {P} susurró: "La magia más grande no está en los objetos, sino en el corazón de quienes los comparten." 🌙✨`
       },
@@ -107,13 +107,13 @@ Juntos hicieron de {E} el lugar más bonito y acogedor del mundo. Antes de dormi
 
 Un día, {P} emprendió el viaje con el corazón lleno de valentía. Cruzó puentes de arcoíris, caminó por caminos de polvo de estrellas y atravesó jardines donde las flores susurraban canciones.
 
-Pero entonces apareció {V}. Este peculiar personaje había llegado antes a {E} y, sin mala intención, había enredado todos los caminos mientras intentaba jugar. ¡Los senderos estaban mezclados y nadie sabía por dónde ir!
+Pero entonces [[p: apareció {V}. Este peculiar personaje había llegado antes a {E} y, sin mala intención, había enredado todos los caminos mientras intentaba jugar. | e: se produjo {V}. Este fenómeno natural llegó de repente a {E} y, sin querer, revolvió todos los caminos y senderos. ]] ¡Los senderos estaban mezclados y nadie sabía por dónde ir!
 
-"{V} ¡Ay, lo siento mucho!" — dijo {V} poniéndose muy colorado —. "Solo quería hacer un laberinto para jugar..."
+[[p: "{V} ¡Ay, lo siento mucho!" — dijo {V} poniéndose muy colorado —. "Solo quería hacer un laberinto para jugar..." | e: ]]
 
-{P} respiró hondo y sonrió. "No te preocupes. ¡Podemos resolverlo juntos!" Y los dos pasaron una tarde entera desenredando caminos, riendo y contándose historias.
+{P} respiró hondo y sonrió. [[p: "No te preocupes. ¡Podemos resolverlo juntos!" Y los dos pasaron una tarde entera desenredando caminos, riendo y contándose historias. | e: Con calma y paciencia, se puso a trabajar para ordenar el lugar. Pasó una tarde entera desenredando caminos y devolviendo la armonía a {E}. ]]
 
-Al final, cuando todo estaba en orden, {P} encontró {oa_art} brillando en el centro de {E}. Pero lo más valioso del día no fue el objeto mágico: fue haber aprendido que la paciencia y la amistad son el mayor tesoro.
+Al final, cuando todo estaba en orden, {P} encontró {oa_art} brillando en el centro de {E}. Pero lo más valioso del día no fue el objeto mágico: fue haber aprendido que la paciencia [[p: y la amistad son el mayor tesoro. | e: es el mayor tesoro para superar cualquier dificultad. ]]
 
 Se acurrucaron juntos viendo las estrellas, y {P} comprendió que cada aventura es más bonita cuando se comparte. 🌟💤`
       },
@@ -125,13 +125,13 @@ Una noche muy especial, algo cayó con un suave destello justo frente a {P}. Era
 
 "¡{pe} ¿Qué haces aquí, pequeñ{ao} {O_base}?" — preguntó {P} asombrad{oa}.
 
-Pero antes de que {O} pudiera responder, llegó {V} corriendo. Había estado persiguiendo {oa_art} toda la noche porque pensaba que era una estrella caída y quería regodeársela al cielo. ¡Pobre {V}, estaba agotad{ao} de tanto correr!
+Pero antes de que {O} pudiera responder, [[p: llegó {V} corriendo. Había estado persiguiendo {oa_art} toda la noche porque pensaba que era una estrella caída y quería regodeársela al cielo. ¡Pobre {V}, estaba agotad{ao} de tanto correr! | e: se sintió la fuerza de {V}. Este fenómeno había estado envolviendo {oa_art} toda la noche, como si quisiera llevarlo de vuelta al cielo. ]]
 
-{P} le explicó con cariño que {oa_art} no era una estrella sino algo mucho más especial: un objeto capaz de hacer realidad los sueños de quien lo necesita. Y {V} necesitaba algo en realidad: un amigo que le acompañara por las noches, porque se sentía muy sol{ao}.
+{P} le explicó con cariño [[p: que {oa_art} no era una estrella sino algo mucho más especial: un objeto capaz de hacer realidad los sueños de quien lo necesita. Y {V} necesitaba algo en realidad: un amigo que le acompañara por las noches, porque se sentía muy sol{ao}. | e: al viento y a las estrellas que {oa_art} era un objeto especial capaz de traer calma y sueños bonitos a quien más lo necesitara. ]]
 
-Esa noche, {P} usó el poder de {oa_art} para que {V} pudiera entender el idioma de las estrellas. Y así, mientras {P} escuchaba sus secretos brillantes, {V} aprendió que nunca más estaría sol{ao}.
+Esa noche, {P} usó el poder de {oa_art} para que [[p: {V} pudiera entender el idioma de las estrellas. Y así, mientras {P} escuchaba sus secretos brillantes, {V} aprendió que nunca más estaría sol{ao}. | e: la paz regresara a {E}. El cielo se volvió sereno y las estrellas brillaron con más fuerza que nunca. ]]
 
-Los tres —{P}, {V} y las estrellas de {E}— se convirtieron en los mejores amigos del universo. 🌙🌟`
+Los tres —{P}, [[p: {V} | e: la calma ]] y las estrellas de {E}— se convirtieron en los mejores amigos del universo. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} y el misterio de {E}",
@@ -139,15 +139,15 @@ Los tres —{P}, {V} y las estrellas de {E}— se convirtieron en los mejores am
 
 ¡{P} no lo dudó ni un segundo! Siguió las huellas de polvo de estrellas que serpenteaban por {E} hasta llegar a un claro escondido entre árboles enormes.
 
-Allí estaba {V}, rodeado de toda la alegría de {E}: risas en frasquitos, colores en bolsitas y melodías en cajitas pequeñas. Pero {V} no estaba riendo; estaba sentad{ao} en el suelo, muy triste.
+Allí estaba [[p: {V}, rodeado de toda la alegría de {E}: risas en frasquitos, colores en bolsitas y melodías en cajitas pequeñas. Pero {V} no estaba riendo; estaba sentad{ao} en el suelo, muy triste. | e: el efecto de {V}, que había atrapado toda la alegría de {E}: las risas, los colores y las melodías estaban envueltos en un torbellino de confusión. ]]
 
-"¿Por qué recogiste todo esto?" — preguntó {P} con voz dulce.
+[[p: "¿Por qué recogiste todo esto?" — preguntó {P} con voz dulce. | e: ]]
 
-{V} explicó entre sollozos que había querido guardar la alegría de {E} porque tenía miedo de que se acabara. "Me da tanto pánico que un día no haya más cosas bonitas..."
+[[p: {V} explicó entre sollozos que había querido guardar la alegría de {E} porque tenía miedo de que se acabara. "Me da tanto pánico que un día no haya más cosas bonitas..." | e: Parecía que el entorno había atrapado la alegría por temor a perderla, creando un clima de melancolía en todo el lugar. ]]
 
-{P} sacó {oa_art} y con su magia creó algo increíble: una fuente de alegría inagotable en el corazón de {E}, una que nunca se acabaría mientras hubiera alguien que quisiera compartir.
+{P} sacó {oa_art} y con su magia creó algo increíble: una fuente de alegría inagotable en el corazón de {E}, una que nunca se acabaría mientras hubiera alguien que quiera compartir.
 
-{V} abrió todos los frasquitos, bolsitas y cajitas, y la alegría inundó {E} de colores. Fue el día más bonito que nadie en ese lugar recordaba.
+[[p: {V} abrió todos los frasquitos, bolsitas y cajitas, y la alegría inundó {E} de colores. | e: El torbellino de {V} se disipó suavemente, liberando toda la alegría acumulada, y los colores inundaron {E}. ]] Fue el día más bonito que nadie en ese lugar recordaba.
 
 Esa noche, {P} se acurrucó bajo las estrellas sabiendo que la alegría, cuando se comparte, no disminuye: ¡se multiplica! 🌜💫`
       },
@@ -159,17 +159,17 @@ El camino fue largo pero lleno de maravillas. {P} vio cascadas de chocolate, pue
 
 Cuando por fin llegó a {E}, se quedó sin palabras. Era incluso más hermoso de lo que había imaginado. Pero algo pasaba: todos los habitantes del lugar estaban preocupados.
 
-"Es {V}" — explicó un pequeño duende —. "Esta mañana se ha metido en {ea} y sin querer ha revuelto todo. ¡Ha confundido el norte con el sur y ahora nadie sabe dónde está nada!"
+[[p: "Es {V}" — explicó un pequeño duende —. "Esta mañana se ha metido en {ea} y sin querer ha revuelto todo. ¡Ha confundido el norte con el sur y ahora nadie sabe dónde está nada!" | e: "Es por {V}" — explicó un pequeño duende —. "Esta mañana ha llegado a {ea} y lo ha revuelto todo. El viento sopló tan fuerte que ha confundido el norte con el sur y ahora nadie sabe dónde está nada." ]]
 
-{P} encontró a {V} intentando arreglarlo todo frenéticamente, tropezando con una cosa al intentar ordenar otra. Era tan torpemente adorable que {P} no pudo evitar reír con ternura.
+{P} encontró a [[p: {V} intentando arreglarlo todo frenéticamente, tropezando con una cosa al intentar ordenar otra. Era tan torpemente adorable que {P} no pudo evitar reír con ternura. | e: la zona donde {V} había pasado, con rastros de hojas y arena por todos lados. ]]
 
 Juntos, con la ayuda de {oa_art} que esperaba en la entrada del lugar, ordenaron {E} en tiempo récord. Cada objeto regresó a su sitio con un destello mágico y una pequeña melodía.
 
-Cuando todo estuvo perfecto, {V} se volvió hacia {P} con las mejillas rojas: "Gracias. Nunca había tenido a alguien que me ayudara sin reírse de mí."
+Cuando todo estuvo perfecto, [[p: {V} se volvió hacia {P} con las mejillas rojas: "Gracias. Nunca había tenido a alguien que me ayudara sin reírse de mí." | e: el aire en {E} se volvió fresco y tranquilo. ]]
 
-"¡Sí que me he reído!" — admitió {P} sonriendo —. "Pero solo porque eres encantador{a}."
+[[p: "¡Sí que me he reído!" — admitió {P} sonriendo —. "Pero solo porque eres encantador{a}." | e: ]]
 
-Desde ese día, {P} se convirtió en el guardián de {E} y {V} en su ayudante más leal —aunque algo torpe—. Y vivieron felices muchas, muchas noches. 🌙⭐💤`
+Desde ese día, {P} se convirtió en el guardián de {E} [[p: y {V} en su ayudante más leal —aunque algo torpe—. | e: cuidando que el clima fuera siempre agradable para todos. ]] Y vivieron felices muchas, muchas noches. 🌙⭐💤`
       },
       {
         titulo: "🎭 {P} y el Gran Festival de {E}",
@@ -177,15 +177,15 @@ Desde ese día, {P} se convirtió en el guardián de {E} y {V} en su ayudante m�
 
 Pero cuando faltaba una hora para que empezara, ocurrió algo inesperado: la música había desaparecido. Sin música, ¡no había fiesta!
 
-Y la culpable era {V}, que había escondido todos los instrumentos porque quería tocarlos ella sola antes de que nadie llegara... pero no sabía tocar ninguno, y ahora estaba rodeada de instrumentos y llorando de vergüenza.
+[[p: Y la culpable era {V}, que había escondido todos los instrumentos porque quería tocarlos ella sola antes de que nadie llegara... pero no sabía tocar ninguno, y ahora estaba rodeada de instrumentos y llorando de vergüenza. | e: Resulta que {V} había soplado tan fuerte que los instrumentos se habían dispersado por todo {E}, quedando atrapados en lugares insospechados. ]]
 
-{P} no la regañó. En su lugar, se sentó a su lado y le enseñó algo sencillo: cómo hacer música con las manos. Palmadas, chasquidos, golpes suaves en las rodillas.
+{P} no la regañó. En su lugar, [[p: se sentó a su lado y le enseñó algo sencillo: cómo hacer música con las manos. Palmadas, chasquidos, golpes suaves en las rodillas. | e: buscó una forma creativa de recuperar la armonía. ]]
 
 Luego recordó que había guardado {oa_art}. Al tocarlo, una melodía dulce y perfecta llenó cada rincón de {E}, haciendo bailar incluso a las flores y a las nubes.
 
-{V} se unió a la música con sus palmadas, y pronto todos los invitados llegaron y comenzaron a bailar. Fue la mejor fiesta que {E} había tenido jamás.
+[[p: {V} se unió a la música con sus palmadas, y pronto todos los invitados llegaron y comenzaron a bailar. | e: El efecto de {V} se suavizó y los instrumentos regresaron a sus sitios como por arte de magia. ]] Fue la mejor fiesta que {E} había tenido jamás.
 
-"¡{pe} {P}, gracias por traer la armonía!" — dijeron todos. Y {V}, que ya no era un secreto torpe, fue ovacionada por sus palmadas perfectas.
+"¡{pe} {P}, gracias por traer la armonía!" — dijeron todos. [[p: Y {V}, que ya no era un secreto torpe, fue ovacionada por sus palmadas perfectas. | e: ]]
 
 Cansad{oa} de tanta diversión, {P} se fue a dormir con una sonrisa de oreja a oreja. 🌜✨`
       },
@@ -197,33 +197,33 @@ Cansad{oa} de tanta diversión, {P} se fue a dormir con una sonrisa de oreja a o
 
 "¡{pe} Es un regalo especial!" — exclamó {P}.
 
-Pero entonces apareció {V}, con cara de haber estado llorando. Explicó que esse regalo había caído exactamente donde él vivía y que, en realidad, creia que era para él.
+Pero entonces [[p: apareció {V}, con cara de haber estado llorando. Explicó que esse regalo había caído exactamente donde él vivía y que, en realidad, creia que era para él. | e: se desató {V} en la zona. Parecía que el clima también quería reclamar ese brillo para calmar su propia fuerza. ]]
 
-{P} pensó un momento y luego tuvo una idea maravillosa: "¿Y si lo compartimos? Tú tienes miedo por las noches, y yo quiero ayudar a todos en {E}. ¡Podemos hacer las dos cosas a la vez!"
+{P} pensó un momento y luego tuvo una idea maravillosa: "¿Y si lo compartimos? [[p: Tú tienes miedo por las noches, y yo quiero ayudar a todos en {E}. ¡Podemos hacer las dos cosas a la vez!" | e: Yo quiero ayudar a todos en {E}, y así la calma llegará a cada rincón del lugar." ]]
 
-{V} parpadeó sorprendido. Nunca nadie le había propuesto compartir algo así.
+[[p: {V} parpadeó sorprendido. Nunca nadie le había propuesto compartir algo así. | e: ]]
 
-Esa noche, {P} y {V} usaron juntos la magia de {oa_art} para que todos en {E} tuvieran sueños bonitos: los niños soñaron con aventuras, los mayores con recuerdos felices y {V} soñó, por primera vez, sin ningún miedo.
+Esa noche, {P} [[p: y {V} usaron juntos la magia de {oa_art} para que todos en {E} tuvieran sueños bonitos: los niños soñaron con aventuras, los mayores con recuerdos felices y {V} soñó, por primera vez, sin ningún miedo. | e: usó la magia de {oa_art} para que todos en {E} tuvieran sueños bonitos. La fuerza de {V} se convirtió en un arrullo constante y todos soñaron, por primera vez, con una paz absoluta. ]]
 
 {P} cerró los ojos agradecid{oa}, sabiendo que la generosidad es la magia más poderosa de todas. 🌟💤`
       },
       {
         titulo: "🐾 {P} al rescate en {E}",
-        cuerpo: `Era una tarde tranquila en {E} cuando {P} escuchó un sonido extraño: una mezcla entre gemido y risita que venía de entre los matorrales. Al acercarse, encontró a un pequeño animalito perdido... y junto a él, a {V}.
+        cuerpo: `Era una tarde tranquila en {E} cuando {P} escuchó un sonido extraño: una mezcla entre gemido y risita que venía de entre los matorrales. Al acercarse, encontró a un pequeño animalito perdido [[p: ... y junto a él, a {V}. | e: en medio de {ea}. ]]
 
-{V} había intentado ayudar al animalito a encontrar su camino, pero siendo tan despistado como era, habían terminado los dos perdidos en un rincón de {E} que ninguno de los dos conocía.
+[[p: {V} había intentado ayudar al animalito a encontrar su camino, pero siendo tan despistado como era, habían terminado los dos perdidos en un rincón de {E} que ninguno de los dos conocía. | e: Resulta que {V} había envuelto el lugar con su fuerza y el pequeño animalito no podía encontrar la salida. ]]
 
-"¡{pe} Qué lío tan gracioso hemos armado!" — admitió {V} rascándose la cabeza.
+[[p: "¡{pe} Qué lío tan gracioso hemos armado!" — admitió {V} rascándose la cabeza. | e: ]]
 
 {P} no pudo evitar reír, pero rápidamente sacó {oa_art}. El objeto empezó a brillar con una luz cálida y constante, trazando en el aire un camino luminoso que llevaba directo al hogar del pequeño animalito.
 
-Mientras caminaban, {P} le explicó a {V} cómo orientarse con las estrellas y las flores: "Las flores del bosque siempre miran al sol, así que si sabes dónde está el sol al mediodía, nunca te perderás."
+Mientras caminaban, {P} le explicó [[p: a {V} | e: ]] cómo orientarse con las estrellas y las flores: "Las flores del bosque siempre miran al sol, así que si sabes dónde está el sol al mediodía, nunca te perderás."
 
-{V} escuchaba con atención, tomando nota mental de cada consejo. Cuando el animalito llegó a casa sano y salvo, su familia lo recibió con tanto amor que las lágrimas de alegría eran visibles.
+[[p: {V} escuchaba con atención, tomando nota mental de cada consejo. | e: ]] Cuando el animalito llegó a casa sano y salvo, su familia lo recibió con tanto amor que las lágrimas de alegría eran visibles.
 
-"{pe} {P} eres muy valiente" — susurró el animalito —. "Y tú, {V}, aunque te perdiste, ¡nunca me abandonaste!"
+"{pe} {P} eres muy valiente" — susurró el animalito [[p: —. "Y tú, {V}, aunque te perdiste, ¡nunca me abandonaste!" | e: . ]]
 
-{V} se sonrojó de felicidad. Había fallado en lo de guiar, pero había triunfado en lo que de verdad importaba: estar ahí.
+[[p: {V} se sonrojó de felicidad. Había fallado en lo de guiar, pero había triunfado en lo que de verdad importaba: estar ahí. | e: ]]
 
 Con paz en el corazón y la lección aprendida, todos regresaron a descansar bajo las estrellas de {E}. 🌛💨`
       },
@@ -231,17 +231,17 @@ Con paz en el corazón y la lección aprendida, todos regresaron a descansar baj
         titulo: "🌸 {P} y el cambio de estación en {E}",
         cuerpo: `La primavera estaba a punto de llegar a {E}, pero algo la retenía: los campos seguían cubiertos de nieve y las flores se negaban a despertar. Todos en {E} estaban intrigados.
 
-La culpable, aunque sin mala intención, era {V}, que había encontrado un botón mágico con forma de copo de nieve y lo había apretado muchas, muchísimas veces porque le parecía adorable. ¡Y con cada apretón, llegaba un poco más de invierno!
+[[p: La culpable, aunque sin mala intención, era {V}, que había encontrado un botón mágico con forma de copo de nieve y lo había apretado muchas, muchísimas veces porque le parecía adorable. ¡Y con cada apretón, llegaba un poco más de invierno! | e: Todo era por causa de {V}, que se había instalado en {E} y no quería dejar paso al sol. El frío era tan intenso que parecía que el invierno no quería terminar nunca. ]]
 
-"No sabía que eso pasaría" — confesó {V} con la voz muy pequeña.
+[[p: "No sabía que eso pasaría" — confesó {V} con la voz muy pequeña. | e: ]]
 
 {P} tomó {oa_art} con delicadeza y sopló suavemente sobre las flores dormidas. Una a una, como si despertaran de un largo sueño, fueron abriendo sus pétalos: primero unos pocos tímidos y luego, en cascada, todos a la vez.
 
-"¡Esto es precioso!" — exclamó {V}, que nunca había visto florecer a las flores de verdad porque siempre llegaba cuando ya estaban abiertas.
+"¡Esto es precioso!" [[p: — exclamó {V}, que nunca había visto florecer a las flores de verdad porque siempre llegaba cuando ya estaban abiertas. | e: ]]
 
-{P} le enseñó que hay momentos especiales en la naturaleza que hay que esperar con paciencia, sin apresurar ni que las cosas florezcan ni que los sueños se cumplan.
+{P} le enseñó [[p: | e: al mundo ]] que hay momentos especiales en la naturaleza que hay que esperar con paciencia, sin apresurar ni que las cosas florezcan ni que los sueños se cumplan.
 
-Todo {E} se llenó de colores, perfumes y el zumbido alegre de las abejas. {V} cuidó el botón de copo de nieve con mucho más cuidado desde ese día, y solo lo apretaba en verano para que hubiera un poquito de fresco.
+Todo {E} se llenó de colores, perfumes y el zumbido alegre de las abejas. [[p: {V} cuidó el botón de copo de nieve con mucho más cuidado desde ese día, y solo lo apretaba en verano para que hubiera un poquito de fresco. | e: La fuerza de {V} se disipó, dejando que el sol calentara cada rincón. ]]
 
 Y {P}, con el corazón ligero como una flor al viento, se preparó para un día de juegos interminables. 🌼🌜`
       },
@@ -249,17 +249,17 @@ Y {P}, con el corazón ligero como una flor al viento, se preparó para un día 
         titulo: "🎶 La melodía perdida de {E}",
         cuerpo: `Había un gran y extraño silencio en {E}. No había pájaros cantando, ni viento entre las hojas, ni riachuelos murmurando. Era como si la música del mundo hubiera desaparecido de golpe.
 
-{P} decidió encontrar el sonido perdido. Caminó, buscó y preguntó hasta que llegó a la cueva más profunda de {E}, donde encontró a {V} rodeado de miles de sonidos que había capturado en pequeñas burbujas de jabón.
+{P} decidió encontrar el sonido perdido. Caminó, buscó y preguntó hasta que llegó a la cueva más profunda de {E}, donde encontró [[p: a {V} rodeado de miles de sonidos que había capturado en pequeñas burbujas de jabón. | e: que {V} había atrapado todos los sonidos en pequeñas burbujas de aire que flotaban por todos lados. ]]
 
-"Colecciono sonidos" — explicó {V} feliz —. "¡Ya tengo el canto del primer pájaro del día, el sonido de la lluvia en las hojas y tres tipos diferentes de silencio!"
+[[p: "Colecciono sonidos" — explicó {V} feliz —. "¡Ya tengo el canto del primer pájaro del día, el sonido de la lluvia en las hojas y tres tipos diferentes de silencio!" | e: Parecía que el entorno había decidido guardar silencio, atrapando cada nota musical en el aire. ]]
 
-{P} entendió que {V} no era maldadoso, solo era muy curioso. Le propuso un trato: {V} soltaría todos los sonidos si {P} le ayudaba a aprender música de verdad.
+{P} entendió que [[p: {V} no era maldadoso, solo era muy curioso. Le propuso un trato: {V} soltaría todos los sonidos si {P} le ayudaba a aprender música de verdad. | e: era necesario liberar esos sonidos para que {E} recuperara su vida. ]]
 
-{V} aceptó emocionado. Cuando soltó las burbujas, {E} explotó en una sinfonía maravillosa: todos los sonidos del mundo sonando a la vez, creando la melodía más hermosa que nadie había escuchado.
+[[p: {V} aceptó emocionado. | e: ]] Cuando [[p: soltó las burbujas | e: las burbujas estallaron ]], {E} explotó en una sinfonía maravillosa: todos los sonidos del mundo sonando a la vez, creando la melodía más hermosa que nadie había escuchado.
 
-Luego {P} tomó {oa_art} y con él creó una pequeña canción especial solo para {V}: una melodía que llevaba su nombre y que podía escuchar siempre que quisiera.
+Luego {P} tomó {oa_art} y con él creó una pequeña canción especial [[p: solo para {V}: una melodía que llevaba su nombre y que podía escuchar siempre que quisiera. | e: para el lugar: una melodía que resonaría en {E} siempre que alguien necesitara alegría. ]]
 
-"{pe} ¡La música ha vuelto!" — gritó {P} —, "¡y además tenemos una canción nueva!"
+"{pe} ¡La música ha vuelto!" — gritó {P} [[p: —, "¡y además tenemos una canción nueva!" | e: . ]]
 
 Esa noche, {E} se llenó de vida y {P} se durmió mecido por el latido feliz del lugar. 🎵💤`
       },
@@ -269,7 +269,7 @@ Esa noche, {E} se llenó de vida y {P} se durmió mecido por el latido feliz del
 
 Todos en {E} se asomaron curiosos, pero nadie podía entender lo que el visitante decía. Sus palabras sonaban como música lejana, como campanillas bajo el agua.
 
-Entonces apareció {V}, convencido de que podía hablar el idioma espacial porque una vez había soñado que lo hacía. Se plantó delante del visitante y empezó a decir cosas sin sentido en voz muy alta. ¡El visitante parecía cada vez más confundido!
+Entonces [[p: apareció {V}, convencido de que podía hablar el idioma espacial porque una vez había soñado que lo hacía. Se plantó delante del visitante y empezó a decir cosas sin sentido en voz muy alta. ¡El visitante parecía cada vez más confundido! | e: se escuchó la fuerza de {V}. El ruido era tan intenso que las palabras del visitante se perdían en el aire, y el pobre viajero parecía cada vez más confundido. ]]
 
 {P} sonrió con paciencia y sacó {oa_art}. Con su magia, el objeto tradujo los deseos del visitante en burbujas de luz que todos podían ver y entender.
 
@@ -277,7 +277,7 @@ El visitante venía de un planeta donde ya no quedaban historias. Había viajado
 
 {P} le prometió algo maravilloso: cada noche, antes de dormir, alguien de {E} le contaría una historia nueva. El visitante pondría esas historias en su nave y las llevaría a su planeta para que los niños de allá también pudieran soñar.
 
-"{pe} ¡Ahora somos amigos intergalácticos!" — dijo {P}. Y {V}, que había intentado ayudar a su manera, fue nombrado embajador de las palabras confusas, que resultaron ser perfectas para hacer reír a todos.
+"{pe} ¡Ahora somos amigos intergalácticos!" — dijo {P}. [[p: Y {V}, que había intentado ayudar a su manera, fue nombrado embajador de las palabras confusas, que resultaron ser perfectas para hacer reír a todos. | e: ]]
 
 Cuando el visitante partió, {P} miró las estrellas y supo que ninguna historia se pierde jamás. 🌌✨`
       },
@@ -285,11 +285,11 @@ Cuando el visitante partió, {P} miró las estrellas y supo que ninguna historia
         titulo: "🏆 {P} y el concurso de talentos",
         cuerpo: `Hoy era el día del Gran Concurso de Talentos de {E}. Había flautistas de viento, domadores de nubes, pintores de arcoíris y bailarines de rayos de sol. {P} observaba todo con admiración y un poco de nervios.
 
-Pero cuando llegó el turno de {P}, algo pasó: {V} había entrado antes al escenario pensando que el concurso empezaba más tarde, y ahora estaba haciendo malabares con frutos del bosque delante de todo el público. ¡Nadie quería decirle que no era su turno!
+Pero cuando llegó el turno de {P}, algo pasó: [[p: {V} había entrado antes al escenario pensando que el concurso empezaba más tarde, y ahora estaba haciendo malabares con frutos del bosque delante de todo el público. ¡Nadie quería decirle que no era su turno! | e: de repente se desató {V} justo sobre el escenario. Las hojas y frutos del bosque empezaron a volar por los aires delante de todo el público, ¡parecía un caos total! ]]
 
-{P} observó la escena un momento. {V} era adorablemente desastroso: dejaba caer la mitad de los frutos, tropezaba con sus propios pies y sin embargo tenía una sonrisa enorme. El público, aunque confundido, empezaba a reír con cariño.
+{P} observó la escena un momento. [[p: {V} era adorablemente desastroso: dejaba caer la mitad de los frutos, tropezaba con sus propios pies y sin embargo tenía una sonrisa enorme. El público, aunque confundido, empezaba a reír con cariño. | e: Todo era un desorden inesperado, pero los frutos volaban de una forma casi rítmica. El público observaba con asombro aquel espectáculo natural. ]]
 
-Entonces {P} tuvo una idea brillante. Subió al escenario junto a {V} y sacó {oa_art}. Con él, creó figuras de luz que acompañaban los malabares de {V}, convirtiendo cada tropiezo en un movimiento artístico y cada frutico caído en una estrella brillante.
+Entonces {P} tuvo una idea brillante. Subió al escenario [[p: junto a {V} | e: ]] y sacó {oa_art}. Con él, creó figuras de luz que acompañaban [[p: los malabares de {V} | e: el movimiento de {V} ]], convirtiendo cada tropiezo en un movimiento artístico y cada frutico caído en una estrella brillante.
 
 La actuación fue un espectáculo sin igual: parte magia, parte caos, completamente único.
 
@@ -301,43 +301,43 @@ La actuación fue un espectáculo sin igual: parte magia, parte caos, completame
         titulo: "📚 {P} en la Biblioteca de los Sueños",
         cuerpo: `En {E} había una biblioteca muy especial: sus libros no se leían, sino que se vivían. Cuando abrías uno, te metías de cabeza dentro de la historia y la vivías desde adentro. La gente podía pasar tardes enteras explorando otros mundos sin salir de la biblioteca.
 
-{P} entró una tarde con mucha curiosidad... y encontró a {V} atascado dentro de un libro. Había entrado en "El Gran Laberinto de los Sueños" y no encontraba la salida. Llevaba horas dando vueltas.
+{P} entró una tarde con mucha curiosidad... y encontró [[p: a {V} atascado dentro de un libro. Había entrado en "El Gran Laberinto de los Sueños" y no encontraba la salida. Llevaba horas dando vueltas. | e: que el efecto de {V} se había colado entre las páginas de un libro. El cuento de "El Gran Laberinto de los Sueños" estaba todo revuelto por el viento y la niebla. ]]
 
-"¡{pe} {P} por favor, hace horas que busco!" — llegó la voz de {V} desde las páginas.
+[[p: "¡{pe} {P} por favor, hace horas que busco!" — llegó la voz de {V} desde las páginas. | e: ]]
 
-{P} sacó {oa_art} y con su magia, las páginas del libro se iluminaron mostrando el camino correcto del laberinto. Pero {P} tuvo una idea mejor: en vez de darle directamente la solución a {V}, le dio pistas.
+{P} sacó {oa_art} y con su magia, las páginas del libro se iluminaron mostrando el camino correcto del laberinto. Pero {P} tuvo una idea mejor: en vez de darle directamente la solución [[p: a {V} | e: al misterio ]], le dio pistas.
 
 "Mira los dibujos en las paredes del laberinto. Las flechas pequeñas señalan siempre hacia el corazón del libro, no hacia la salida."
 
-{V} siguió las pistas una a una, y cuando por fin salió del libro, tenía los ojos brillantes de emoción.
+[[p: {V} siguió las pistas una a una, y cuando por fin salió del libro, tenía los ojos brillantes de emoción. | e: Siguiendo las pistas, el aire se calmó y las páginas volvieron a su lugar una a una. ]]
 
-"{pe} ¡Lo resolví yo solo! Bueno... con tus pistas."
+"{pe} ¡Lo resolví yo solo! [[p: Bueno... con tus pistas. | e: ]] "
 
 {P} le explicó que ese era exactamente el propósito de los libros: no darte las respuestas, sino darte las herramientas para encontrarlas tú mism{oa}.
 
 Se sentaron juntos en la biblioteca y {P} eligió un libro dorado con páginas vacías. Empezaron a escribir en él la historia de esa tarde, porque las mejores historias son las que vives tú mismo.
 
-Cada día es una página nueva, y mientras encuentres amigos como {V}, ninguna página estará vacía. 📖✨`
+Cada día es una página nueva, y mientras encuentres [[p: amigos como {V} | e: momentos mágicos ]], ninguna página estará vacía. 📖✨`
       },
       {
         titulo: "🎨 {P} y el día que {E} perdió sus colores",
         cuerpo: `Amaneció diferente en {E}: el cielo era gris, las flores habían perdido su color, los pájaros eran blancos y negros y hasta el arcoíris se veía como una línea de gris claro. Alguien había robado todos los colores.
 
-{P} investigó y siguió un rastro de pequeñas manchas grises hasta encontrar a {V}, que estaba sentad{ao} en medio de un charco enorme de color... mezclado. Había querido crear el color perfecto, tomando un poquito de cada cosa, y sin querer había mezclado tanto que todos los colores se habían convertido en gris.
+{P} investigó y siguió un rastro de pequeñas manchas grises hasta encontrar [[p: a {V}, que estaba sentad{ao} en medio de un charco enorme de color... mezclado. | e: que {V} había pasado por allí, dejando un charco enorme de color... mezclado. ]] Había querido crear el color perfecto, tomando un poquito de cada cosa, y sin querer había mezclado tanto que todos los colores se habían convertido en gris.
 
-"{V} ...¿Qué hiciste?" — preguntó {P} sin poder creerlo.
+[[p: "{V} ...¿Qué hiciste?" — preguntó {P} sin poder creerlo. | e: ]]
 
-"Quería crear el color más bonito del mundo" — respondió {V} en voz muy baja —. "Uno que lo contuviera todo."
+[[p: "Quería crear el color más bonito del mundo" — respondió {V} en voz muy baja —. "Uno que lo contuviera todo." | e: Parecía que la naturaleza había intentado unir todas sus tonalidades en una sola, pero el resultado era una nube gris que lo cubría todo. ]]
 
-{P} entendió. {V} no buscaba destruir los colores, buscaba lo opuesto: quería encontrar la belleza en la unión de todos. Solo que había olvidado que el secreto de los colores es que brillan cuando están separados.
+{P} entendió. [[p: {V} no buscaba destruir los colores, buscaba lo opuesto: quería encontrar la belleza en la unión de todos. | e: No era un intento de quitar la belleza, sino de encontrarla en la unión de todo. ]] Solo que había olvidado que el secreto de los colores es que brillan cuando están separados.
 
 Sacó {oa_art} y, como si fuera el pincel más mágico del universo, empezó a separar los colores del charco. Uno a uno fueron regresando a su lugar: el azul al cielo, el verde a las hojas, el amarillo al sol, el rojo a las rosas.
 
-{V} ayudó con entusiasmo, aunque poniendo algunos colores en lugares inesperados: una nube naranja aquí, un árbol morado allá. Y resultó que {E} quedó más colorido y alegre que nunca.
+[[p: {V} ayudó con entusiasmo, aunque poniendo algunos colores en lugares inesperados: una nube naranja aquí, un árbol morado allá. | e: La fuerza de {V} ayudó a esparcir los colores de nuevo, aunque algunos terminaron en lugares inesperados: una nube naranja aquí, un árbol morado allá. ]] Y resultó que {E} quedó más colorido y alegre que nunca.
 
-"¡Lo hiciste de nuevo!" — dijo {V} admirad{ao}. "¡Convertiste mi lío en algo hermoso!"
+[[p: "¡Lo hiciste de nuevo!" — dijo {V} admirad{ao}. "¡Convertiste mi lío en algo hermoso!" | e: ]]
 
-{P} sonrió. "Lo hicimos los dos."
+{P} sonrió. [[p: "Lo hicimos los dos." | e: ]]
 
 Esa noche {P} miró {E} desde lo alto y pensó: no hay error tan grande que no pueda convertirse, con ayuda y creatividad, en algo más bonito que lo original. 🌈😴`
       },
@@ -345,21 +345,21 @@ Esa noche {P} miró {E} desde lo alto y pensó: no hay error tan grande que no p
         titulo: "🕯️ La promesa del mañana",
         cuerpo: `{P} estaba sentad{oa} bajo el gran árbol centenario de {E}, el que decían que era tan viejo que recordaba el primer día del mundo. Había tenido un día difícil: las cosas no habían salido como planeaba y el corazón le pesaba un poco.
 
-Fue entonces cuando llegó {V}, que tenía una habilidad peculiar: podía oler la tristeza. No era una habilidad muy útil en general, pero en momentos como ese, le llevaba exactamente donde alguien necesitaba compañía.
+Fue entonces cuando [[p: llegó {V}, que tenía una habilidad peculiar: podía oler la tristeza. No era una habilidad muy útil en general, pero en momentos como ese, le llevaba exactamente donde alguien necesitaba compañía. | e: se sintió llegar a {V}. No era un viento fuerte, sino una brisa suave que parecía entender el silencio del momento. ]]
 
-"¿Qué ocurre?" — preguntó {V} sentándose a su lado.
+[[p: "¿Qué ocurre?" — preguntó {V} sentándose a su lado. | e: ]]
 
 {P} explicó sus preocupaciones mientras {oa_art} empezaba a brillar sola con una luz cálida y suave, como si quisiera calmar el ambiente.
 
-{O} le mostró visiones de campos llenos de flores donde los errores del pasado se convertían en semillas para el futuro. Le mostró risas de amigos aún por conocer y aventuras que solo podrían vivirse si se levantaba mañana con esperanza.
+[[p: {O} | e: El amuleto ]] le mostró visiones de campos llenos de flores donde los errores del pasado se convertían en semillas para el futuro. Le mostró risas de amigos aún por conocer y aventuras que solo podrían vivirse si se levantaba mañana con esperanza.
 
-{V} no sabía qué decir, así que hizo lo único que sabía hacer cuando alguien estaba triste: se acurrucó muy cerca y puso la cabeza en el hombro de {P} como un pequeño girasol que siempre busca el sol.
+[[p: {V} no sabía qué decir, así que hizo lo único que sabía hacer cuando alguien estaba triste: se acurrucó muy cerca y puso la cabeza en el hombro de {P} como un pequeño girasol que siempre busca el sol. | e: El entorno se volvió tan pacífico que {P} sintió como si {E} mismo le estuviera dando un abrazo. ]]
 
 "{pe} El mañana será increíble" — prometió {P} en voz baja, y esta vez lo creía de verdad.
 
-Porque en la vida, los días difíciles son el precio que pagamos por los días maravillosos. Y cuando tienes a alguien que se queda a tu lado en los difíciles, los maravillosos son aún más brillantes.
+Porque en la vida, los días difíciles son el precio que pagamos por los días maravillosos. Y cuando tienes [[p: a alguien que se queda a tu lado | e: momentos de paz ]] en los difíciles, los maravillosos son aún más brillantes.
 
-La brisa suave de {E} los arrulló hasta que ambos se quedaron dormidos, uno junto al otro, mientras las estrellas montaban guardia sobre ellos toda la noche. 🌜💤`
+La brisa suave de {E} los arrulló hasta que [[p: ambos se quedaron dormidos, uno junto al otro, | e: {P} se quedó dormid{oa}, ]] mientras las estrellas montaban guardia toda la noche. 🌜💤`
       }
     ]
   },
@@ -432,13 +432,13 @@ On one golden morning, while exploring the hidden corners of the land, something
 
 "{pe} How wonderful!" exclaimed {P} with eyes wide open.
 
-But just then, {V} appeared—the most surprising character in all of {E}. {V} wasn't truly wicked: they were just so small and absentminded that they tripped right over {oa_art} and accidentally hid it under an enormous cloud pillow.
+But just then, [[p: {V} appeared—the most surprising character in all of {E}. {V} wasn't truly wicked: they were just so small and absentminded that they tripped right over {oa_art} and accidentally hid it under an enormous cloud pillow. | e: the weather changed in {E} and {V} broke out. It wasn't truly bad, but it was so strong that it accidentally moved {oa_art} and hid it in a deep corner. ]]
 
-"That's mine!" said {V}, yawning. "I need something soft to sleep on!"
+[[p: "That's mine!" said {V}, yawning. "I need something soft to sleep on!" | e: ]]
 
-{P} didn't get angry. Instead, they sat beside {V} and asked gently: "Why can't you sleep?" And so they discovered that {V} was afraid of the dark.
+{P} didn't get angry. [[p: Instead, they sat beside {V} and asked gently: "Why can't you sleep?" And so they discovered that {V} was afraid of the dark. | e: Instead, they patiently looked for a solution and discovered that the place needed a bit of light and calm for everything to return to normal. ]]
 
-{P} used the power of {oa_art} to create a small, warm, soft light that glowed in {V}'s corner. From that moment on, {V} no longer needed to steal anything, because they had their own magical light—and a brand new friend!
+{P} used the power of {oa_art} to create a small, warm, soft light that glowed in [[p: {V}'s corner. From that moment on, {V} no longer needed to steal anything, because they had their own magical light—and a brand new friend! | e: every corner of {E}. From that moment on, the force of {V} calmed down and turned into a gentle breeze that accompanied everyone's dreams. ]]
 
 Together, they made {E} the most beautiful and welcoming place in the world. Before drifting off to sleep, {P} whispered: "The greatest magic isn't in objects—it's in the hearts of those who share them." 🌙✨`
       },
@@ -448,13 +448,13 @@ Together, they made {E} the most beautiful and welcoming place in the world. Bef
 
 One day, {P} set out on the journey with a heart full of courage. They crossed rainbow bridges, walked along paths of stardust, and passed through gardens where flowers whispered songs.
 
-But then {V} appeared. This rather peculiar character had arrived in {E} first and, without meaning any harm, had tangled all the paths while trying to play. The trails were all mixed up and nobody knew which way to go!
+But then [[p: {V} appeared. This rather peculiar character had arrived in {E} first and, without meaning any harm, had tangled all the paths while trying to play. | e: {V} occurred. This natural phenomenon suddenly arrived in {E} and, without meaning to, scrambled all the paths and trails. ]] The trails were all mixed up and nobody knew which way to go!
 
-"{pe} Oh, I'm so sorry!" cried {V}, turning red. "I just wanted to build a maze to play in..."
+[[p: "{pe} Oh, I'm so sorry!" cried {V}, turning red. "I just wanted to build a maze to play in..." | e: ]]
 
-{P} took a deep breath and smiled. "Don't worry. We can sort it out together!" And the two of them spent the whole afternoon untangling paths, laughing and swapping stories.
+{P} took a deep breath and smiled. [[p: "Don't worry. We can sort it out together!" And the two of them spent the whole afternoon untangling paths, laughing and swapping stories. | e: With calm and patience, they set to work to put the place in order. They spent the whole afternoon untangling paths and returning harmony to {E}. ]]
 
-At the end of the day, when everything was in order, {P} spotted {oa_art} glowing at the heart of {E}. But the most precious thing they found that day wasn't the magical object—it was learning that patience and friendship are the greatest treasure of all.
+At the end of the day, when everything was in order, {P} spotted {oa_art} glowing at the heart of {E}. But the most precious thing they found that day wasn't the magical object—it was learning that patience [[p: and friendship are the greatest treasure of all. | e: is the greatest treasure to overcome any difficulty. ]]
 
 They curled up together beneath the stars, and {P} understood that every adventure becomes more beautiful when it's shared. 🌟💤`
       },
@@ -466,13 +466,13 @@ On one very special evening, something fell with a gentle gleam right before {P}
 
 "{pe} What are you doing here, little {O}?" asked {P}, astonished.
 
-But before {O} could answer, {V} came running over. They'd been chasing {oa_art} all night, thinking it was a fallen star and wanting to return it to the sky. Poor {V} was exhausted from all that running!
+But before {O} could answer, [[p: {V} came running over. They'd been chasing {oa_art} all night, thinking it was a fallen star and wanting to return it to the sky. Poor {V} was exhausted from all that running! | e: the force of {V} was felt. This phenomenon had been enveloping {oa_art} all night, as if it wanted to carry it back to the sky. ]]
 
-{P} gently explained that {oa_art} wasn't a star at all, but something far more special: an object that could make the deepest wishes come true for whoever needed it most. And what {V} needed was simple: a friend to keep them company at night, because they were terribly lonely.
+{P} gently explained [[p: that {oa_art} wasn't a star at all, but something far more special: an object that could make the deepest wishes come true for whoever needed it most. And what {V} needed was simple: a friend to keep them company at night, because they were terribly lonely. | e: to the wind and the stars that {oa_art} was a special object capable of bringing calm and beautiful dreams to whoever needed it most. ]]
 
-That evening, {P} used the power of {oa_art} so that {V} could understand the language of the stars. And as {P} listened to their glittering secrets, {V} discovered they would never be alone again.
+That evening, {P} used the power of {oa_art} so that [[p: {V} could understand the language of the stars. And as {P} listened to their glittering secrets, {V} discovered they would never be alone again. | e: peace returned to {E}. The sky became serene and the stars shone brighter than ever. ]]
 
-The three of them—{P}, {V}, and the stars of {E}—became the best friends in the entire universe. 🌙🌟`
+The three of them—{P}, [[p: {V} | e: the calm ]] and the stars of {E}— became the best friends in the entire universe. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} and the Mystery of {E}",
@@ -480,15 +480,15 @@ The three of them—{P}, {V}, and the stars of {E}—became the best friends in 
 
 {P} didn't hesitate for even a second! They followed the trails of stardust that wound through {E} until they arrived at a hidden clearing, deep among enormous ancient trees.
 
-There was {V}, surrounded by all the joy of {E}: laughter bottled in tiny jars, colours packed in little pouches, and melodies tucked inside small boxes. But {V} wasn't smiling—they were sitting on the ground, looking very sad.
+There was [[p: {V}, surrounded by all the joy of {E}: laughter bottled in tiny jars, colours packed in little pouches, and melodies tucked inside small boxes. But {V} wasn't smiling—they were sitting on the ground, looking very sad. | e: the effect of {V}, which had trapped all the joy of {E}: laughter, colours and melodies were wrapped in a whirlwind of confusion. ]]
 
-"Why did you take all of this?" asked {P} with a gentle voice.
+[[p: "Why did you take all of this?" asked {P} with a gentle voice. | e: ]]
 
-{V} explained through sniffles that they had wanted to keep {E}'s joy safe, because they were terrified it might someday run out. "I'm so afraid that one day there will be nothing beautiful left..." they whispered.
+[[p: {V} explained through sniffles that they had wanted to keep {E}'s joy safe, because they were terrified it might someday run out. "I'm so afraid that one day there will be nothing beautiful left..." they whispered. | e: It seemed that the environment had trapped the joy for fear of losing it, creating an atmosphere of melancholy throughout the place. ]]
 
 {P} held up {oa_art} and its magic created something extraordinary: an endless spring of joy at the heart of {E}, one that would never dry up as long as someone was willing to share.
 
-{V} opened every jar, pouch and box, and joy flooded {E} in a cascade of colour. It was the most beautiful day anyone in that place could ever remember.
+[[p: {V} opened every jar, pouch and box, and joy flooded {E} in a cascade of colour. | e: The whirlwind of {V} gently dissipated, releasing all the accumulated joy, and colours flooded {E}. ]] It was the most beautiful day anyone in that place could ever remember.
 
 That night, {P} nestled under the stars, knowing that joy, when shared, doesn't grow smaller—it multiplies. 🌜💫`
       },
@@ -500,17 +500,17 @@ The journey was long but filled with wonders. {P} saw waterfalls of chocolate, b
 
 When they finally arrived at {E}, they were completely speechless. It was even more beautiful than they had ever imagined. But something was wrong—all the inhabitants were worried.
 
-"It's {V}," explained a tiny sprite. "This morning they wandered into {ea} and muddled everything without meaning to. They mixed up north and south, and now nobody knows where anything is!"
+[[p: "It's {V}," explained a tiny sprite. "This morning they wandered into {ea} and muddled everything without meaning to. They mixed up north and south, and now nobody knows where anything is!" | e: "It's because of {V}," explained a tiny sprite. "This morning it arrived in {ea} and muddled everything. The wind blew so hard that it mixed up north and south, and now nobody knows where anything is!" ]]
 
-{P} found {V} frantically trying to fix things, tripping over one object while trying to set right another. They were so endearingly clumsy that {P} couldn't help letting out a warm laugh.
+{P} found [[p: {V} frantically trying to fix things, tripping over one object while trying to set right another. They were so endearingly clumsy that {P} couldn't help letting out a warm laugh. | e: the area where {V} had passed, with traces of leaves and sand everywhere. ]]
 
 Together, helped by {oa_art} that was waiting at the entrance of the land, they put {E} back in order in record time. Every object returned to its place with a little flash of magic and a tiny chime.
 
-When everything was perfect, {V} turned to {P} with rosy cheeks: "Thank you. No one has ever helped me without laughing at me."
+When everything was perfect, [[p: {V} turned to {P} with rosy cheeks: "Thank you. No one has ever helped me without laughing at me." | e: the air in {E} became fresh and calm. ]]
 
-"Oh, I did laugh!" {P} admitted with a smile. "But only because you're absolutely wonderful."
+[[p: "Oh, I did laugh!" {P} admitted with a smile. "But only because you're absolutely wonderful." | e: ]]
 
-From that day on, {P} became the guardian of {E} and {V} their most loyal—if somewhat clumsy—helper. And they lived happily for many, many nights. 🌙⭐💤`
+From that day on, {P} became the guardian of {E} [[p: and {V} their most loyal—if somewhat clumsy—helper. | e: making sure the weather was always pleasant for everyone. ]] And they lived happily for many, many nights. 🌙⭐💤`
       },
       {
         titulo: "🎭 {P} and the Grand Festival of {E}",
@@ -518,15 +518,15 @@ From that day on, {P} became the guardian of {E} and {V} their most loyal—if s
 
 But with just one hour to go, something dreadful happened: the music had vanished. Without music, there was no party!
 
-The culprit was {V}, who had hidden all the instruments because they wanted to play them alone before the guests arrived—but didn't know how to play any of them, and was now surrounded by instruments and crying with embarrassment.
+[[p: The culprit was {V}, who had hidden all the instruments because they wanted to play them alone before the guests arrived—but didn't know how to play any of them, and was now surrounded by instruments and crying with embarrassment. | e: The culprit was the effect of {V}, which had blown so hard that the instruments had scattered all over {E}, getting trapped in unexpected places. ]]
 
-{P} didn't scold. Instead, they sat beside {V} and taught them something simple: how to make music with just their hands. Clapping, snapping fingers, soft taps on their knees.
+{P} didn't scold. Instead, [[p: they sat beside {V} and taught them something simple: how to make music with just their hands. Clapping, snapping fingers, soft taps on their knees. | e: they looked for a creative way to restore the harmony. ]]
 
 Then {P} remembered {oa_art}. Touching it caused a sweet, perfect melody to fill every corner of {E}, making even the flowers and clouds want to dance.
 
-{V} joined in with their hand-clapping, and soon all the guests arrived and started dancing. It was the best festival {E} had ever seen.
+[[p: {V} joined in with their hand-clapping, and soon all the guests arrived and started dancing. | e: The effect of {V} softened and the instruments returned to their places as if by magic. ]] It was the best festival {E} had ever seen.
 
-"Thank you for bringing the harmony back!" everyone cheered. And {V}, whose clapping was the secret heartbeat of it all, was given the loudest applause of the night.
+"Thank you for bringing the harmony back!" everyone cheered. [[p: And {V}, whose clapping was the secret heartbeat of it all, was given the loudest applause of the night. | e: ]]
 
 Tired out from so much fun, {P} drifted off to sleep with a smile that reached from ear to ear. 🌜✨`
       },
@@ -538,33 +538,33 @@ Tired out from so much fun, {P} drifted off to sleep with a smile that reached f
 
 "{pe} It's a very special gift!" exclaimed {P}.
 
-But then {V} appeared, with eyes that showed they'd been crying. They explained that the gift had fallen right where they lived, and they had truly believed it was meant for them.
+But then [[p: {V} appeared, with eyes that showed they'd been crying. They explained that the gift had fallen right where they lived, and they had truly believed it was meant for them. | e: the force of {V} broke out in the area. It seemed the weather also wanted to claim that glow to calm its own force. ]]
 
-{P} thought for a moment, then had a wonderful idea: "What if we share it? You're afraid at night, and I want to help everyone in {E}. We can do both at the same time!"
+{P} thought for a moment, then had a wonderful idea: "What if we share it? [[p: You're afraid at night, and I want to help everyone in {E}. We can do both at the same time!" | e: I want to help everyone in {E}, and in doing so, calm will reach every corner of the land." ]]
 
-{V} blinked, astonished. Nobody had ever offered to share something like this with them before.
+[[p: {V} blinked, astonished. Nobody had ever offered to share something like this with them before. | e: ]]
 
-That night, {P} and {V} used the magic of {oa_art} together so that everyone in {E} would have beautiful dreams: the children dreamed of adventures, the grown-ups dreamed of happy memories, and {V} dreamed—for the very first time—without a single fear.
+That night, {P} [[p: and {V} used the magic of {oa_art} together so that everyone in {E} would have beautiful dreams: the children dreamed of adventures, the grown-ups dreamed of happy memories, and {V} dreamed—for the very first time—without a single fear. | e: used the magic of {oa_art} to ensure everyone in {E} had beautiful dreams. The force of {V} turned into a constant lullaby and everyone dreamt, for the very first time, with absolute peace. ]]
 
 {P} closed their eyes, grateful, knowing that generosity is the most powerful magic of all. 🌟💤`
       },
       {
         titulo: "🐾 {P} to the Rescue in {E}",
-        cuerpo: `It was a calm afternoon in {E} when {P} heard a peculiar sound: somewhere between a whimper and a little giggle, coming from behind the bushes. Moving closer, they found a tiny lost animal—and right beside it, {V}.
+        cuerpo: `It was a calm afternoon in {E} when {P} heard a peculiar sound: somewhere between a whimper and a little giggle, coming from behind the bushes. Moving closer, they found a tiny lost animal—and right beside it, [[p: {V}. | e: {ea}. ]]
 
-{V} had tried to help the little creature find its way home, but being as scatterbrained as they were, the two of them had ended up lost together in a corner of {E} that neither of them had ever seen before.
+[[p: {V} had tried to help the little creature find its way home, but being as scatterbrained as they were, the two of them had ended up lost together in a corner of {E} that neither of them had ever seen before. | e: It turned out that {V} had enveloped the place with its force and the little animal couldn't find the way out. ]]
 
-"{pe} What a funny muddle we've made!" admitted {V}, scratching their head.
+[[p: "{pe} What a funny muddle we've made!" admitted {V}, scratching their head. | e: ]]
 
 {P} couldn't help laughing, but quickly produced {oa_art}. The object began to glow with a warm, steady light, drawing a shining path through the air that led directly to the little animal's home.
 
-Along the way, {P} explained to {V} how to find direction using stars and flowers. "The forest flowers always face the sun, so if you know where the sun is at midday, you'll never be lost."
+Along the way, {P} explained [[p: to {V} | e: ]] how to find direction using stars and flowers. "The forest flowers always face the sun, so if you know where the sun is at midday, you'll never be lost."
 
-{V} listened carefully, making a mental note of every tip. When the little animal arrived home safe and sound, their family greeted them with such fierce love that tears of joy were visible all around.
+[[p: {V} listened carefully, making a mental note of every tip. | e: ]] When the little animal arrived home safe and sound, their family greeted them with such fierce love that tears of joy were visible all around.
 
-"{pe} You're so brave," whispered the little animal to {P}. "And you, {V}—even though you got lost, you never left me on my own!"
+"{pe} You're so brave," whispered the little animal to {P}. [[p: "And you, {V}—even though you got lost, you never left me on my own!" | e: . ]]
 
-{V} flushed with happiness. They had failed at guiding, but triumphed at what truly mattered: being there.
+[[p: {V} flushed with happiness. They had failed at guiding, but triumphed at what truly mattered: being there. | e: ]]
 
 With hearts at peace and a lesson well learned, everyone made their way back to rest under the stars of {E}. 🌛💨`
       },
@@ -572,27 +572,22 @@ With hearts at peace and a lesson well learned, everyone made their way back to 
         titulo: "🌸 {P} and the Changing of the Season",
         cuerpo: `Spring was supposed to arrive in {E}, but something was holding it back. The fields were still covered in snow and the flowers refused to wake up. Everyone in {E} was puzzled.
 
-The culprit—though quite by accident—was {V}, who had found a magical button shaped like a snowflake and pressed it many, many times, because it was simply too adorable to resist. And with every press, a little more winter arrived!
+[[p: The culprit—though quite by accident—was {V}, who had found a magical button shaped like a snowflake and pressed it many, many times, because it was simply too adorable to resist. And with every press, a little more winter arrived! | e: It was all because of {V}, which had settled in {E} and didn't want to let the sun through. The cold was so intense that it seemed winter would never end. ]]
 
-"I didn't know that would happen," confessed {V} in a very small voice.
+[[p: "I didn't know that would happen," confessed {V} in a very small voice. | e: ]]
 
 {P} gently picked up {oa_art} and blew softly over the sleeping flowers. One by one, as if waking from a long, sweet dream, they opened their petals: first a few shy ones, then all of them at once, in a great rushing cascade of colour.
 
-"This is beautiful!" cried {V}, who had never actually seen flowers blooming, since they always arrived after everything was already open.
+"This is beautiful!" [[p: cried {V}, who had never actually seen flowers blooming, since they always arrived after everything was already open. | e: ]]
+{P} explained [[p: to them | e: to the world ]] that some special moments in nature must be waited for with patience—that you can't rush flowers into blooming any more than you can rush a dream into coming true.
 
-{P} explained that some special moments in nature must be waited for with patience—that you can't rush flowers into blooming any more than you can rush a dream into coming true.
-
-All of {E} filled with colours, sweet scents and the cheerful hum of bees. From that day on, {V} took very good care of the snowflake button and only pressed it in summer, just to bring a tiny bit of cool breeze.
+All of {E} filled with colours, sweet scents and the cheerful hum of bees. [[p: From that day on, {V} took very good care of the snowflake button and only pressed it in summer, just to bring a tiny bit of cool breeze. | e: The force of {V} dissipated, letting the sun warm every corner. ]]
 
 And {P}, with a heart as light as a petal in the wind, got ready for a day of endless play. 🌼🌜`
       },
       {
         titulo: "🎶 The Lost Melody of {E}",
         cuerpo: `A strange and heavy silence had settled over {E}. No birds sang, no wind stirred the leaves, no streams trickled and murmured. It was as if the music of the world had simply vanished.
-
-{P} decided to find the lost sounds. They walked and searched and asked questions until they reached the deepest cave in all of {E}, where they found {V} sitting happily surrounded by thousands of sounds—each one trapped inside a small, floating soap bubble.
-
-"I collect sounds," {V} explained cheerfully. "I already have the song of the very first bird of the morning, the sound of rain on leaves, and three different varieties of silence!"
 
 {P} understood that {V} wasn't wicked at all—just incredibly curious. They suggested a deal: {V} would release all the sounds if {P} would help them learn to make real music.
 
@@ -608,88 +603,82 @@ That night, {E} was full of life, and {P} fell asleep rocked by the happy heartb
         titulo: "🚀 {P} and the Visitor from Space",
         cuerpo: `A silver rocket landed in {E} with a soft explosion of blue light. Out stepped a space visitor: small and round, with enormous eyes like full moons and a smile that took up their whole face.
 
-Everyone in {E} gathered to watch curiously, but nobody could understand what the visitor was saying. Their words sounded like distant music, like tiny bells ringing underwater.
+Everyone in {E} peeked out with curiosity, but no one could understand a single word the visitor was saying. Their speech sounded like distant music, like little bells ringing underwater.
 
-Then {V} stepped forward, absolutely convinced they could speak the space language—because they had once dreamed they could. They planted themselves in front of the visitor and began saying complete nonsense at the top of their voice. The visitor looked more and more confused!
+Then [[p: {V} appeared, absolutely convinced they could speak the language of space because they'd once had a dream about doing so. They marched right up to the visitor and began shouting nonsense at the top of their lungs. The visitor looked more confused than ever! | e: the force of {V} was heard. The noise was so intense that the visitor's words were lost in the air, and the poor traveler seemed more confused than ever. ]]
 
-{P} smiled patiently and brought out {oa_art}. Using its magic, the object translated the visitor's thoughts into bubbles of light that everyone could see and understand.
+{P} smiled patiently and produced {oa_art}. With its magic, the object translated the visitor's wishes into bubbles of light that everyone could see and understand.
 
-The visitor came from a planet where stories had run out. They had travelled across the whole galaxy searching for a place where stories never ended, and they had found {E}.
+The visitor came from a planet where all the stories had run out. They had travelled across the entire galaxy searching for a place where stories never end, and they had found {E}.
 
-{P} made a wonderful promise: every night, before sleeping, someone from {E} would tell a new story. The visitor would collect those stories in their rocket and carry them back to their planet, so that the children there could dream too.
+{P} made a wonderful promise: every night before bedtime, someone from {E} would tell the visitor a new story. The visitor would store these stories in their ship and take them back to their home planet, so the children there could dream too.
 
-"{pe} Now we're intergalactic friends!" said {P}. And {V}, who had tried to help in their own way, was named Ambassador of Wonderfully Confused Words—which, it turned out, were absolutely perfect for making everyone laugh.
+"{pe} We're intergalactic friends now!" said {P}. [[p: And {V}, who had tried to help in their own unique way, was named the Ambassador of Muddled Words—which turned out to be perfect for making everyone laugh. | e: ]]
 
-When the visitor departed, {P} looked up at the stars and knew: no story is ever truly lost. 🌌✨`
+As the visitor departed, {P} looked up at the stars, knowing that no story is ever truly lost. 🌌✨`
       },
       {
         titulo: "🏆 {P} and the Talent Show",
         cuerpo: `Today was the day of the Great Talent Show in {E}. There were wind flautists, cloud tamers, rainbow painters and sunshine dancers. {P} watched it all with admiration—and just a flutter of nerves.
 
-But when {P}'s turn arrived, something unexpected happened: {V} had wandered onto the stage first, thinking the show started later, and was now juggling wild berries in front of the entire audience. Nobody quite had the heart to tell them it wasn't their slot!
+But when {P}'s turn arrived, something happened: [[p: {V} had wandered onto the stage earlier, thinking the contest started later, and was now juggling forest berries in front of the entire audience. No one had the heart to tell them it wasn't their turn! | e: suddenly {V} broke out right over the stage. Forest leaves and berries began flying through the air in front of the entire audience—it looked like total chaos! ]]
 
-{P} watched for a moment. {V} was endearingly disastrous: dropping half the berries, tripping over their own feet, yet still wearing an enormous smile. The audience, though bewildered, was beginning to laugh with genuine warmth.
+{P} watched the scene for a moment. [[p: {V} was endearingly disastrous: dropping half the berries, tripping over their own feet, yet wearing an enormous grin. The audience, though confused, began to laugh with genuine affection. | e: It was all an unexpected mess, but the berries flew in an almost rhythmic way. The audience watched in awe at this natural spectacle. ]]
 
-Then {P} had a brilliant idea. They stepped onto the stage beside {V} and held up {oa_art}. With its magic, they conjured figures of light that danced alongside {V}'s juggling, transforming every fumble into a graceful move and every dropped berry into a glittering star.
+Then {P} had a brilliant idea. They stepped onto the stage [[p: alongside {V} | e: ]] and produced {oa_art}. With it, they created figures of light that followed [[p: {V}'s juggling | e: the movement of {V} ]], turning every fumble into an artistic movement and every dropped berry into a shining star.
 
-The performance was like nothing else: part magic, part beautiful chaos, completely one of a kind.
+The performance was like nothing anyone had ever seen: part magic, part chaos, and completely unique.
 
-"{pe} They're the winners!" everyone cheered when it was over—because they had done something nobody expected: they had turned an accident into art.
+"{pe} They're the winners!" everyone cried when they finished, because they had done something nobody expected: they had turned an accident into art.
 
-{P} learned that their greatest talent wasn't perfection, but the ability to find magic in the places where others only see mess. And they slept soundly that night, dreaming of mornings filled with possibility. 🏅🌟`
+{P} learned that their greatest talent wasn't perfection, but the ability to see magic where others only saw chaos. And they slept peacefully, dreaming of mornings filled with possibility. 🏅🌟`
       },
       {
         titulo: "📚 {P} in the Library of Dreams",
         cuerpo: `In {E} there was a very special library: its books weren't read, they were lived. When you opened one, you tumbled straight into the story and experienced it from the inside. People could spend entire afternoons exploring other worlds without ever leaving the building.
 
-One afternoon {P} arrived, full of curiosity—and found {V} stuck inside a book. They had wandered into "The Great Labyrinth of Dreams" and couldn't find the way out. They'd been going around in circles for hours.
+{P} entered one afternoon, full of curiosity, and found [[p: {V} stuck inside a book. They had wandered into "The Great Dream Labyrinth" and couldn't find the way out. They'd been going in circles for hours! | e: that the effect of {V} had seeped between the pages of a book. The story of "The Great Dream Labyrinth" was all scrambled by wind and mist. ]]
 
-"{pe} {P}, please, I've been searching forever!" came {V}'s voice from the pages.
+[[p: "{pe} {P}, please help! I've been searching for hours!" came {V}'s voice from between the pages. | e: ]]
 
-{P} held up {oa_art}. Its magic illuminated the pages, revealing the correct path through the labyrinth. But {P} had a better idea than simply showing the way: instead of giving {V} the answer outright, they gave clues.
+{P} produced {oa_art}, and with its magic, the book's pages lit up, showing the correct path through the labyrinth. But {P} had a better idea: instead of giving [[p: {V} | e: the mystery ]] the answer directly, they gave out clues.
 
-"Look at the drawings on the labyrinth walls. The tiny arrows always point toward the heart of the book, never toward the exit."
+"Look at the drawings on the labyrinth walls. The tiny arrows always point toward the heart of the book, not toward the exit."
 
-{V} followed the clues one by one—and when they finally stepped out of the book, their eyes were shining with excitement.
+[[p: {V} followed the clues one by one, and when they finally emerged from the book, their eyes were bright with excitement. | e: Following the clues, the air calmed and the pages returned to their places one by one. ]]
 
-"{pe} I solved it myself! Well... with your clues."
+"{pe} I solved it myself! [[p: Well... with your clues. | e: ]] "
 
-{P} explained that this was exactly what books were for: not to give you the answers, but to give you the tools to find them yourself.
+{P} explained that this was exactly what books were for: not to give you the answers, but to give you the tools to find them for yourself.
 
-They sat together in the library and {P} chose a golden book with blank pages. They began to write in it the story of that very afternoon—because the best stories are always the ones you live yourself.
+They sat together in the library, and {P} chose a golden book with blank pages. They began to write the story of that afternoon, because the best stories are the ones you live yourself.
 
-Every day is a new page. And as long as you find friends like {V}, not one page will ever be empty. 📖✨`
+Every day is a new page, and as long as you find [[p: friends like {V} | e: magical moments ]], no page will ever be empty. 📖✨`
       },
       {
         titulo: "🎨 {P} and the Day the Colours Vanished",
         cuerpo: `{E} woke up different. The sky was grey, the flowers had lost their colour, the birds were black and white, and even the rainbow looked like a pale grey line. Someone had stolen all the colours.
 
-{P} investigated, following a trail of tiny grey smudges until they found {V}, sitting in the middle of an enormous puddle of... mixed-up colour. They had wanted to create the perfect colour, taking a tiny bit of everything, and had ended up mixing so thoroughly that all the colours had blended into grey.
+{P} investigated, following a trail of tiny grey spots until they found [[p: {V}, who was sitting in the middle of an enormous puddle of... mixed-up colour. | e: that {V} had passed through, leaving an enormous puddle of... mixed-up colour. ]] They had wanted to create the perfect colour by taking a little bit of everything, but they had mixed so much that all the colours had turned into grey.
 
-"{V}... what did you do?" asked {P}, unable to believe their eyes.
+[[p: "{V}... What have you done?" asked {P}, hardly able to believe it. | e: ]]
 
-"I wanted to create the most beautiful colour in the world," {V} replied in a very small voice. "One that contained everything."
+[[p: "I wanted to create the most beautiful colour in the world," {V} replied in a very small voice. "One that had everything inside it." | e: It seemed that nature had tried to unite all its shades into one, but the result was a grey cloud covering everything. ]]
 
-{P} understood. {V} hadn't wanted to destroy the colours at all—they'd been trying to do the opposite: to find beauty in the union of all things. They had simply forgotten that the secret of colours is that they shine brightest when they're distinct.
+{P} understood. [[p: {V} wasn't trying to destroy the colours; they wanted the opposite—they wanted to find the beauty in bringing everything together. | e: It wasn't an attempt to take away the beauty, but to find it in the union of everything. ]] They had just forgotten that the secret of colours is that they shine brightest when they're separate.
 
-{P} held up {oa_art}, and like the most magical paintbrush in existence, began to separate the colours from the puddle. One by one they returned to their places: blue to the sky, green to the leaves, yellow to the sun, red to the roses.
+They produced {oa_art} and, as if it were the most magical paintbrush in the universe, began to separate the colours from the puddle. One by one, they returned to their places: blue to the sky, green to the leaves, yellow to the sun, red to the roses.
 
-{V} helped with great enthusiasm—though they placed a few colours in unexpected spots: an orange cloud here, a purple tree there. And it turned out that {E} ended up more colourful and joyful than it had ever been before.
+[[p: {V} helped with great enthusiasm, though they put some colours in unexpected places—an orange cloud here, a purple tree there. | e: The force of {V} helped to spread the colours again, though some ended up in unexpected places—an orange cloud here, a purple tree there. ]] And as it turned out, {E} was more colourful and cheerful than ever before.
 
-"You did it again!" said {V} in admiration. "You turned my mess into something beautiful!"
+[[p: "You did it again!" said {V}, full of admiration. "You turned my muddle into something beautiful!" | e: ]]
 
-{P} smiled. "We did it together."
+{P} smiled. [[p: "We both did." | e: ]]
 
-That night, {P} looked out over {E} from up high and thought: there is no mistake so large that it cannot become, with help and creativity, more beautiful than the original. 🌈😴`
+That night, {P} looked out over {E} from high above and thought: there is no mistake so big that it can't be turned, with help and creativity, into something more beautiful than the original. 🌈😴`
       },
       {
         titulo: "🕯️ The Promise of Tomorrow",
-        cuerpo: `{P} was sitting beneath the great ancient tree of {E}—the one that people said was so old it remembered the very first day of the world. It had been a difficult day: things hadn't gone as planned, and {P}'s heart felt a little heavy.
-
-That was when {V} arrived. {V} had a peculiar gift: the ability to smell sadness. It wasn't a very useful skill in general, but in moments like this one, it led them exactly to wherever someone needed company.
-
-"What's wrong?" asked {V}, sitting down beside them.
-
 {P} shared their worries, while {oa_art} began to glow softly on its own, with a warm, gentle light—as if it, too, wanted to help calm the moment.
 
 {O} showed {P} visions of fields full of flowers, where the mistakes of the past had become seeds for the future. It showed laughter shared with friends not yet met, and adventures that could only happen if {P} woke up tomorrow with hope.
@@ -746,7 +735,6 @@ The gentle breeze of {E} rocked them both until they fell asleep, side by side, 
         { id: 'sourischao', nombre: 'Souriceau Espiègle', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
         { id: 'nuagepleur', nombre: 'Nuage Pleurnicheur', emoji: '🌧️☁️', tipo: 'personaje', genero: 'm' },
         { id: 'ombrejoueuse', nombre: 'Ombre Joueuse', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
-        // Conflits naturels
         { id: 'orage', nombre: 'un orage soudain', emoji: '⛈️', tipo: 'entorno', genero: 'm' },
         { id: 'vent', nombre: 'un vent curieux et espiègle', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
         { id: 'sable', nombre: 'un nuage de sable voyageur', emoji: '🌪️', tipo: 'entorno', genero: 'm' },
@@ -769,17 +757,13 @@ The gentle breeze of {E} rocked them both until they fell asleep, side by side, 
         titulo: "{pe} {P} et le secret de {E}",
         cuerpo: `Il était une fois, dans {ea}, un(e) courageux(se) {p} qui rêvait des plus belles aventures. Chaque matin, il(elle) regardait l'horizon avec des yeux remplis d'espoir, imaginant des mondes magiques au-delà de tout ce qu'on pouvait voir.
 
-Un matin doré, en explorant les recoins cachés du lieu, quelque chose brilla entre les feuilles : {oa_art} ! En le/la touchant, un fourmillement magique remonta depuis ses doigts jusqu'à son cœur.
+Un matin doré, en explorant les recoins cachés du lieu, quelque chose brilla entre les feuilles : {oa_art} ! [[p: Mais à cet instant précis, {V} apparut — le personnage le plus surprenant de {E}. {V} n'était pas vraiment méchant(e) : il/elle était si petit(e) et distrait(e) qu'il/elle trébucha sur {oa_art} et le/la cacha accidentellement sous son énorme oreiller de nuages. | e: Mais soudain, {V} se déchaîna dans {E}. Ce n'était pas vraiment malveillant, mais c'était si fort que cela déplaça sans le vouloir {oa_art} et le cacha dans un recoin profond. ]]
 
-"{pe} Quelle merveille !" s'exclama {P}, les yeux grands ouverts.
+[[p: "C'est à moi !" dit {V} en bâillant. "J'ai besoin de quelque chose de doux pour dormir !" | e: ]]
 
-Mais à cet instant précis, {V} apparut — le personnage le plus surprenant de {E}. {V} n'était pas vraiment méchant(e) : il/elle était si petit(e) et distrait(e) qu'il/elle trébucha sur {oa_art} et le/la cacha accidentellement sous son énorme oreiller de nuages.
+{P} ne se fâcha pas. [[p: Au contraire, il(elle) s'assit à côté de {V} et demanda doucement : "Pourquoi tu n'arrives pas à dormir ?" Et ainsi il(elle) découvrit que {V} avait peur du noir. | e: Au lieu de cela, il(elle) chercha patiemment une solution et découvrit que l'endroit avait besoin d'un peu de lumière et de calme pour que tout revienne à la normale. ]]
 
-"C'est à moi !" dit {V} en bâillant. "J'ai besoin de quelque chose de doux pour dormir !"
-
-{P} ne se fâcha pas. Au contraire, il(elle) s'assit à côté de {V} et demanda doucement : "Pourquoi tu n'arrives pas à dormir ?" Et ainsi il(elle) découvrit que {V} avait peur du noir.
-
-{P} utilisa le pouvoir de {oa_art} pour créer une petite lumière douce et chaude qui éclaira le coin de {V}. Dès lors, {V} n'eut plus besoin de rien voler, car il/elle avait sa propre lumière magique — et un tout nouvel ami(e) !
+{P} utilisa le pouvoir de {oa_art} pour créer une petite lumière douce et chaude qui éclaira [[p: le coin de {V}. Dès lors, {V} n'eut plus besoin de rien voler, car il/elle avait sa propre lumière magique — et un tout nouvel ami(e) ! | e: chaque recoin de {E}. Dès lors, la force de {V} se calma et se transforma en une brise légère qui accompagnait les rêves de tous. ]]
 
 Ensemble, ils firent de {E} l'endroit le plus beau et accueillant du monde. Avant de s'endormir, {P} murmura : "La plus grande magie n'est pas dans les objets, mais dans le cœur de ceux qui les partagent." 🌙✨`
       },
@@ -789,13 +773,13 @@ Ensemble, ils firent de {E} l'endroit le plus beau et accueillant du monde. Avan
 
 Un jour, {P} se mit en route avec un cœur plein de courage. Il(elle) traversa des ponts en arc-en-ciel, marcha le long de sentiers de poussière d'étoiles et traversa des jardins où les fleurs chuchotaient des chansons.
 
-Mais alors {V} arriva. Ce personnage plutôt singulier était arrivé dans {E} en premier et, sans mauvaise intention, avait emmêlé tous les chemins en essayant de jouer. Les sentiers étaient tous mélangés et personne ne savait où aller !
+Mais alors [[p: {V} apparut. Ce personnage singulier était arrivé avant à {E} et, sans mauvaise intention, avait emmêlé tous les chemins en essayant de jouer. | e: {V} se produisit. Ce phénomène naturel arriva soudainement à {E} et, sans le vouloir, brouilla tous les chemins et sentiers. ]] Les sentiers étaient mélangés et personne ne savait par où aller !
 
-"{pe} Oh, je suis vraiment désolé(e) !" s'écria {V} en rougissant. "Je voulais juste construire un labyrinthe pour jouer..."
+[[p: "{pe} Oh, je suis vraiment désolé !" — dit {V} en devenant tout rouge —. "Je voulais juste faire un labyrinthe pour jouer..." | e: ]]
 
-{P} prit une grande respiration et sourit. "Ne t'inquiète pas. On peut s'en sortir ensemble !" Et tous les deux passèrent tout un après-midi à démêler les chemins, à rire et à échanger des histoires.
+{P} respira profondément et sourit. [[p: "Ne t'inquiète pas. Nous pouvons résoudre cela ensemble !" Et tous les deux passèrent une après-midi entière à démêler les chemins, en riant et en se racontant des histoires. | e: Avec calme et patience, il se mit au travail pour ordonner l'endroit. Il passa une après-midi entière à démêler les chemins et à redonner l'harmonie à {E}. ]]
 
-À la fin de la journée, quand tout fut en ordre, {P} aperçut {oa_art} brillant au cœur de {E}. Mais la chose la plus précieuse trouvée ce jour-là n'était pas l'objet magique — c'était d'avoir appris que la patience et l'amitié sont le plus grand des trésors.
+À la fin de la journée, quand tout fut en ordre, {P} aperçut {oa_art} brillant au cœur de {E}. Mais la chose la plus précieuse trouvée ce jour-là n'était pas l'objet magique — c'était d'avoir appris que la patience [[p: et l'amitié sont le plus grand trésor. | e: est le plus grand trésor pour surmonter toute difficulté. ]]
 
 Ils se blottirent ensemble sous les étoiles, et {P} comprit que chaque aventure est plus belle quand elle est partagée. 🌟💤`
       },
@@ -805,15 +789,13 @@ Ils se blottirent ensemble sous les étoiles, et {P} comprit que chaque aventure
 
 Par une nuit très spéciale, quelque chose tomba avec un doux éclat juste devant les yeux de {P}. C'était {oa_art}, brillant de toutes les couleurs de l'arc-en-ciel à la fois.
 
-"{pe} Mais qu'est-ce que tu fais là, petit(e) {O} ?" demanda {P}, stupéfait(e).
+Mais avant que {O} ne puisse répondre, [[p: {V} arriva en courant. Il avait poursuivi {oa_art} toute la nuit car il pensait que c'était une étoile filante et voulait la rendre au ciel. Pauvre {V}, il était épuisé d'avoir tant couru ! | e: on sentit la force de {V}. Ce phénomène avait enveloppé {oa_art} toute la nuit, comme s'il voulait le ramener au ciel. ]]
 
-Mais avant que {O} puisse répondre, {V} arriva en courant. Il/elle avait poursuivi {oa_art} toute la nuit, pensant que c'était une étoile tombée et voulant la renvoyer dans le ciel. Pauvre {V}, épuisé(e) d'avoir tant couru !
+{P} lui expliqua avec affection [[p: que {oa_art} n'était pas une étoile mais quelque chose de bien plus spécial : un objet capable de réaliser les rêves de celui qui en a besoin. Et {V} avait vraiment besoin de quelque chose : un ami pour l'accompagner la nuit, car il se sentait très seul. | e: au vent et aux étoiles que {oa_art} était un objet spécial capable d'apporter le calme et de beaux rêves à celui qui en avait le plus besoin. ]]
 
-{P} expliqua doucement que {oa_art} n'était pas une étoile du tout, mais quelque chose de bien plus spécial : un objet capable d'exaucer les vœux les plus profonds de celui qui en avait le plus besoin. Et ce dont {V} avait besoin était simple : un ami pour lui tenir compagnie la nuit, car il/elle se sentait terriblement seul(e).
+Cette nuit-là, {P} utilisa le pouvoir de {oa_art} pour que [[p: {V} puisse comprendre la langue des étoiles. Et ainsi, pendant que {P} écoutait leurs secrets brillants, {V} apprit qu'il ne serait plus jamais seul. | e: la paix revienne à {E}. Le ciel redevint serein et les étoiles brillèrent plus fort que jamais. ]]
 
-Ce soir-là, {P} utilisa le pouvoir de {oa_art} pour que {V} puisse comprendre le langage des étoiles. Et tandis que {P} écoutait leurs secrets scintillants, {V} découvrit qu'il/elle ne serait plus jamais seul(e).
-
-Tous les trois — {P}, {V} et les étoiles de {E} — devinrent les meilleurs amis de l'univers tout entier. 🌙🌟`
+Tous les trois — {P}, [[p: {V} | e: le calme ]] et les étoiles de {E} — devinrent les meilleurs amis de l'univers tout entier. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} et le mystère de {E}",
@@ -821,17 +803,17 @@ Tous les trois — {P}, {V} et les étoiles de {E} — devinrent les meilleurs a
 
 {P} n'hésita pas une seule seconde ! Il(elle) suivit les traces de poussière d'étoiles qui serpentaient à travers {E} jusqu'à arriver dans une clairière cachée, au cœur des grands arbres anciens.
 
-Là était {V}, entouré(e) de toute la joie de {E} : des rires embouteillés dans de petits flacons, des couleurs rangées dans de petites bourses et des mélodies enfermées dans de petites boîtes. Mais {V} ne riait pas — il/elle était assis(e) par terre, l'air très triste.
+Là était [[p: {V}, entouré de toute la joie de {E} : des rires dans des petits flacons, des couleurs dans des petits sachets et des mélodies dans de petites boîtes. Mais {V} ne riait pas ; il était assis par terre, très triste. | e: l'effet de {V}, qui avait piégé toute la joie de {E} : les rires, les couleurs et les mélodies étaient enveloppés dans un tourbillon de confusion. ]]
 
-"Pourquoi as-tu pris tout ça ?" demanda {P} d'une voix douce.
+[[p: "Pourquoi as-tu ramassé tout cela ?" — demanda {P} d'une voix douce. | e: ]]
 
-{V} expliqua en reniflant qu'il/elle avait voulu mettre la joie de {E} en sécurité, car il/elle avait terriblement peur qu'elle s'épuise un jour. "J'ai si peur qu'un jour il ne reste plus rien de beau..." murmura-t-il/elle.
+[[p: {V} expliqua entre deux sanglots qu'il avait voulu garder la joie de {E} car il avait peur qu'elle ne s'épuise. "J'ai tellement peur qu'un jour il n'y ait plus de jolies choses..." | e: Il semblait que l'environnement avait piégé la joie par peur de la perdre, créant un climat de mélancolie dans tout l'endroit. ]]
 
-{P} leva {oa_art} et sa magie créa quelque chose d'extraordinaire : une source intarissable de joie au cœur de {E}, une source qui ne tarirait jamais tant que quelqu'un voudrait partager.
+{P} sortit {oa_art} et, avec sa magie, créa quelque chose d'incroyable : une source de joie inépuisable au cœur de {E}, qui ne s'arrêterait jamais tant qu'il y aurait quelqu'un pour partager.
 
-{V} ouvrit tous les flacons, les bourses et les boîtes, et la joie inonda {E} d'une cascade de couleurs. Ce fut le plus beau jour dont quiconque dans cet endroit ait jamais pu se souvenir.
+[[p: {V} ouvrit tous les flacons, sachets et boîtes, et la joie inonda {E} de couleurs. | e: Le tourbillon de {V} se dissipa doucement, libérant toute la joie accumulée, et les couleurs inondèrent {E}. ]] Ce fut le plus beau jour dont on se souvenait dans cet endroit.
 
-Cette nuit-là, {P} se blottit sous les étoiles, sachant que la joie, quand elle est partagée, ne diminue pas — elle se multiplie. 🌜💫`
+Cette nuit-là, {P} se blottit sous les étoiles, sachant que la joie, quand elle est partagée, ne diminue pas : elle se multiplie ! 🌜💫`
       },
       {
         titulo: "💫 Le voyage de {P} vers {E}",
@@ -1110,69 +1092,63 @@ La douce brise de {E} les berça tous les deux jusqu'à ce qu'ils s'endorment, c
         titulo: "{pe} {P} und das Geheimnis von {E}",
         cuerpo: `Es war einmal, in {ea}, ein mutiges kleines {p}, das von den schönsten Abenteuern träumte. Jeden Morgen blickte es mit hoffnungsvollen Augen auf den Horizont und stellte sich magische Welten jenseits von allem vor, was man sehen konnte.
 
-An einem goldenen Morgen, während es die versteckten Winkel des Landes erkundete, leuchtete etwas zwischen den Blättern: {oa_art}! Beim Berühren lief ein magisches Kribbeln von den Fingern bis ins Herz.
+An einem goldenen Morgen, während es die versteckten Winkel des Landes erkundete, leuchtete etwas zwischen den Blättern: {oa_art}! [[p: Aber genau in diesem Moment erschien {V}, der... überraschendste Bösewicht von {E}. {V} war eigentlich gar nicht böse: Er war nur so klein und zerstreut, dass er aus Versehen über {oa_art} stolperte und es unter seinem riesigen Wolkenkissen versteckte. | e: Aber genau in diesem Moment änderte sich das Wetter in {E} und {V} brach los. Es war eigentlich nichts Schlimmes, aber es war so stark, dass es aus Versehen {oa_art} bewegte und in einem tiefen Winkel versteckte. ]]
 
-"{pe} Wie wunderbar!" rief {P} mit weit aufgerissenen Augen.
+[[p: "Das gehört mir!" — sagte {V} gähnend —. "Ich brauche etwas Weiches zum Schlafen!" | e: ]]
 
-Aber genau in diesem Moment tauchte {V} auf — die überraschendste Figur in ganz {E}. {V} war nicht wirklich böse: Er/sie war so klein und gedankenlos, dass er/sie über {oa_art} stolperte und es versehentlich unter einem riesigen Wolkenkissen versteckte.
+{P} wurde nicht wütend. [[p: Stattdessen setzte er sich zu {V} und fragte ihn sanft: "Warum kannst du nicht schlafen?" Und so entdeckte er, dass {V} Angst vor der Dunkelheit hatte. | e: Stattdessen suchte er geduldig nach einer Lösung und entdeckte, dass der Ort ein wenig Licht und Ruhe brauchte, damit alles wieder normal wurde. ]]
 
-"Das gehört mir!" sagte {V} gähnend. "Ich brauche etwas Weiches zum Schlafen!"
+{P} nutzte die Kraft von {oa_art}, um ein kleines, sanftes und warmes Licht zu erschaffen, das [[p: die Ecke von {V} erhellte. Von diesem Moment an musste {V} nichts mehr stehlen, weil er sein eigenes magisches Licht hatte... und einen neuen Freund! | e: jeden Winkel von {E} erhellte. Von diesem Moment an beruhigte sich die Kraft von {V} und verwandelte sich in eine sanfte Brise, die die Träume aller begleitete. ]]
 
-{P} ärgerte sich nicht. Stattdessen setzte er/sie sich neben {V} und fragte sanft: "Warum kannst du nicht schlafen?" Und so erfuhr er/sie, dass {V} Angst vor der Dunkelheit hatte.
-
-{P} nutzte die Kraft von {oa_art}, um ein kleines, warmes, sanftes Licht zu erschaffen, das in {V}s Ecke glühte. Von da an brauchte {V} nichts mehr zu stehlen, denn er/sie hatte sein/ihr eigenes magisches Licht — und einen brandneuen Freund!
-
-Gemeinsam machten sie {E} zum schönsten und einladendsten Ort der Welt. Bevor er/sie einschlief, flüsterte {P}: "Die größte Magie liegt nicht in Gegenständen, sondern in den Herzen derer, die sie teilen." 🌙✨`
+Gemeinsam machten sie {E} zum schönsten und gemütlichsten Ort der Welt. Vor dem Einschlafen flüsterte {P}: "Die größte Magie steckt nicht in den Dingen, sondern im Herzen derer, die sie teilen." 🌙✨`
       },
       {
-        titulo: "✨ Das große Abenteuer von {P} in {E}",
-        cuerpo: `Im wundervollen Land {E} lebte ein mutiges {p} mit einem riesigen Traum: das legendäre {oa_art} zu finden. Alle sagten, dass dieser magische Gegenstand die Macht hatte, die schönsten Träume wahr werden zu lassen.
+        titulo: "✨ {P}s großes Abenteuer in {E}",
+        cuerpo: `Es war einmal im wundervollen Land {E}, da lebte ein mutiges {p} mit einem riesigen Traum: das legendäre {oa_art} zu finden. Alle sagten, dieser magische Gegenstand hätte die Macht, die schönsten Träume wahr werden zu lassen.
 
-Eines Tages machte sich {P} mit einem mutigen Herzen auf den Weg. Er/sie überquerte Regenbogenbrücken, wanderte auf Sterenstaubpfaden und durchquerte Gärten, in denen Blumen Lieder flüsterten.
+Eines Tages machte sich {P} mit mutigem Herzen auf den Weg. Er überquerte Regenbogenbrücken, wanderte auf Sternenstaubpfaden und durchquerte Gärten, in denen die Blumen Lieder flüsterten.
 
-Dann erschien {V}. Diese eher sonderbare Gestalt war zuerst in {E} angekommen und hatte, ohne böse Absicht, alle Wege verwirrt, während sie zu spielen versuchte. Die Pfade waren alle durcheinandergebracht und niemand wusste mehr, wo es entlangging!
+Doch dann [[p: erschien {V}. Diese eigenartige Figur war schon vorher in {E} angekommen und hatte ohne böse Absicht beim Versuch zu spielen alle Wege durcheinandergebracht. | e: geschah {V}. Dieses Naturphänomen kam plötzlich über {E} und wirbelte ohne Absicht alle Wege und Pfade durcheinander. ]] Die Pfade waren vermischt und niemand wusste mehr, wo es langging!
 
-"{pe} Oh, es tut mir so leid!" rief {V} und wurde rot. "Ich wollte nur ein Labyrinth zum Spielen bauen..."
+[[p: "{pe} Oh, das tut mir so leid!" — sagte {V} und wurde ganz rot —. "Ich wollte doch nur ein Labyrinth zum Spielen bauen..." | e: ]]
 
-{P} holte tief Luft und lächelte. "Mach dir keine Sorgen. Wir können es gemeinsam lösen!" Und die beiden verbrachten einen ganzen Nachmittag damit, Wege zu entwirren, zu lachen und Geschichten auszutauschen.
+{P} atmete tief durch und lächelte. [[p: "Mach dir keine Sorgen. Wir können das gemeinsam lösen!" Und die beiden verbrachten einen ganzen Nachmittag damit, die Wege zu entwirren, zu lachen und sich Geschichten zu erzählen. | e: Mit Ruhe und Geduld machte er sich an die Arbeit, den Ort zu ordnen. Er verbrachte einen ganzen Nachmittag damit, die Wege zu entwirren und die Harmonie in {E} wiederherzustellen. ]]
 
-Am Ende des Tages, als alles in Ordnung war, entdeckte {P} {oa_art}, das im Herzen von {E} leuchtete. Das wertvollste Ding, das er/sie an diesem Tag fand, war jedoch nicht der magische Gegenstand — sondern die Erkenntnis, dass Geduld und Freundschaft der größte Schatz sind.
+Am Ende des Tages, als alles wieder in Ordnung war, fand {P} {oa_art}, das im Herzen von {E} leuchtete. Aber das Wertvollste an diesem Tag war nicht der magische Gegenstand: Es war die Erkenntnis, dass Geduld [[p: und Freundschaft der größte Schatz sind. | e: der größte Schatz ist, um jede Schwierigkeit zu überwinden. ]]
 
-Sie kuschelten sich zusammen unter den Sternen, und {P} verstand, dass jedes Abenteuer schöner wird, wenn man es teilt. 🌟💤`
+Sie kuschelten sich zusammen und beobachteten die Sterne, und {P} begriff, dass jedes Abenteuer schöner ist, wenn man es teilt. 🌟💤`
       },
       {
         titulo: "🌙 {P} und {O} unter den Sternen",
-        cuerpo: `Wenn die Sonne hinter {E} verschwand und der Himmel sich mit kleinen, funkelnden Punkten füllte, begann die Magie. Niemand wusste das besser als {P}, der/die jeden Abend auf einen anderen Stern wünschte.
+        cuerpo: `Wenn die Sonne hinter {E} verschwand und der Himmel sich mit kleinen funkelnden Punkten füllte, begann die Magie. Niemand wusste das besser als {P}, der sich jeden Abend bei einem anderen Stern etwas wünschte.
 
-An einem ganz besonderen Abend fiel etwas mit einem sanften Schimmer direkt vor {P}s Augen. Es war {oa_art}, das in jeder Farbe des Regenbogens gleichzeitig leuchtete.
+An einem ganz besonderen Abend fiel etwas mit einem sanften Schimmer direkt vor {P}s Augen. Es war {oa_art}, das in allen Farben des Regenbogens gleichzeitig leuchtete.
 
-"{pe} Was machst du hier, kleiner {O}?" fragte {P} staunend.
+Doch bevor {O} antworten konnte, [[p: kam {V} herbeigelaufen. Er hatte die ganze Nacht {oa_art} gejagt, weil er dachte, es sei ein Stern, der vom Himmel gefallen war, und er wollte ihn dorthin zurückbringen. Der arme {V} war ganz erschöpft vom vielen Laufen! | e: war die Kraft von {V} zu spüren. Dieses Phänomen hatte {oa_art} die ganze Nacht eingehüllt, als wollte es ihn zurück zum Himmel tragen. ]]
 
-Aber bevor {O} antworten konnte, kam {V} angelaufen. Er/sie hatte {oa_art} die ganze Nacht verfolgt, weil er/sie dachte, es sei ein gefallener Stern, und es zurück in den Himmel schicken wollte. Armer {V}, erschöpft vom vielen Laufen!
+{P} erklärte ihm liebevoll, [[p: dass {oa_art} kein Stern war, sondern etwas viel Besondereres: ein Gegenstand, der die Träume derer wahr machen kann, die sie brauchen. Und {V} brauchte wirklich etwas: einen Freund, der ihn nachts begleitet, weil er sich sehr einsam fühlte. | e: dem Wind und den Sternen, dass {oa_art} ein besonderer Gegenstand war, der Ruhe und schöne Träume bringen konnte, wo sie am meisten gebraucht wurden. ]]
 
-{P} erklärte sanft, dass {oa_art} überhaupt kein Stern war, sondern etwas viel Besonderes: ein Gegenstand, der die tiefsten Wünsche von dem erfüllen konnte, der ihn am meisten brauchte. Und was {V} brauchte, war einfach: einen Freund, der ihm/ihr nachts Gesellschaft leistete, denn er/sie war furchtbar einsam.
+In dieser Nacht nutzte {P} die Kraft von {oa_art}, damit [[p: {V} die Sprache der Sterne verstehen konnte. Und während {P} ihren leuchtenden Geheimnissen lauschte, lernte {V}, dass er nie wieder allein sein würde. | e: der Frieden in {E} einkehrte. Der Himmel wurde heiter und die Sterne leuchteten heller als je zuvor. ]]
 
-An diesem Abend nutzte {P} die Kraft von {oa_art}, damit {V} die Sprache der Sterne verstehen konnte. Und während {P} ihre glitzernden Geheimnisse lauschte, entdeckte {V}, dass er/sie nie mehr allein sein würde.
-
-Alle drei — {P}, {V} und die Sterne von {E} — wurden die besten Freunde im gesamten Universum. 🌙🌟`
+Alle drei — {P}, [[p: {V} | e: die Ruhe ]] und die Sterne von {E} — wurden die besten Freunde im ganzen Universum. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} und das Rätsel von {E}",
-        cuerpo: `Alles begann an einem ganz gewöhnlichen Dienstag, als {P} eine geheimnisvolle Notiz am Tor von {E} fand: "Jemand hat die Freude dieses Ortes gestohlen. Folge den leuchtenden Spuren und finde heraus, wer."
+        cuerpo: `Alles begann an einem ganz normalen Dienstag, als {P} einen geheimnisvollen Zettel am Tor von {E} fand: "Jemand hat die Freude von diesem Ort gestohlen. Folge den leuchtenden Spuren und finde heraus, wer."
 
-{P} zögerte keine Sekunde! Er/sie folgte den Sterenstaubspuren, die sich durch {E} schlängelten, bis er/sie zu einer versteckten Lichtung tief zwischen riesigen alten Bäumen gelangte.
+{P} zögerte keine Sekunde! Er folgte den Sternenstaubspuren, die sich durch {E} schlängelten, bis er zu einer versteckten Lichtung im Herzen der großen, alten Bäume kam.
 
-Dort war {V}, umgeben von der gesamten Freude {E}s: Lachen in kleinen Fläschchen, Farben in kleinen Beuteln und Melodien in kleinen Schachteln. Aber {V} lachte nicht — er/sie saß auf dem Boden und sah sehr traurig aus.
+Dort war [[p: {V}, umgeben von der ganzen Freude von {E}: Lachen in kleinen Fläschchen, Farben in Säckchen und Melodien in winzigen Schachteln. Aber {V} lachte nicht; er saß ganz traurig auf dem Boden. | e: die Wirkung von {V}, die die ganze Freude von {E} eingefangen hatte: Das Lachen, die Farben und die Melodien waren in einen Wirbel der Verwirrung gehüllt. ]]
 
-"Warum hast du das alles genommen?" fragte {P} mit einer sanften Stimme.
+[[p: "Warum hast du das alles eingesammelt?" — fragte {P} mit sanfter Stimme. | e: ]]
 
-{V} erklärte schluchzend, dass er/sie die Freude von {E} in Sicherheit bringen wollte, denn er/sie hatte schreckliche Angst, dass sie eines Tages ausgehen könnte. "Ich habe so Angst, dass eines Tages nichts Schönes mehr übrig ist..."
+[[p: {V} erklärte unter Schluchzen, dass er die Freude von {E} aufbewahren wollte, weil er Angst hatte, dass sie ausgehen könnte. "Ich habe so große Angst, dass es eines Tages keine schönen Dinge mehr gibt..." | e: Es schien, als hätte die Umgebung die Freude aus Angst vor ihrem Verlust eingefangen, was eine melancholische Stimmung im ganzen Ort verbreitete. ]]
 
-{P} hielt {oa_art} hoch, und seine/ihre Magie erschuf etwas Außergewöhnliches: eine unerschöpfliche Quelle der Freude im Herzen von {E}, eine, die niemals versiegen würde, solange jemand bereit war zu teilen.
+{P} holte {oa_art} hervor und erschuf mit seiner Magie etwas Unglaubliches: eine unerschöpfliche Quelle der Freude im Herzen von {E}, die niemals versiegen würde, solange es jemanden gibt, der teilen möchte.
 
-{V} öffnete jedes Fläschchen, jeden Beutel und jede Schachtel, und Freude überschwemmte {E} in einem Farbstrom. Es war der schönste Tag, an den sich irgendjemand in diesem Ort je erinnern konnte.
+[[p: {V} öffnete alle Fläschchen, Säckchen und Schachteln, und die Freude überflutete {E} mit Farben. | e: Der Wirbel von {V} löste sich sanft auf und ließ die ganze angestaute Freude frei, und die Farben überfluteten {E}. ]] Es war der schönste Tag, an den sich irgendjemand an diesem Ort erinnern konnte.
 
-In dieser Nacht schlummerte {P} unter den Sternen, in dem Wissen, dass Freude, wenn sie geteilt wird, nicht kleiner wird — sie multipliziert sich. 🌜💫`
+In dieser Nacht kuschelte sich {P} unter die Sterne, in dem Wissen, dass Freude nicht weniger wird, wenn man sie teilt: Sie vervielfacht sich! 🌜💫`
       },
       {
         titulo: "💫 {P}s Reise nach {E}",
@@ -1182,33 +1158,33 @@ Die Reise war lang, aber voller Wunder. {P} sah Schokoladenwasserfälle, Brücke
 
 Als er/sie schließlich in {E} ankam, war er/sie völlig sprachlos. Es war noch schöner, als er/sie es sich je vorgestellt hatte. Aber irgendetwas stimmte nicht — alle Bewohner waren besorgt.
 
-"Es ist {V}", erklärte ein kleines Gnomen. "Heute Morgen ist er/sie in {ea} gewandert und hat alles durcheinandergebracht. Er/sie hat Norden und Süden verwechselt, und jetzt weiß niemand mehr, wo irgendetwas ist!"
+[[p: "Es ist {V}", erklärte ein kleines Gnomen. "Heute Morgen ist er/sie in {ea} gewandert und hat alles durcheinandergebracht. Er/sie hat Norden und Süden verwechselt, und jetzt weiß niemand mehr, wo irgendetwas ist!" | e: "Es liegt an {V}", erklärte ein kleines Gnomen. "Heute Morgen ist er über {ea} hereingebrochen und hat alles durcheinandergewirbelt. Der Wind blies so stark, dass er Norden und Süden verwechselt hat, und jetzt weiß niemand mehr, wo irgendetwas ist!" ]]
 
-{P} fand {V}, der/die fieberhaft versuchte, alles zu reparieren, über einen Gegenstand stolperte, während er/sie einen anderen aufzurichten versuchte. Er/sie war so entzückend tollpatschig, dass {P} nicht umhin konnte, herzlich zu lachen.
+{P} fand [[p: {V}, der/die fieberhaft versuchte, alles zu reparieren, über einen Gegenstand stolperte, während er/sie einen anderen aufzurichten versuchte. Er/sie war so entzückend tollpatschig, dass {P} nicht umhin konnte, herzlich zu lachen. | e: den Bereich, den {V} durchquert hatte, mit Spuren von Blättern und Sand überall. ]]
 
 Zusammen, mit der Hilfe von {oa_art}, das am Eingang des Landes wartete, brachten sie {E} in Rekordzeit wieder in Ordnung. Jeder Gegenstand kehrte mit einem kleinen Zauberschimmer und einem kleinen Glöckchen an seinen Platz zurück.
 
-Als alles perfekt war, drehte sich {V} mit roten Wangen zu {P}: "Danke. Niemand hat mir je geholfen, ohne mich auszulachen."
+Als alles perfekt war, [[p: drehte sich {V} mit roten Wangen zu {P}: "Danke. Niemand hat mir je geholfen, ohne mich auszulachen." | e: wurde die Luft in {E} wieder frisch und ruhig. ]]
 
-"Oh, ich habe gelacht!" gab {P} lächelnd zu. "Aber nur, weil du absolut wunderbar bist."
+[[p: "Oh, ich habe gelacht!" gab {P} lächelnd zu. "Aber nur, weil du absolut wunderbar bist." | e: ]]
 
-Von da an wurde {P} der Wächter von {E} und {V} sein/ihr treuester — wenn auch etwas tolpatschiger — Helfer. Und sie lebten glücklich für viele, viele Nächte. 🌙⭐💤`
+Von da an wurde {P} der Wächter von {E} [[p: und {V} sein/ihr treuester — wenn auch etwas tolpatschiger — Helfer. | e: und sorgte dafür, dass das Wetter für alle immer angenehm war. ]] Und sie lebten glücklich für viele, viele Nächte. 🌙⭐💤`
       },
       {
         titulo: "🎭 {P} und das Große Fest in {E}",
         cuerpo: `Alles war bereit für das größte Fest des Jahres in {E}! {P} hatte Wochen damit verbracht, Lichterketten, bunte Luftballons und einen riesigen, mehrstöckigen Kuchen vorzubereiten. Heute Nacht war das Große Fest.
 
-Aber mit nur einer Stunde bis zum Beginn geschah etwas Schreckliches: Die Musik war verschwunden. Ohne Musik kein Fest!
+Aber mit nur einer Stunde bis zum Beginn geschah etwas Unerwartetes: Die Musik war verschwunden. Ohne Musik kein Fest!
 
-Der/die Schuldige war {V}, der/die alle Instrumente versteckt hatte, weil er/sie sie allein spielen wollte, bevor die Gäste ankamen — aber keines davon spielen konnte, und nun umgeben von Instrumenten und weinend dasaß.
+[[p: Und die Schuldige war {V}, die alle Instrumente versteckt hatte, weil sie sie allein spielen wollte, bevor die Gäste ankamen... aber keines davon spielen konnte, und nun umgeben von Instrumenten und weinend dasaß. | e: Es stellte sich heraus, dass {V} so stark geblasen hatte, dass die Instrumente in ganz {E} verstreut waren und an unerwarteten Stellen feststeckten. ]]
 
-{P} schimpfte nicht. Stattdessen setzte er/sie sich neben {V} und brachte ihm/ihr etwas Einfaches bei: Musik nur mit den Händen zu machen. Klatschen, Schnippen der Finger, sanftes Klopfen auf die Knie.
+{P} schimpfte nicht. Stattdessen [[p: setzte er sich neben sie und brachte ihr etwas Einfaches bei: Musik nur mit den Händen zu machen. Klatschen, Schnippen der Finger, sanftes Klopfen auf die Knie. | e: suchte er nach einer kreativen Möglichkeit, die Harmonie wiederherzustellen. ]]
 
 Dann erinnerte sich {P} an {oa_art}. Beim Berühren erfüllte eine süße, perfekte Melodie jeden Winkel von {E} und ließ sogar die Blumen und Wolken tanzen.
 
-{V} machte mit seinen/ihren Händen mit, und bald kamen alle Gäste an und begannen zu tanzen. Es war das beste Fest, das {E} je erlebt hatte.
+[[p: {V} machte mit ihren Händen mit, und bald kamen alle Gäste an und begannen zu tanzen. | e: Die Kraft von {V} wurde sanfter und die Instrumente kehrten wie durch Zauberei an ihren Platz zurück. ]] Es war das beste Fest, das {E} je erlebt hatte.
 
-"Danke, dass du die Harmonie zurückgebracht hast!" jubelten alle. Und {V}, dessen/deren Klatschen der geheime Herzschlag von allem war, bekam den lautesten Applaus der Nacht.
+"Danke, dass du die Harmonie zurückgebracht hast!" jubelten alle. [[p: Und {V}, deren Klatschen der geheime Herzschlag von allem war, bekam den lautesten Applaus der Nacht. | e: ]]
 
 Erschöpft von so viel Spaß schlief {P} mit einem Lächeln ein, das von einem Ohr zum anderen reichte. 🌜✨`
       },
@@ -1216,37 +1192,37 @@ Erschöpft von so viel Spaß schlief {P} mit einem Lächeln ein, das von einem O
         titulo: "🎁 Ein Geschenk der Sterne für {P}",
         cuerpo: `Es war eine außerordentlich friedliche Nacht in {E}, als etwas wie eine leuchtende Schneeflocke vom Himmel schwebte. Als es landete, stellte sich heraus, dass es {oa_art} war, das mit dem Licht von tausend Galaxien leuchtete.
 
-{P} hielt es vorsichtig. Beim Berühren spürte er/sie, dass er/sie die tiefsten Ängste in wunderschöne, bunte Träume verwandeln konnte.
+{P} hielt es vorsichtig. Beim Berühren spürte er, dass er die tiefsten Ängste in wunderschöne, bunte Träume verwandeln konnte.
 
-"{pe} Es ist ein ganz besonderes Geschenk!" rief {P}.
+"{pe} Es ist ein ganz besonderes Geschenk!" — rief {P}.
 
-Aber dann erschien {V} mit Augen, die zeigten, dass er/sie geweint hatte. Er/sie erklärte, dass das Geschenk genau dort gefallen war, wo er/sie lebte, und dass er/sie wirklich geglaubt hatte, es sei für ihn/sie bestimmt.
+Doch dann [[p: erschien {V} mit Augen, die zeigten, dass er geweint hatte. Er erklärte, dass das Geschenk genau dort gefallen war, wo er lebte, und dass er wirklich geglaubt hatte, es sei für ihn bestimmt. | e: brach {V} in der Gegend los. Es schien, als wollte auch das Wetter dieses Leuchten beanspruchen, um seine eigene Kraft zu beruhigen. ]]
 
-{P} dachte einen Moment nach und hatte dann eine wundervolle Idee: "Was, wenn wir es teilen? Du hast nachts Angst, und ich möchte allen in {E} helfen. Wir können beides gleichzeitig tun!"
+{P} dachte einen Moment nach und hatte dann eine wundervolle Idee: "Was, wenn wir es teilen? [[p: Du hast nachts Angst, und ich möchte allen in {E} helfen. Wir können beides gleichzeitig tun!" | e: Ich möchte allen in {E} helfen, und so wird die Ruhe in jeden Winkel des Ortes einkehren." ]]
 
-{V} blinzelte erstaunt. Niemand hatte ihm/ihr jemals angeboten, etwas so zu teilen.
+[[p: {V} blinzelte erstaunt. Niemand hatte ihm jemals angeboten, etwas so zu teilen. | e: ]]
 
-In dieser Nacht nutzten {P} und {V} gemeinsam die Magie von {oa_art}, damit alle in {E} schöne Träume haben würden: Die Kinder träumten von Abenteuern, die Erwachsenen von glücklichen Erinnerungen, und {V} träumte — zum allerersten Mal — ohne jegliche Angst.
+In dieser Nacht nutzte {P} [[p: und {V} gemeinsam die Magie von {oa_art}, damit alle in {E} schöne Träume haben würden: Die Kinder träumten von Abenteuern, die Erwachsenen von glücklichen Erinnerungen, und {V} träumte — zum allerersten Mal — ohne jegliche Angst. | e: die Magie von {oa_art}, damit alle in {E} schöne Träume haben würden. Die Kraft von {V} verwandelte sich in ein stetiges Schlaflied und alle träumten zum ersten Mal in absolutem Frieden. ]]
 
 {P} schloss die Augen, dankbar, in dem Wissen, dass Großzügigkeit die mächtigste Magie von allen ist. 🌟💤`
       },
       {
         titulo: "🐾 {P} zu Hilfe in {E}",
-        cuerpo: `Es war ein ruhiger Nachmittag in {E}, als {P} ein eigenartiges Geräusch hörte: irgendwo zwischen einem Wimmern und einem kleinen Kichern, das aus den Büschen kam. Nähertretend fand er/sie ein kleines verlorenes Tier — und direkt daneben {V}.
+        cuerpo: `Es war ein ruhiger Nachmittag in {E}, als {P} ein eigenartiges Geräusch hörte: irgendwo zwischen einem Wimmern und einem kleinen Kichern, das aus den Büschen kam. Nähertretend fand er ein kleines verlorenes Tier [[p: ... und direkt daneben {V}. | e: in der Mitte von {ea}. ]]
 
-{V} hatte versucht, dem kleinen Wesen den Weg nach Hause zu zeigen, aber so zerstreut wie er/sie war, hatten beide sich gemeinsam in einem Winkel von {E} verloren, den keiner von beiden kannte.
+[[p: {V} hatte versucht, dem kleinen Wesen den Weg nach Hause zu zeigen, aber so zerstreut wie er war, hatten beide sich gemeinsam in einem Winkel von {E} verloren, den keiner von beiden kannte. | e: Es stellte sich heraus, dass {V} den Ort mit seiner Kraft eingehüllt hatte und das kleine Tier den Ausgang nicht finden konnte. ]]
 
-"{pe} Was für ein lustiges Durcheinander haben wir gemacht!" gab {V} zu, sich am Kopf kratzend.
+[[p: "{pe} Was für ein lustiges Durcheinander haben wir gemacht!" — gab {V} zu, sich am Kopf kratzend. | e: ]]
 
 {P} konnte nicht umhin zu lachen, brachte aber schnell {oa_art} hervor. Der Gegenstand begann mit einem warmen, gleichmäßigen Licht zu glühen und zeichnete in der Luft einen leuchtenden Weg, der direkt zum Zuhause des kleinen Tieres führte.
 
-Unterwegs erklärte {P} {V}, wie man sich mit Sternen und Blumen orientiert. "Die Waldblumen richten sich immer nach der Sonne aus, also wenn du weißt, wo die Sonne mittags steht, wirst du dich nie verirren."
+Unterwegs erklärte {P} [[p: {V} | e: ]] wie man sich mit Sternen und Blumen orientiert. "Die Waldblumen richten sich immer nach der Sonne aus, also wenn du weißt, wo die Sonne mittags steht, wirst du dich nie verirren."
 
-{V} hörte aufmerksam zu und merkte sich jeden Ratschlag. Als das kleine Tier sicher und wohlbehalten zu Hause ankam, begrüßte es seine Familie mit so viel Liebe, dass Freudentränen für alle sichtbar waren.
+[[p: {V} hörte aufmerksam zu und merkte sich jeden Ratschlag. | e: ]] Als das kleine Tier sicher und wohlbehalten zu Hause ankam, begrüßte es seine Familie mit so viel Liebe, dass Freudentränen für alle sichtbar waren.
 
-"{pe} Du bist so mutig", flüsterte das kleine Tier zu {P}. "Und du, {V} — obwohl du dich verlaufen hast, hast du mich nie allein gelassen!"
+"{pe} Du bist so mutig" — flüsterte das kleine Tier zu {P}. [[p: "Und du, {V} — obwohl du dich verlaufen hast, hast du mich nie allein gelassen!" | e: ]]
 
-{V} strahlte vor Glück. Er/sie hatte beim Führen versagt, aber in dem triumphiert, was wirklich zählte: da zu sein.
+[[p: {V} strahlte vor Glück. Er hatte beim Führen versagt, aber in dem triumphiert, was wirklich zählte: da zu sein. | e: ]]
 
 Mit einem friedlichen Herzen und einer gut gelernten Lektion machten sich alle auf den Weg unter die Sterne von {E}, um sich auszuruhen. 🌛💨`
       },
@@ -1254,17 +1230,17 @@ Mit einem friedlichen Herzen und einer gut gelernten Lektion machten sich alle a
         titulo: "🌸 {P} und der Jahreszeitenwechsel in {E}",
         cuerpo: `Der Frühling sollte eigentlich in {E} ankommen, aber irgendetwas hielt ihn zurück. Die Felder waren noch mit Schnee bedeckt und die Blumen weigerten sich aufzuwachen. Alle in {E} waren verwundert.
 
-Der/die Schuldige — wenn auch ganz ohne böse Absicht — war {V}, der/die einen magischen Knopf in Form einer Schneeflocke gefunden und ihn viele, viele Male gedrückt hatte, weil er einfach zu entzückend war, um dem zu widerstehen. Und mit jedem Druck kam ein bisschen mehr Winter!
+[[p: Die Schuldige — wenn auch ganz ohne böse Absicht — war {V}, die einen magischen Knopf in Form einer Schneeflocke gefunden und ihn viele, viele Male gedrückt hatte, weil er einfach zu entzückend war, um dem zu widerstehen. Und mit jedem Druck kam ein bisschen mehr Winter! | e: Das alles lag an {V}, der sich in {E} festgesetzt hatte und die Sonne nicht durchlassen wollte. Die Kälte war so intensiv, dass es schien, als würde der Winter niemals enden. ]]
 
-"Ich wusste nicht, dass das passieren würde", gestand {V} mit einer ganz kleinen Stimme.
+[[p: "Ich wusste nicht, dass das passieren würde" — gestand {V} mit einer ganz kleinen Stimme. | e: ]]
 
 {P} nahm {oa_art} sanft und pustete zart über die schlafenden Blumen. Eine nach der anderen, als würden sie sich aus einem langen, süßen Schlaf erwecken, öffneten sie ihre Blütenblätter: erst ein paar schüchterne, dann alle auf einmal in einem großen Schwall Farben.
 
-"Das ist wunderschön!" rief {V}, der/die Blumen noch nie wirklich blühen gesehen hatte, da er/sie immer ankam, wenn alles schon offen war.
+"Das ist wunderschön!" [[p: — rief {V}, die Blumen noch nie wirklich blühen gesehen hatte, da sie immer ankam, wenn alles schon offen war. | e: ]]
 
-{P} erklärte, dass manche besonderen Momente in der Natur mit Geduld abgewartet werden müssen — dass man Blumen nicht zum Blühen zwingen kann, genau wie man einen Traum nicht zum Wahr-werden zwingen kann.
+{P} erklärte [[p: ihr | e: der Welt ]], dass manche besonderen Momente in der Natur mit Geduld abgewartet werden müssen — dass man Blumen nicht zum Blühen zwingen kann, genau wie man einen Traum nicht zum Wahr-werden zwingen kann.
 
-Ganz {E} füllte sich mit Farben, süßen Düften und dem fröhlichen Summen der Bienen. Von da an kümmerte sich {V} sehr sorgfältig um den Schneeflockenknopf und drückte ihn nur im Sommer, um ein bisschen kühle Brise zu bringen.
+Ganz {E} füllte sich mit Farben, süßen Düften und dem fröhlichen Summen der Bienen. [[p: Von da an kümmerte sich {V} sehr sorgfältig um den Schneeflockenknopf und drückte ihn nur im Sommer, um ein bisschen kühle Brise zu bringen. | e: Die Kraft von {V} verflog und ließ die Sonne jeden Winkel erwärmen. ]]
 
 Und {P}, mit einem Herzen so leicht wie ein Blütenblatt im Wind, machte sich bereit für einen Tag voller endlosem Spiel. 🌼🌜`
       },
@@ -1272,17 +1248,17 @@ Und {P}, mit einem Herzen so leicht wie ein Blütenblatt im Wind, machte sich be
         titulo: "🎶 Die verlorene Melodie von {E}",
         cuerpo: `Eine seltsame und schwere Stille hatte sich über {E} gelegt. Kein Vogel sang, kein Wind bewegte die Blätter, kein Bach rauschte und murmelte. Als ob die Musik der Welt einfach verschwunden wäre.
 
-{P} beschloss, die verlorenen Klänge zu finden. Er/sie wanderte, suchte und stellte Fragen, bis er/sie die tiefste Höhle in ganz {E} erreichte, wo er/sie {V} fröhlich fand, umgeben von Tausenden von Klängen — jeder in einer kleinen, schwebenden Seifenblase gefangen.
+{P} beschloss, die verlorenen Klänge zu finden. Er wanderte, suchte und stellte Fragen, bis er die tiefste Höhle in ganz {E} erreichte, wo er [[p: {V} fröhlich fand, umgeben von Tausenden von Klängen — jeder in einer kleinen, schwebenden Seifenblase gefangen. | e: feststellte, dass {V} alle Klänge in kleinen Luftblasen eingefangen hatte, die überall umherflogen. ]]
 
-"Ich sammle Klänge", erklärte {V} fröhlich. "Ich habe schon das Lied des allerersten Vogels des Morgens, den Klang von Regen auf Blättern und drei verschiedene Sorten von Stille!"
+[[p: "Ich sammle Klänge" — erklärte {V} fröhlich —. "Ich habe schon das Lied des allerersten Vogels des Morgens, den Klang von Regen auf Blättern und drei verschiedene Sorten von Stille!" | e: Es schien, als hätte die Umgebung beschlossen, Stille zu bewahren und jede Musiknote in der Luft einzufangen. ]]
 
-{P} verstand, dass {V} überhaupt nicht böse war — nur unglaublich neugierig. Er/sie schlug einen Deal vor: {V} würde alle Klänge freigeben, wenn {P} ihm/ihr helfen würde, echte Musik zu machen.
+{P} verstand, dass [[p: {V} überhaupt nicht böse war — nur unglaublich neugierig. Er schlug einen Deal vor: {V} würde alle Klänge freigeben, wenn {P} ihm helfen würde, echte Musik zu machen. | e: es notwendig war, diese Klänge zu befreien, damit {E} sein Leben zurückgewann. ]]
 
-{V} akzeptierte mit riesiger Begeisterung. Als die Blasen freigegeben wurden, brach {E} in eine prächtige Sinfonie aus: alle Klänge der Welt spielten gleichzeitig und schufen die schönste Melodie, die je jemand gehört hatte.
+[[p: {V} akzeptierte mit riesiger Begeisterung. | e: ]] Als [[p: die Blasen freigegeben wurden | e: die Blasen platzten ]], brach {E} in eine prächtige Sinfonie aus: alle Klänge der Welt spielten gleichzeitig und schufen die schönste Melodie, die je jemand gehört hatte.
 
-Dann berührte {P} {oa_art} und schuf etwas Neues: ein kleines, besonderes Lied nur für {V} — eine Melodie, die seinen/ihren Namen trug und die er/sie hören konnte, wann immer er/sie wollte.
+Dann berührte {P} {oa_art} und schuf mit ihm etwas Neues: ein kleines, besonderes Lied [[p: nur für {V} — eine Melodie, die seinen Namen trug und die er hören konnte, wann immer er wollte. | e: für den Ort — eine Melodie, die in {E} jedes Mal erklingen würde, wenn jemand Freude braucht. ]]
 
-"{pe} Die Musik ist zurück!" rief {P}, "und wir haben ein brandneues Lied!"
+"{pe} Die Musik ist zurück!" — rief {P} [[p: , "und wir haben ein brandneues Lied!" | e: . ]]
 
 In dieser Nacht war {E} voller Leben, und {P} schlief im fröhlichen Herzschlag des Landes gewiegt ein. 🎵💤`
       },
@@ -1292,15 +1268,15 @@ In dieser Nacht war {E} voller Leben, und {P} schlief im fröhlichen Herzschlag 
 
 Alle in {E} versammelten sich neugierig, aber niemand konnte verstehen, was der Besucher sagte. Seine Worte klangen wie ferne Musik, wie kleine Glocken, die unter Wasser klingelten.
 
-Dann trat {V} vor, absolut überzeugt, die Weltraumsprache sprechen zu können — weil er/sie einmal geträumt hatte, es zu können. Er/sie pflanzte sich vor den Besucher und begann, kompletten Unsinn in voller Lautstärke zu sagen. Der Besucher sah immer verwirrter aus!
+Dann [[p: trat {V} vor, absolut überzeugt, die Weltraumsprache sprechen zu können — weil er einmal geträumt hatte, es zu können. Er pflanzte sich vor den Besucher und begann, kompletten Unsinn in voller Lautstärke zu sagen. Der Besucher sah immer verwirrter aus! | e: war die Kraft von {V} zu hören. Das Geräusch war so intensiv, dass die Worte des Besuchers in der Luft verloren gingen, und der arme Reisende sah immer verwirrter aus. ]]
 
 {P} lächelte geduldig und holte {oa_art} hervor. Mit seiner Magie übersetzte der Gegenstand die Gedanken des Besuchers in Lichtblasen, die alle sehen und verstehen konnten.
 
-Der Besucher kam von einem Planeten, auf dem Geschichten ausgegangen waren. Er/sie hatte die gesamte Galaxie auf der Suche nach einem Ort durchreist, an dem Geschichten niemals enden, und hatte {E} gefunden.
+Der Besucher kam von einem Planeten, auf dem Geschichten ausgegangen waren. Er hatte die gesamte Galaxie auf der Suche nach einem Ort durchreist, an dem Geschichten niemals enden, und hatte {E} gefunden.
 
-{P} machte ein wunderbares Versprechen: Jeden Abend, bevor alle schlafen gehen, würde jemand aus {E} eine neue Geschichte erzählen. Der Besucher würde diese Geschichten in seiner/ihrer Rakete sammeln und sie auf seinen/ihren Planeten bringen, damit die Kinder dort auch träumen könnten.
+{P} machte ein wunderbares Versprechen: Jeden Abend, bevor alle schlafen gehen, würde jemand aus {E} eine neue Geschichte erzählen. Der Besucher würde diese Geschichten in seiner Rakete sammeln und sie auf seinen Planeten bringen, damit die Kinder dort auch träumen könnten.
 
-"{pe} Jetzt sind wir intergalaktische Freunde!" sagte {P}. Und {V}, der/die auf seine/ihre Weise versucht hatte zu helfen, wurde zum Botschafter der Wundersam Verwirrten Worte ernannt — die sich als absolut perfekt herausstellten, um alle zum Lachen zu bringen.
+"{pe} Jetzt sind wir intergalaktische Freunde!" — sagte {P}. [[p: Und {V}, der auf seine Weise versucht hatte zu helfen, wurde zum Botschafter der Wundersam Verwirrten Worte ernannt — die sich als absolut perfekt herausstellten, um alle zum Lachen zu bringen. | e: ]]
 
 Als der Besucher abreiste, blickte {P} zu den Sternen und wusste: Keine Geschichte geht jemals wirklich verloren. 🌌✨`
       },
@@ -1308,59 +1284,59 @@ Als der Besucher abreiste, blickte {P} zu den Sternen und wusste: Keine Geschich
         titulo: "🏆 {P} und die Talentshow",
         cuerpo: `Heute war der Tag der Großen Talentshow in {E}. Es gab Windflötisten, Wolkenbändiger, Regenbogenmaler und Sonnenstrahltänzer. {P} schaute mit Bewunderung zu — und einem kleinen Flattern der Nerven.
 
-Aber als {P}s Auftritt kam, geschah unerwartetes: {V} war zuvor auf die Bühne gewandert, da er/sie dachte, die Show beginne später, und jonglierte nun mit wilden Beeren vor dem gesamten Publikum. Niemand hatte wirklich das Herz, ihm/ihr zu sagen, dass es nicht sein/ihr Platz war!
+Aber als {P}s Auftritt kam, geschah etwas Unerwartetes: [[p: {V} war zuvor auf die Bühne gewandert, da er dachte, die Show beginne später, und jonglierte nun mit wilden Beeren vor dem gesamten Publikum. Niemand hatte wirklich das Herz, ihm zu sagen, dass es nicht sein Platz war! | e: plötzlich brach {V} direkt über der Bühne los. Waldblätter und Beeren wirbelten vor dem gesamten Publikum durch die Luft — es sah nach totalem Chaos aus! ]]
 
-{P} beobachtete einen Moment. {V} war entzückend desaströs: ließ die Hälfte der Beeren fallen, stolperte über die eigenen Füße und trug dennoch ein riesiges Lächeln. Das Publikum, obwohl verblüfft, begann mit echter Wärme zu lachen.
+{P} beobachtete einen Moment. [[p: {V} war entzückend desaströs: ließ die Hälfte der Beeren fallen, stolperte über die eigenen Füße und trug dennoch ein riesiges Lächeln. Das Publikum, obwohl verblüfft, begann mit echter Wärme zu lachen. | e: Es war alles ein unerwartetes Durcheinander, aber die Beeren flogen auf eine fast rhythmische Weise. Das Publikum beobachtete dieses Naturschauspiel voller Staunen. ]]
 
-Dann hatte {P} eine brillante Idee. Er/sie trat neben {V} auf die Bühne und hob {oa_art} auf. Mit seiner Magie zauberte er/sie Lichtfiguren, die zusammen mit {V}s Jonglieren tanzten und jeden Patzer in eine elegante Bewegung und jede fallengelassene Beere in einen glitzernden Stern verwandelten.
+Dann hatte {P} eine brillante Idee. Er trat [[p: neben {V} | e: ]] auf die Bühne und holte {oa_art} hervor. Mit seiner Magie zauberte er Lichtfiguren, die [[p: zusammen mit {V}s Jonglieren | e: der Bewegung von {V} ]] tanzten und jeden Patzer in eine elegante Bewegung und jede fallengelassene Beere in einen glitzernden Stern verwandelten.
 
 Die Darbietung war wie keine andere: halb Magie, halb wunderschönes Chaos, vollständig einzigartig.
 
-"{pe} Sie sind die Gewinner!" jubelten alle, als es vorbei war — denn sie hatten etwas getan, das niemand erwartet hatte: einen Unfall in Kunst zu verwandeln.
+"{pe} Sie sind die Gewinner!" — jubelten alle, als es vorbei war — denn sie hatten etwas getan, das niemand erwartet hatte: einen Unfall in Kunst zu verwandeln.
 
-{P} lernte, dass sein/ihr größtes Talent nicht Perfektion war, sondern die Fähigkeit, Magie dort zu finden, wo andere nur ein Durcheinander sehen. Und er/sie schlief in dieser Nacht tief und fest, von Möglichkeiten träumend. 🏅🌟`
+{P} lernte, dass sein größtes Talent nicht Perfektion war, sondern die Fähigkeit, Magie dort zu finden, wo andere nur ein Durcheinander sehen. Und er schlief in dieser Nacht tief und fest, von Möglichkeiten träumend. 🏅🌟`
       },
       {
         titulo: "📚 {P} in der Bibliothek der Träume",
         cuerpo: `In {E} gab es eine ganz besondere Bibliothek: Ihre Bücher wurden nicht gelesen, sie wurden erlebt. Wenn man eines öffnete, tauchte man kopfüber in die Geschichte ein und erlebte sie von innen. Die Leute konnten ganze Nachmittage damit verbringen, andere Welten zu erkunden, ohne das Gebäude je zu verlassen.
 
-An einem Nachmittag kam {P} voller Neugier an — und fand {V} in einem Buch gefangen. Er/sie war in "Das Große Labyrinth der Träume" geraten und fand den Ausgang nicht. Er/sie lief seit Stunden im Kreis.
+An einem Nachmittag kam {P} voller Neugier an — und fand [[p: {V} in einem Buch gefangen. Er war in "Das Große Labyrinth der Träume" geraten und fand den Ausgang nicht. Er lief seit Stunden im Kreis. | e: dass die Wirkung von {V} zwischen die Seiten eines Buches gesickert war. Die Geschichte von "Das Große Labyrinth der Träume" war durch Wind und Nebel ganz durcheinandergeraten. ]]
 
-"{pe} {P}, bitte, ich suche schon eine Ewigkeit!" kam die Stimme von {V} von den Seiten.
+[[p: "{pe} {P}, bitte, ich suche schon eine Ewigkeit!" — kam die Stimme von {V} von den Seiten. | e: ]]
 
-{P} hielt {oa_art} hoch. Ihre Magie beleuchtete die Seiten und zeigte den richtigen Weg durch das Labyrinth. Aber {P} hatte eine bessere Idee als einfach den Weg zu zeigen: Anstatt {V} die Antwort direkt zu geben, gab er/sie Hinweise.
+{P} hielt {oa_art} hoch. Ihre Magie beleuchtete die Seiten und zeigte den richtigen Weg durch das Labyrinth. Aber {P} hatte eine bessere Idee als einfach den Weg zu zeigen: Anstatt [[p: {V} | e: dem Rätsel ]] die Antwort direkt zu geben, gab er Hinweise.
 
 "Schau dir die Zeichnungen auf den Labyrinthmauern an. Die kleinen Pfeile zeigen immer zum Herzen des Buches, nie zum Ausgang."
 
-{V} folgte den Hinweisen einen nach dem anderen — und als er/sie das Buch schließlich verließ, leuchteten seine/ihre Augen vor Aufregung.
+[[p: {V} folgte den Hinweisen einen nach dem anderen — und als er das Buch schließlich verließ, leuchteten seine Augen vor Aufregung. | e: Den Hinweisen folgend, beruhigte sich die Luft und die Seiten kehrten nacheinander an ihren Platz zurück. ]]
 
-"{pe} Ich hab's selbst gelöst! Na ja... mit deinen Hinweisen."
+"{pe} Ich hab's selbst gelöst! [[p: Na ja... mit deinen Hinweisen. | e: ]] "
 
 {P} erklärte, dass das genau der Zweck von Büchern war: nicht die Antworten zu geben, sondern die Werkzeuge, um sie selbst zu finden.
 
 Sie saßen zusammen in der Bibliothek und {P} wählte ein goldenes Buch mit leeren Seiten. Sie begannen, die Geschichte dieses Nachmittags hineinzuschreiben — denn die besten Geschichten sind immer die, die man selbst erlebt.
 
-Jeder Tag ist eine neue Seite. Und solange man Freunde wie {V} findet, wird keine einzige Seite jemals leer sein. 📖✨`
+Jeder Tag ist eine neue Seite. Und solange man [[p: Freunde wie {V} | e: magische Momente ]] findet, wird keine einzige Seite jemals leer sein. 📖✨`
       },
       {
         titulo: "🎨 {P} und der Tag, an dem die Farben verschwanden",
         cuerpo: `{E} erwachte anders. Der Himmel war grau, die Blumen hatten ihre Farbe verloren, die Vögel waren schwarz-weiß und sogar der Regenbogen sah wie eine blasse graue Linie aus. Jemand hatte alle Farben gestohlen.
 
-{P} ermittelte und folgte einer Spur kleiner grauer Flecken, bis er/sie {V} fand, der/die mitten in einer riesigen Lache aus... gemischten Farben saß. Er/sie hatte versucht, die perfekte Farbe zu erschaffen, indem er/sie ein kleines bisschen von allem nahm, und hatte so gründlich gemischt, dass alle Farben grau geworden waren.
+{P} ermittelte und folgte einer Spur kleiner grauer Flecken, bis er [[p: {V} fand, der mitten in einer riesigen Lache aus... gemischten Farben saß. | e: feststellte, dass {V} vorbeigezogen war und eine riesige Lache aus... gemischten Farben hinterlassen hatte. ]] Er hatte versucht, die perfekte Farbe zu erschaffen, indem er ein kleines bisschen von allem nahm, und hatte so gründlich gemischt, dass alle Farben grau geworden waren.
 
-"{V}... was hast du getan?" fragte {P}, die Augen ungläubig.
+[[p: "{V}... was hast du getan?" — fragte {P}, die Augen ungläubig. | e: ]]
 
-"Ich wollte die schönste Farbe der Welt erschaffen", antwortete {V} mit einer ganz kleinen Stimme. "Eine, die alles enthalten würde."
+[[p: "Ich wollte die schönste Farbe der Welt erschaffen", antwortete {V} mit einer ganz kleinen Stimme. "Eine, die alles enthalten würde." | e: Es schien, als hätte die Natur versucht, all ihre Schattierungen zu vereinen, aber das Ergebnis war eine graue Wolke, die alles bedeckte. ]]
 
-{P} verstand. {V} wollte die Farben überhaupt nicht zerstören — er/sie hatte versucht, das Gegenteil zu tun: Schönheit in der Vereinigung aller Dinge zu finden. Er/sie hatte nur vergessen, dass das Geheimnis der Farben darin liegt, dass sie am hellsten leuchten, wenn sie getrennt sind.
+{P} verstand. [[p: {V} wollte die Farben überhaupt nicht zerstören — er hatte versucht, das Gegenteil zu tun: Schönheit in der Vereinigung aller Dinge zu finden. | e: Es war kein Versuch, die Schönheit zu nehmen, sondern sie in der Vereinigung von allem zu finden. ]] Er hatte nur vergessen, dass das Geheimnis der Farben darin liegt, dass sie am hellsten leuchten, wenn sie getrennt sind.
 
 {P} hob {oa_art} auf und begann wie der magischste Pinsel des Universums, die Farben aus der Lache zu trennen. Eine nach der anderen kehrten sie an ihren Platz zurück: Blau für den Himmel, Grün für die Blätter, Gelb für die Sonne, Rot für die Rosen.
 
-{V} half mit großer Begeisterung — wenn auch ein paar Farben an unerwarteten Stellen platzierend: eine orangene Wolke hier, einen lila Baum dort. Und es stellte sich heraus, dass {E} bunter und freudiger als je zuvor wurde.
+[[p: {V} half mit großer Begeisterung — wenn auch ein paar Farben an unerwarteten Stellen platzierend: eine orangene Wolke hier, einen lila Baum dort. | e: Die Kraft von {V} half, die Farben wieder zu verteilen, obwohl einige an unerwarteten Stellen landeten: eine orangene Wolke hier, einen lila Baum dort. ]] Und es stellte sich heraus, dass {E} bunter und freudiger als je zuvor wurde.
 
-"Du hast es wieder geschafft!" sagte {V} bewundernd. "Du hast mein Durcheinander in etwas Schönes verwandelt!"
+[[p: "Du hast es wieder geschafft!" — sagte {V} bewundernd. "Du hast mein Durcheinander in etwas Schönes verwandelt!" | e: ]]
 
-{P} lächelte. "Wir haben es zusammen getan."
+{P} lächelte. [[p: "Wir haben es zusammen getan." | e: ]]
 
 In dieser Nacht blickte {P} von oben auf {E} und dachte: Es gibt keinen Fehler, der so groß ist, dass er nicht mit Hilfe und Kreativität schöner werden könnte als das Original. 🌈😴`
       },
@@ -1391,44 +1367,25 @@ Die sanfte Brise von {E} wiegte sie beide, bis sie nebeneinander einschliefen, w
       personajes: [
         { id: 'princesa', nombre: 'Princesa', emoji: '👸' },
         { id: 'caballero', nombre: 'Cavaleiro', emoji: '🛡️' },
-        { id: 'dragon', nombre: 'Dragão', emoji: '🐉' },
-        { id: 'hada', nombre: 'Fada', emoji: '🧚' },
-        { id: 'pirata', nombre: 'Pirata', emoji: '🏴‍☠️' },
-        { id: 'unicornio', nombre: 'Unicórnio', emoji: '🦄' },
-        { id: 'robot', nombre: 'Robô', emoji: '🤖' },
-        { id: 'sirena', nombre: 'Sereia', emoji: '🧜‍♀️' },
-        { id: 'conejito', nombre: 'Coelhinho', emoji: '🐰' },
-        { id: 'bruja_buena', nombre: 'Bruxa Boa', emoji: '🧙‍♀️' },
-      ],
-      escenarios: [
-        { id: 'castillo', nombre: 'Castelo Encantado', emoji: '🏰' },
-        { id: 'bosque', nombre: 'Floresta Mágica', emoji: '🌳' },
-        { id: 'isla', nombre: 'Ilha do Tesouro', emoji: '🏝️' },
-        { id: 'nube', nombre: 'Nuvem Gigante', emoji: '☁️' },
-        { id: 'mar', nombre: 'Fundo do Mar', emoji: '🌊' },
-        { id: 'montana', nombre: 'Montanha Nevada', emoji: '🏔️' },
-        { id: 'jardin', nombre: 'Jardim Secreto', emoji: '🌷' },
-        { id: 'estrellas', nombre: 'Cidade das Estrelas', emoji: '🌟' },
-      ],
-      objetos: [
-        { id: 'espada', nombre: 'Espada de Luz', emoji: '⚔️' },
-        { id: 'corona', nombre: 'Coroa Mágica', emoji: '👑' },
-        { id: 'mapa', nombre: 'Mapa do Tesouro', emoji: '🗺️' },
-        { id: 'varita', nombre: 'Varinha Mágica', emoji: '✨' },
-        { id: 'pocion', nombre: 'Poção Brilhante', emoji: '🧪' },
-        { id: 'llave', nombre: 'Chave Dourada', emoji: '🔑' },
-        { id: 'libro', nombre: 'Livro Encantado', emoji: '📖' },
-        { id: 'amuleto', nombre: 'Amuleto Protetor', emoji: '🔮' },
-      ],
-      villanos: [
-        // Personagens fofos
-        { id: 'sonequinho', nombre: 'Sonequinho Dorminhoco', emoji: '😪👹', tipo: 'personaje', genero: 'm' },
-        { id: 'bruxadogelo', nombre: 'Bruxinha do Gelo', emoji: '🥶🧙', tipo: 'personaje', genero: 'f' },
+        { id: 'dragon', nombre: 'Dragão', emoji: '�        cuerpo: `Era uma vez, em {ea}, um(a) corajoso(a) {p} que sonhava com as mais belas aventuras. A cada manhã, ele(a) olhava para o horizonte com olhos cheios de esperança, imaginando mundos mágicos além de tudo o que se podia ver.
+
+Numa manhã dourada, enquanto explorava os cantos mais escondidos do lugar, algo brilhou entre as folhas: {oa_art}! Ao tocá-lo(a), um formigamento mágico subiu dos dedos até o coração.
+
+"{pe} Que maravilha!" exclamou {P} com os olhos bem abertos.
+
+Mas exatamente nesse momento [[p: apareceu {V}, o vilão mais... surpreendente de {E}. {V} não era mau de verdade: era tão pequeno e distraído que tropeçou sem querer em {oa_art} e o escondeu debaixo do seu enorme travesseiro de nuvens. | e: o tempo mudou em {E} e {V} se desatou. Não era algo mau de verdade, mas foi tão forte que moveu sem querer {oa_art} e o escondeu em um recanto profundo. ]]
+
+[[p: "É meu!" — disse {V} bocejando —. "Preciso de algo fofinho para dormir!" | e: ]]
+
+{P} não ficou zangado. [[p: Em vez disso, sentou-se ao lado de {V} e perguntou com doçura: "Por que você não consegue dormir?" e assim descobriu que {V} tinha medo do escuro. | e: Em vez disso, procurou pacientemente uma solução e descobriu que o lugar precisava de um pouco de luz e calma para que tudo voltasse ao normal. ]]
+
+{P} usou o poder de {oa_art} para criar uma luzinha suave e quente que iluminou [[p: o cantinho de {V}. A partir desse momento, {V} não precisou mais roubar nada porque tinha sua própria luz mágica... e um novo amigo! | e: cada recanto de {E}. A partir desse momento, a força de {V} se acalmou e se transformou em uma brisa suave que acompanhava os sonhos de todos. ]]
+
+Juntos, fizeram de {E} o lugar mais lindo e acolhedor do mundo. Antes de dormir, {P} sussurrou: "A maior magia não está nos objetos, mas no coração de quem os compartilha." 🌙✨`ero: 'f' },
         { id: 'duendegolosobt', nombre: 'Duende Guloso', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'ratinhobag', nombre: 'Ratinho Bagunçeiro', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
         { id: 'nuvemchoro', nombre: 'Nuvem Choro', emoji: '🌧️☁️', tipo: 'personaje', genero: 'f' },
         { id: 'sombratrav', nombre: 'Sombra Travessa', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
-        // Conflitos naturais
         { id: 'tempestade', nombre: 'uma tempestade repentina', emoji: '⛈️', tipo: 'entorno', genero: 'f' },
         { id: 'ventocurioso', nombre: 'um vento curioso e inquieto', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
         { id: 'nuvemareia', nombre: 'uma nuvem de areia viajante', emoji: '🌪️', tipo: 'entorno', genero: 'f' },
@@ -1455,15 +1412,15 @@ Numa manhã dourada, enquanto explorava os cantos mais escondidos do lugar, algo
 
 "{pe} Que maravilha!" exclamou {P} com os olhos bem abertos.
 
-Mas naquele exato momento, {V} apareceu — a personagem mais surpreendente de {E}. {V} não era verdadeiramente malvado(a): era tão pequeno(a) e distraído(a) que tropeçou em {oa_art} e o(a) escondeu acidentalmente embaixo de um enorme travesseiro de nuvens.
+Mas exatamente nesse momento [[p: apareceu {V}, o vilão mais... surpreendente de {E}. {V} não era mau de verdade: era tão pequeno e distraído que tropeçou sem querer em {oa_art} e o escondeu debaixo do seu enorme travesseiro de nuvens. | e: o tempo mudou em {E} e {V} se desatou. Não era algo mau de verdade, mas foi tão forte que moveu sem querer {oa_art} e o escondeu em um recanto profundo. ]]
 
-"É meu!" disse {V} bocejando. "Preciso de algo macio para dormir!"
+[[p: "É meu!" — disse {V} bocejando —. "Preciso de algo fofinho para dormir!" | e: ]]
 
-{P} não ficou com raiva. Em vez disso, sentou-se ao lado de {V} e perguntou com doçura: "Por que você não consegue dormir?" E assim descobriu que {V} tinha medo do escuro.
+{P} não ficou zangado. [[p: Em vez disso, sentou-se ao lado de {V} und perguntou com doçura: "Por que você não consegue dormir?" E assim descobriu que {V} tinha medo do escuro. | e: Em vez disso, procurou pacientemente uma solução und descobriu que o lugar precisava de um pouco de luz und calma para que tudo voltasse ao normal. ]]
 
-{P} usou o poder de {oa_art} para criar uma pequena luz suave e quente que iluminou o cantinho de {V}. A partir daquele momento, {V} não precisou mais roubar nada, pois tinha a sua própria luz mágica — e um novo amigo!
+{P} usou o poder de {oa_art} para criar uma luzinha suave e quente que iluminou [[p: o cantinho de {V}. A partir desse momento, {V} não precisou mais roubar nada porque tinha sua própria luz mágica... e um novo amigo! | e: cada recanto de {E}. A partir desse momento, a força de {V} se acalmou e se transformou em uma brisa suave que acompanhava os sonhos de todos. ]]
 
-Juntos, fizeram de {E} o lugar mais bonito e acolhedor do mundo. Antes de dormir, {P} sussurrou: "A maior magia não está nos objetos, mas no coração de quem os compartilha." 🌙✨`
+Juntos, fizeram de {E} o lugar mais lindo e acolhedor do mundo. Antes de dormir, {P} sussurrou: "A maior magia não está nos objetos, mas no coração de quem os compartilha." 🌙✨`
       },
       {
         titulo: "✨ A grande aventura de {P} em {E}",
@@ -1471,13 +1428,13 @@ Juntos, fizeram de {E} o lugar mais bonito e acolhedor do mundo. Antes de dormir
 
 Um dia, {P} partiu em jornada com um coração cheio de coragem. Atravessou pontes de arco-íris, caminhou por trilhos de poeira de estrelas e passou por jardins onde as flores sussurravam canções.
 
-Mas então {V} apareceu. Essa personagem bastante peculiar havia chegado a {E} primeiro e, sem má intenção, havia embaralhado todos os caminhos enquanto tentava brincar. As trilhas estavam todas misturadas e ninguém sabia mais por onde ir!
+Mas então [[p: apareceu {V}. Esse personagem singular tinha chegado antes a {E} e, sem má intenção, tinha emaranhado todos os caminhos ao tentar brincar. | e: ocorreu {V}. Esse fenômeno natural chegou de repente a {E} e, sem querer, confundiu todos os caminhos e trilhas. ]] As trilhas estavam misturadas e ninguém sabia mais por onde ir!
 
-"{pe} Ah, sinto muito!" gritou {V}, corado. "Só queria construir um labirinto para brincar..."
+[[p: "{pe} Oh, sinto muito mesmo!" — disse {V} ficando todo vermelho —. "Eu só queria fazer um labirinto para brincar..." | e: ]]
 
-{P} respirou fundo e sorriu. "Não se preocupe. Podemos resolver juntos!" E os dois passaram uma tarde inteira desembaraçando caminhos, rindo e trocando histórias.
+{P} respirou fundo e sorriu. [[p: "Não se preocupe. Podemos resolver isso juntos!" E os dois passaram uma tarde inteira desembaraçando os caminhos, rindo e contando histórias um ao outro. | e: Com calma e paciência, pôs-se a trabalhar para ordenar o lugar. Passou uma tarde inteira desembaraçando os caminhos e devolvendo a harmonia a {E}. ]]
 
-No final do dia, quando tudo estava em ordem, {P} avistou {oa_art} brilhando no coração de {E}. Mas a coisa mais preciosa encontrada naquele dia não foi o objeto mágico — foi aprender que paciência e amizade são o maior tesouro de todos.
+No final do dia, quando tudo estava em ordem, {P} avistou {oa_art} brilhando no coração de {E}. Mas a coisa mais preciosa encontrada naquele dia não foi o objeto mágico — foi aprender que a paciência [[p: e a amizade são o maior tesouro. | e: é o maior tesouro para superar qualquer dificuldade. ]]
 
 Aconchegaram-se juntos sob as estrelas, e {P} entendeu que cada aventura se torna mais bonita quando é compartilhada. 🌟💤`
       },
@@ -1489,13 +1446,13 @@ Numa noite muito especial, algo caiu com um suave brilho bem diante dos olhos de
 
 "{pe} O que você está fazendo aqui, pequeno(a) {O}?" perguntou {P}, espantado(a).
 
-Mas antes que {O} pudesse responder, {V} chegou correndo. Havia perseguido {oa_art} a noite toda, pensando que era uma estrela caída e querendo devolvê-la ao céu. Pobre {V}, exausto(a) de tanto correr!
+Mas antes que {O} pudesse responder, [[p: chegou {V} correndo. Ele tinha perseguido {oa_art} a noite toda porque achava que era uma estrela cadente e queria devolvê-la ao céu. Coitado do {V}, estava exausto de tanto correr! | e: sentiu-se a força de {V}. Esse fenômeno tinha envolvido {oa_art} a noite toda, como se quisesse levá-lo de volta ao céu. ]]
 
-{P} explicou com carinho que {oa_art} não era uma estrela, mas algo muito mais especial: um objeto capaz de realizar os desejos mais profundos de quem mais precisava. E o que {V} precisava era simples: um amigo para lhe fazer companhia à noite, pois se sentia terrivelmente solitário(a).
+{P} explicou-lhe com carinho [[p: que {oa_art} não era uma estrela, mas algo muito mais especial: um objeto capaz de realizar os sonhos de quem precisa. E {V} precisava muito de algo: um amigo para acompanhá-lo à noite, pois se sentia muito sozinho. | e: ao vento e às estrelas que {oa_art} era um objeto especial capaz de trazer calma e bons sonhos a quem mais precisava. ]]
 
-Naquela noite, {P} usou o poder de {oa_art} para que {V} pudesse entender a linguagem das estrelas. E enquanto {P} ouvia os seus segredos brilhantes, {V} descobriu que nunca mais estaria sozinho(a).
+Nesta noite, {P} usou o poder de {oa_art} para que [[p: {V} pudesse entender a língua das estrelas. E assim, enquanto {P} escutava seus segredos brilhantes, {V} aprendeu que nunca mais estaria sozinho. | e: a paz voltasse a {E}. O céu ficou sereno novamente e as estrelas brilharam mais forte do que nunca. ]]
 
-Os três — {P}, {V} e as estrelas de {E} — tornaram-se os melhores amigos de todo o universo. 🌙🌟`
+Os três — {P}, [[p: {V} | e: a calma ]] e as estrelas de {E} — tornaram-se os melhores amigos de todo o universo. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} e o mistério de {E}",
@@ -1503,17 +1460,17 @@ Os três — {P}, {V} e as estrelas de {E} — tornaram-se os melhores amigos de
 
 {P} não hesitou nem por um segundo! Seguiu os rastros de poeira de estrelas que serpenteavam por {E} até chegar a uma clareira escondida, fundo entre grandes árvores antigas.
 
-Lá estava {V}, rodeado(a) de toda a alegria de {E}: risos engarrafados em pequenos frascos, cores embaladas em pequenas bolsinhas e melodias guardadas em pequenas caixinhas. Mas {V} não estava rindo — estava sentado(a) no chão, com uma expressão muito triste.
+Lá estava [[p: {V}, rodeado de toda a alegria de {E}: risos engarrafados em pequenos frascos, cores embaladas em pequenas bolsinhas e melodias guardadas em pequenas caixinhas. Mas {V} não estava rindo — estava sentado no chão, com uma expressão muito triste. | e: o efeito de {V}, que tinha aprisionado toda a alegria de {E}: as risadas, as cores e as melodias estavam envoltas em um redemoinho de confusão. ]]
 
-"Por que você pegou tudo isso?" perguntou {P} com voz gentil.
+[[p: "Por que você pegou tudo isso?" — perguntou {P} com voz gentil. | e: ]]
 
-{V} explicou entre soluços que queria guardar a alegria de {E} em segurança, pois tinha um medo terrível de que um dia ela acabasse. "Tenho tanto medo que um dia não reste mais nada bonito..." sussurrou.
+[[p: {V} explicou entre soluços que queria guardar a alegria de {E} em segurança, pois tinha um medo terrível de que um dia ela acabasse. "Tenho tanto medo que um dia não reste mais nada bonito..." sussurrou. | e: Parecia que o ambiente tinha aprisionado a alegria por medo de perdê-la, criando um clima de melancolia em todo o lugar. ]]
 
 {P} ergueu {oa_art} e sua magia criou algo extraordinário: uma fonte inesgotável de alegria no coração de {E}, uma que nunca secaria enquanto alguém quisesse compartilhar.
 
-{V} abriu todos os frascos, as bolsinhas e as caixinhas, e a alegria inundou {E} numa cascata de cores. Foi o dia mais bonito de que qualquer pessoa naquele lugar já se lembrava.
+[[p: {V} abriu todos os frascos, as bolsinhas e as caixinhas, e a alegria inundou {E} numa cascata de cores. | e: O redemoinho de {V} se dissipou suavemente, libertando toda a alegria acumulada, e as cores inundaram {E}. ]] Foi o dia mais bonito de que qualquer pessoa naquele lugar já se lembrava.
 
-Naquela noite, {P} se aninhrou sob as estrelas, sabendo que a alegria, quando compartilhada, não diminui — se multiplica. 🌜💫`
+Naquela noite, {P} se aninhou sob as estrelas, sabendo que a alegria, quando compartilhada, não diminui — se multiplica. 🌜💫`
       },
       {
         titulo: "💫 A jornada de {P} para {E}",
@@ -1523,17 +1480,17 @@ A jornada foi longa, mas cheia de maravilhas. {P} viu cachoeiras de chocolate, p
 
 Quando finalmente chegou a {E}, ficou completamente sem palavras. Era ainda mais bonito do que havia imaginado. Mas algo estava errado — todos os habitantes estavam preocupados.
 
-"É {V}" explicou um pequeno duende. "Esta manhã, ele(a) se aventurou em {ea} e embaralhou tudo sem querer. Confundiu o norte com o sul, e agora ninguém sabe onde fica nada!"
+[[p: "É {V}" — explicou um pequeno duende —. "Esta manhã ele entrou em {ea} e bagunçou tudo sem querer. Confundiu o norte com o sul, e agora ninguém sabe onde fica nada!" | e: "É por causa de {V}" — explicou um pequeno duende —. "Esta manhã ele chegou a {ea} e bagunçou tudo. O vento soprou tão forte que confundiu o norte com o sul, e agora ninguém sabe onde fica nada!" ]]
 
-{P} encontrou {V} tentando freneticamente consertar as coisas, tropeçando numa coisa enquanto tentava endireitar outra. Era adoravelmente atrapalhado(a), a ponto de {P} não poder evitar uma gargalhada calorosa.
+{P} encontrou [[p: {V} tentando freneticamente consertar as coisas, tropeçando numa coisa enquanto tentava endireitar outra. Era adoravelmente atrapalhado, a ponto de {P} não poder evitar uma gargalhada calorosa. | e: a área por onde {V} tinha passado, com rastros de folhas e areia por toda parte. ]]
 
 Juntos, com a ajuda de {oa_art} que esperava na entrada da terra, colocaram {E} em ordem em tempo recorde. Cada objeto voltou ao seu lugar com um pequeno brilho de magia e um pequeno tinido.
 
-Quando tudo estava perfeito, {V} se virou para {P} com bochechas coradas: "Obrigado(a). Ninguém jamais me ajudou sem rir de mim."
+Quando tudo estava perfeito, [[p: {V} se virou para {P} com bochechas coradas: "Obrigado. Nunca ninguém tinha me ajudado sem rir de mim." | e: o ar em {E} voltou a ser fresco e tranquilo. ]]
 
-"Ah, eu ri sim!" admitiu {P} com um sorriso. "Mas só porque você é absolutamente maravilhoso(a)."
+[[p: "Ah, eu ri sim!" — admitiu {P} com um sorriso —. "But só porque você é encantador." | e: ]]
 
-Daquele dia em diante, {P} tornou-se o guardião de {E} e {V} seu(sua) ajudante mais leal — mesmo que um pouco atrapalhado(a). E viveram felizes por muitas e muitas noites. 🌙⭐💤`
+Daquele dia em diante, {P} tornou-se o guardião de {E} [[p: e {V} seu assistente mais fiel — embora um pouco atrapalhado. | e: cuidando para que o clima fosse sempre agradável para todos. ]] E viveram felizes por muitas e muitas noites. 🌙⭐💤`
       },
       {
         titulo: "🎭 {P} e o Grande Festival de {E}",
@@ -1818,6 +1775,12 @@ function generateStory(personajeId, escenarioId, objetoId) {
 
   let titulo = tpl.titulo;
   let cuerpo = tpl.cuerpo;
+
+  // Manejo de bloques condicionales [[p: texto personaje | e: texto entorno ]]
+  const tipo = villano ? (villano.tipo || 'personaje') : 'personaje';
+  const blockRegex = /\[\[p:\s*([\s\S]*?)\|\s*e:\s*([\s\S]*?)\]\]/g;
+  titulo = titulo.replace(blockRegex, (match, pPart, ePart) => (tipo === 'personaje' ? pPart.trim() : ePart.trim()));
+  cuerpo = cuerpo.replace(blockRegex, (match, pPart, ePart) => (tipo === 'personaje' ? pPart.trim() : ePart.trim()));
 
   for (const [k, v] of Object.entries(reps)) {
     const re = new RegExp(k.replace(/[{}]/g, '\\$&'), 'g');

@@ -578,7 +578,103 @@ function deleteStory(index) {
   showToast(TRANSLATIONS[currentLang].deletedSuccess);
 }
 
+// ============================================
+// Share & Speech
+// ============================================
+
+function onShareStory() {
+  if (!currentStory) return;
+  
+  const text = `${currentStory.titulo}\n\n${currentStory.cuerpo}\n\n— Creado con Crea Cuentos ✨`;
+  
+  if (navigator.share) {
+    navigator.share({
+      title: currentStory.titulo,
+      text: text,
+      url: window.location.href
+    }).catch(() => {});
+  } else {
+    // Fallback copy to clipboard
+    navigator.clipboard.writeText(text).then(() => {
+      showToast(TRANSLATIONS[currentLang].copiedToClipboard);
+    });
+  }
+}
+
+const CHARACTER_VOICES = {
+  princesa:    { pitch: 1.3, rate: 0.95, gender: 'female' },
+  caballero:   { pitch: 0.9, rate: 0.9,  gender: 'male'   },
+  dragon:      { pitch: 0.5, rate: 0.85, gender: 'male'   },
+  hada:        { pitch: 1.5, rate: 1.0,  gender: 'female' },
+  pirata:      { pitch: 0.7, rate: 0.85, gender: 'male'   },
+  unicornio:   { pitch: 1.3, rate: 1.0,  gender: 'female' },
+  robot:       { pitch: 1.0, rate: 1.1,  gender: 'male'   }, // Rate 1.1 gives it a techy feel
+  sirena:      { pitch: 1.0, rate: 0.85, gender: 'female' },
+  conejito:    { pitch: 1.4, rate: 1.1,  gender: 'female' },
+  bruja_buena: { pitch: 0.9, rate: 0.9,  gender: 'female' }
+};
+
+let currentUtterance = null;
+
+function onReadStory() {
+  if (window.speechSynthesis.speaking) {
+    stopReading();
+    return;
+  }
+
+  if (!currentStory) return;
+
+  const btn = document.getElementById('btnReadStory');
+  const config = CHARACTER_VOICES[currentStory.personajeId] || { pitch: 1.0, rate: 1.0, gender: 'female' };
+  
+  const utterance = new SpeechSynthesisUtterance(currentStory.titulo + ". " + currentStory.cuerpo);
+  
+  // Try to find a matching voice
+  const voices = window.speechSynthesis.getVoices();
+  const langCode = currentLang === 'es-latam' ? 'es' : currentLang;
+  
+  // Filter by language and gender if possible
+  let bestVoice = voices.find(v => v.lang.startsWith(langCode) && v.name.toLowerCase().includes(config.gender)) 
+               || voices.find(v => v.lang.startsWith(langCode))
+               || voices[0];
+
+  utterance.voice = bestVoice;
+  utterance.pitch = config.pitch;
+  utterance.rate = config.rate;
+  utterance.lang = langCode;
+
+  utterance.onstart = () => {
+    btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnStop}</span>`;
+    btn.classList.add('reading');
+  };
+
+  utterance.onend = () => {
+    btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnRead}</span>`;
+    btn.classList.remove('reading');
+    currentUtterance = null;
+  };
+
+  utterance.onerror = () => {
+    btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnRead}</span>`;
+    btn.classList.remove('reading');
+    currentUtterance = null;
+  };
+
+  currentUtterance = utterance;
+  window.speechSynthesis.speak(utterance);
+}
+
+function stopReading() {
+  window.speechSynthesis.cancel();
+  const btn = document.getElementById('btnReadStory');
+  if (btn) {
+    btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnRead}</span>`;
+    btn.classList.remove('reading');
+  }
+}
+
 function onNewStory() {
+  stopReading();
   showScreen('screenSelector');
 }
 

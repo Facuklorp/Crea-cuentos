@@ -30,7 +30,11 @@ const TRANSLATIONS = {
     offlineImageMsg: "Para cargar la imagen debes estar conectado a internet",
     footerCreatedBy: "Una aventura creada por Facundo Strano",
     footerSupport: "Soporte Mágico",
-    footerPrivacy: "Privacidad"
+    footerPrivacy: "Privacidad",
+    btnShare: "📤 Compartir",
+    btnRead: "🔊 Escuchar",
+    btnStop: "⏹️ Parar",
+    copiedToClipboard: "¡Cuento copiado al portapapeles! 📋"
   },
   en: {
     appTitle: "Story Maker",
@@ -63,7 +67,11 @@ const TRANSLATIONS = {
     offlineImageMsg: "You must be connected to the internet to load the image",
     footerCreatedBy: "An adventure created by Facundo Strano",
     footerSupport: "Magic Support",
-    footerPrivacy: "Privacy"
+    footerPrivacy: "Privacy",
+    btnShare: "📤 Share",
+    btnRead: "🔊 Listen",
+    btnStop: "⏹️ Stop",
+    copiedToClipboard: "Story copied to clipboard! 📋"
   },
   fr: {
     appTitle: "Créateur d'Histoires",
@@ -96,7 +104,11 @@ const TRANSLATIONS = {
     offlineImageMsg: "Vous devez être connecté à Internet pour charger l'image",
     footerCreatedBy: "Une aventure créée par Facundo Strano",
     footerSupport: "Support Magique",
-    footerPrivacy: "Confidentialité"
+    footerPrivacy: "Confidentialité",
+    btnShare: "📤 Partager",
+    btnRead: "🔊 Écouter",
+    btnStop: "⏹️ Arrêter",
+    copiedToClipboard: "Histoire copiée ! 📋"
   },
   de: {
     appTitle: "Geschichtenmacher",
@@ -129,7 +141,11 @@ const TRANSLATIONS = {
     offlineImageMsg: "Sie müssen mit dem Internet verbunden sein, um das Bild zu laden",
     footerCreatedBy: "Ein Abenteuer erstellt von Facundo Strano",
     footerSupport: "Magischer Support",
-    footerPrivacy: "Datenschutz"
+    footerPrivacy: "Datenschutz",
+    btnShare: "📤 Teilen",
+    btnRead: "🔊 Hören",
+    btnStop: "⏹️ Stopp",
+    copiedToClipboard: "Geschichte kopiert! 📋"
   },
   pt: {
     appTitle: "Criar Histórias",
@@ -162,7 +178,11 @@ const TRANSLATIONS = {
     offlineImageMsg: "Você deve estar conectado à internet para carregar a imagem",
     footerCreatedBy: "Uma aventura criada por Facundo Strano",
     footerSupport: "Suporte Mágico",
-    footerPrivacy: "Privacidade"
+    footerPrivacy: "Privacidade",
+    btnShare: "📤 Compartilhar",
+    btnRead: "🔊 Ouvir",
+    btnStop: "⏹️ Parar",
+    copiedToClipboard: "Cento copiado! 📋"
   }
 };
 
