@@ -1,4 +1,4 @@
-// ============================================
+﻿// ============================================
 // CREA CUENTOS — Motor de Historias v2.0
 // Ahora con villanos tiernos y cuentos más largos
 // ============================================
@@ -44,8 +44,8 @@ const STORY_DATA = {
         { id: 'brujita', nombre: 'Brujita del Frío', emoji: '🥶🧙‍♀️', tipo: 'personaje', genero: 'f' },
         { id: 'duende', nombre: 'Duende Goloso', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'ratoncito', nombre: 'Ratoncito Revoltoso', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
-        { id: 'nubecilla', nombre: 'Nubecilla Llorona', emoji: '🌧️☁️', tipo: 'personaje', genero: 'f' },
-        { id: 'sombra', nombre: 'Sombra Traviesa', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
+        { id: 'honguito', nombre: 'Honguito Parlante', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'caracol', nombre: 'Caracol Baboso', emoji: '🐌💧', tipo: 'personaje', genero: 'm' },
         // Conflictos del entorno
         { id: 'tormenta', nombre: 'una tormenta repentina', emoji: '⛈️', tipo: 'entorno', genero: 'f' },
         { id: 'viento', nombre: 'un viento curioso y revoltoso', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
@@ -403,8 +403,8 @@ La brisa suave de {E} los arrulló hasta que [[p: ambos se quedaron dormidos, un
         { id: 'frostitwitch', nombre: 'Frostie the Forgetful', emoji: '🥶🧙', tipo: 'personaje', genero: 'f' },
         { id: 'snackgoblin', nombre: 'Snack Goblin', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'scramblerat', nombre: 'Scramble Rat', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
-        { id: 'crybcloud', nombre: 'Crying Cloud', emoji: '🌧️☁️', tipo: 'personaje', genero: 'f' },
-        { id: 'mischievshadow', nombre: 'Mischief Shadow', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
+        { id: 'talkingmushroom', nombre: 'Talking Mushroom', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'slimysnail', nombre: 'Slimy Snail', emoji: '🐌💧', tipo: 'personaje', genero: 'm' },
         // Environmental conflicts
         { id: 'storm', nombre: 'a sudden wild storm', emoji: '⛈️', tipo: 'entorno', genero: 'f' },
         { id: 'wind', nombre: 'a curious, restless wind', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
@@ -733,8 +733,8 @@ The gentle breeze of {E} rocked them both until they fell asleep, side by side, 
         { id: 'gelfroide', nombre: 'Fée Frissonnante', emoji: '🥶🧚', tipo: 'personaje', genero: 'f' },
         { id: 'gobgourmand', nombre: 'Glouton Lutin', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'sourischao', nombre: 'Souriceau Espiègle', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
-        { id: 'nuagepleur', nombre: 'Nuage Pleurnicheur', emoji: '🌧️☁️', tipo: 'personaje', genero: 'm' },
-        { id: 'ombrejoueuse', nombre: 'Ombre Joueuse', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
+        { id: 'champiparlant', nombre: 'Champignon Parlant', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'limaconbaveux', nombre: 'Limaçon Baveux', emoji: '🐌💧', tipo: 'personaje', genero: 'm' },
         { id: 'orage', nombre: 'un orage soudain', emoji: '⛈️', tipo: 'entorno', genero: 'm' },
         { id: 'vent', nombre: 'un vent curieux et espiègle', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
         { id: 'sable', nombre: 'un nuage de sable voyageur', emoji: '🌪️', tipo: 'entorno', genero: 'm' },
@@ -1067,8 +1067,8 @@ La douce brise de {E} les berça tous les deux jusqu'à ce qu'ils s'endorment, c
         { id: 'froststörer', nombre: 'Frostige Störerin', emoji: '🥶🧙', tipo: 'personaje', genero: 'f' },
         { id: 'naschelch', nombre: 'Naschhafter Kobold', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'wirrimaus', nombre: 'Wirre Maus', emoji: '🐭💨', tipo: 'personaje', genero: 'f' },
-        { id: 'weinwolke', nombre: 'Weinende Wolke', emoji: '🌧️☁️', tipo: 'personaje', genero: 'f' },
-        { id: 'schabernack', nombre: 'Schabernak-Schatten', emoji: '👤✨', tipo: 'personaje', genero: 'm' },
+        { id: 'sprechpilz', nombre: 'Sprechender Pilz', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'schleimschnecke', nombre: 'Schleimige Schnecke', emoji: '🐌💧', tipo: 'personaje', genero: 'f' },
         // Natürliche Konflikte
         { id: 'gewitter', nombre: 'ein plötzliches Gewitter', emoji: '⛈️', tipo: 'entorno', genero: 'm' },
         { id: 'windboee', nombre: 'ein neugieriger, unruhiger Wind', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
@@ -1367,7 +1367,7 @@ Die sanfte Brise von {E} wiegte sie beide, bis sie nebeneinander einschliefen, w
       personajes: [
         { id: 'princesa', nombre: 'Princesa', emoji: '👸' },
         { id: 'caballero', nombre: 'Cavaleiro', emoji: '🛡️' },
-        { id: 'dragon', nombre: 'Dragão', emoji: '�        cuerpo: `Era uma vez, em {ea}, um(a) corajoso(a) {p} que sonhava com as mais belas aventuras. A cada manhã, ele(a) olhava para o horizonte com olhos cheios de esperança, imaginando mundos mágicos além de tudo o que se podia ver.
+        { id: 'dragon', nombre: 'Dragão', emoji: '�        cuerpo: `Era uma vez, em {ea}, um(a) corajoso(a) {p} que sonhava com as mais belas aventuras. A cada manhã, ele(a) olhava para o horizonte com olhos cheios de esperança, imaginando mundos mágicos além de tudo o que se podia ver.
 
 Numa manhã dourada, enquanto explorava os cantos mais escondidos do lugar, algo brilhou entre as folhas: {oa_art}! Ao tocá-lo(a), um formigamento mágico subiu dos dedos até o coração.
 
@@ -1384,8 +1384,8 @@ Mas exatamente nesse momento [[p: apareceu {V}, o vilão mais... surpreendente d
 Juntos, fizeram de {E} o lugar mais lindo e acolhedor do mundo. Antes de dormir, {P} sussurrou: "A maior magia não está nos objetos, mas no coração de quem os compartilha." 🌙✨`ero: 'f' },
         { id: 'duendegolosobt', nombre: 'Duende Guloso', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'ratinhobag', nombre: 'Ratinho Bagunçeiro', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
-        { id: 'nuvemchoro', nombre: 'Nuvem Choro', emoji: '🌧️☁️', tipo: 'personaje', genero: 'f' },
-        { id: 'sombratrav', nombre: 'Sombra Travessa', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
+        { id: 'cogumfalante', nombre: 'Cogumelo Falante', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'caracolbab', nombre: 'Caracol Babento', emoji: '🐌💧', tipo: 'personaje', genero: 'm' },
         { id: 'tempestade', nombre: 'uma tempestade repentina', emoji: '⛈️', tipo: 'entorno', genero: 'f' },
         { id: 'ventocurioso', nombre: 'um vento curioso e inquieto', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
         { id: 'nuvemareia', nombre: 'uma nuvem de areia viajante', emoji: '🌪️', tipo: 'entorno', genero: 'f' },
@@ -1799,3 +1799,4 @@ function generateStory(personajeId, escenarioId, objetoId) {
     fecha: new Date().toISOString(), templateId: selectedIdx, lang: currentLang
   };
 }
+
