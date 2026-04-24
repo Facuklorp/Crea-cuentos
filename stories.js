@@ -432,13 +432,13 @@ On one golden morning, while exploring the hidden corners of the land, something
 
 "{pe} How wonderful!" exclaimed {P} with eyes wide open.
 
-But just then, {V} appeared—the most surprising character in all of {E}. {V} wasn't truly wicked: they were just so small and absentminded that they tripped right over {oa_art} and accidentally hid it under an enormous cloud pillow.
+But just then, {V} appeared—[[p: the most surprising character in all of {E}. {V} wasn't truly wicked: they were just so small and absentminded that they tripped right over {oa_art} and accidentally hid it under an enormous cloud pillow. | e: changing the very atmosphere of {E}. It wasn't something bad, but it was so powerful that it accidentally moved {oa_art} and hid it in a deep corner. ]]
 
-"That's mine!" said {V}, yawning. "I need something soft to sleep on!"
+[[p: "That's mine!" — said {V}, yawning. "I need something soft to sleep on!" | e: ]]
 
-{P} didn't get angry. Instead, they sat beside {V} and asked gently: "Why can't you sleep?" And so they discovered that {V} was afraid of the dark.
+{P} didn't get angry. [[p: Instead, they sat beside {V} and asked gently: "Why can't you sleep?" And so they discovered that {V} was afraid of the dark. | e: Instead, they searched patiently for a solution and discovered the place needed a bit of light and calm for everything to return to normal. ]]
 
-{P} used the power of {oa_art} to create a small, warm, soft light that glowed in {V}'s corner. From that moment on, {V} no longer needed to steal anything, because they had their own magical light—and a brand new friend!
+{P} used the power of {oa_art} to create a small, warm, soft light that glowed in [[p: {V}'s corner. From that moment on, {V} no longer needed to steal anything, because they had their own magical light—and a brand new friend! | e: every corner of {E}. From that moment on, the force of {V} calmed down and became a gentle breeze that accompanied everyone's dreams. ]]
 
 Together, they made {E} the most beautiful and welcoming place in the world. Before drifting off to sleep, {P} whispered: "The greatest magic isn't in objects—it's in the hearts of those who share them." 🌙✨`
       },
@@ -448,15 +448,15 @@ Together, they made {E} the most beautiful and welcoming place in the world. Bef
 
 One day, {P} set out on the journey with a heart full of courage. They crossed rainbow bridges, walked along paths of stardust, and passed through gardens where flowers whispered songs.
 
-But then {V} appeared. This rather peculiar character had arrived in {E} first and, without meaning any harm, had tangled all the paths while trying to play. The trails were all mixed up and nobody knew which way to go!
+But then {V} appeared. [[p: This rather peculiar character had arrived in {E} first and, without meaning any harm, had tangled all the paths while trying to play. The trails were all mixed up and nobody knew which way to go! | e: A natural phenomenon that swept through {E} and, without meaning any harm, scrambled all the paths. The trails were covered in leaves and dust, and nobody knew which way to go! ]]
 
-"{pe} Oh, I'm so sorry!" cried {V}, turning red. "I just wanted to build a maze to play in..."
+[[p: "{pe} Oh, I'm so sorry!" cried {V}, turning red. "I just wanted to build a maze to play in..." | e: ]]
 
-{P} took a deep breath and smiled. "Don't worry. We can sort it out together!" And the two of them spent the whole afternoon untangling paths, laughing and swapping stories.
+{P} took a deep breath and smiled. "Don't worry. [[p: We can sort it out together!" And the two of them spent the whole afternoon untangling paths, laughing and swapping stories. | e: We just have to wait for it to pass!" And with patience, they waited for the environment to calm down to find the way again. ]]
 
-At the end of the day, when everything was in order, {P} spotted {oa_art} glowing at the heart of {E}. But the most precious thing they found that day wasn't the magical object—it was learning that patience and friendship are the greatest treasure of all.
+At the end of the day, when everything was in order, {P} spotted {oa_art} glowing at the heart of {E}. But the most precious thing they found that day wasn't the magical object—it was learning that patience and [[p: friendship are the greatest treasure of all. | e: calm are the greatest treasure of all. ]]
 
-They curled up together beneath the stars, and {P} understood that every adventure becomes more beautiful when it's shared. 🌟💤`
+[[p: They curled up together beneath the stars, and {P} understood that every adventure becomes more beautiful when it's shared. | e: Everything returned to peace beneath the stars, and {P} understood that after the storm, the sun always shines. ]] 🌟💤`
       },
       {
         titulo: "🌙 {P} and {O} beneath the Stars",
@@ -466,13 +466,13 @@ On one very special evening, something fell with a gentle gleam right before {P}
 
 "{pe} What are you doing here, little {O}?" asked {P}, astonished.
 
-But before {O} could answer, {V} came running over. They'd been chasing {oa_art} all night, thinking it was a fallen star and wanting to return it to the sky. Poor {V} was exhausted from all that running!
+But before {O} could answer, {V} came [[p: running over. They'd been chasing {oa_art} all night, thinking it was a fallen star and wanting to return it to the sky. Poor {V} was exhausted from all that running! | e: suddenly. The environment became restless and {oa_art} seemed to move from one side to the other, as if wanting to return to the firmament. ]]
 
-{P} gently explained that {oa_art} wasn't a star at all, but something far more special: an object that could make the deepest wishes come true for whoever needed it most. And what {V} needed was simple: a friend to keep them company at night, because they were terribly lonely.
+{P} gently explained that {oa_art} wasn't a star at all, but something far more special: an object that could make the deepest wishes come true for whoever needed it most. [[p: And what {V} needed was simple: a friend to keep them company at night, because they were terribly lonely. | e: And at that moment, what was most needed was a bit of peace in the sky so that everything could rest. ]]
 
-That evening, {P} used the power of {oa_art} so that {V} could understand the language of the stars. And as {P} listened to their glittering secrets, {V} discovered they would never be alone again.
+That evening, {P} used the power of {oa_art} so that [[p: {V} could understand the language of the stars. And as {P} listened to their glittering secrets, {V} discovered they would never be alone again. | e: calm returned to {E}. The sky became serene and the stars shone brighter than ever. ]]
 
-The three of them—{P}, {V}, and the stars of {E}—became the best friends in the entire universe. 🌙🌟`
+The three of them—{P}, [[p: {V} | e: the calm ]] and the stars of {E}—became the best friends in the entire universe. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} and the Mystery of {E}",
@@ -480,15 +480,15 @@ The three of them—{P}, {V}, and the stars of {E}—became the best friends in 
 
 {P} didn't hesitate for even a second! They followed the trails of stardust that wound through {E} until they arrived at a hidden clearing, deep among enormous ancient trees.
 
-There was {V}, surrounded by all the joy of {E}: laughter bottled in tiny jars, colours packed in little pouches, and melodies tucked inside small boxes. But {V} wasn't smiling—they were sitting on the ground, looking very sad.
+There was [[p: {V}, surrounded by all the joy of {E}: laughter bottled in tiny jars, colours packed in little pouches, and melodies tucked inside small boxes. But {V} wasn't smiling—they were sitting on the ground, looking very sad. | e: the effect of {V}, which had trapped all the joy of {E}: the laughter, the colours, and the melodies were wrapped in a whirlwind of confusion. ]]
 
-"Why did you take all of this?" asked {P} with a gentle voice.
+[[p: "Why did you take all of this?" asked {P} with a gentle voice. | e: ]]
 
-{V} explained through sniffles that they had wanted to keep {E}'s joy safe, because they were terrified it might someday run out. "I'm so afraid that one day there will be nothing beautiful left..." they whispered.
+[[p: {V} explained through sniffles that they had wanted to keep {E}'s joy safe, because they were terrified it might someday run out. "I'm so afraid that one day there will be nothing beautiful left..." they whispered. | e: It seemed as if the environment had trapped the joy for fear of losing it, creating a climate of melancholy throughout the place. ]]
 
 {P} held up {oa_art} and its magic created something extraordinary: an endless spring of joy at the heart of {E}, one that would never dry up as long as someone was willing to share.
 
-{V} opened every jar, pouch and box, and joy flooded {E} in a cascade of colour. It was the most beautiful day anyone in that place could ever remember.
+[[p: {V} opened every jar, pouch and box, and joy flooded {E} in a cascade of colour. | e: The whirlwind of {V} gently dissipated, releasing all the accumulated joy, and colours flooded {E}. ]] It was the most beautiful day anyone in that place could ever remember.
 
 That night, {P} nestled under the stars, knowing that joy, when shared, doesn't grow smaller—it multiplies. 🌜💫`
       },
@@ -552,19 +552,19 @@ That night, {P} and {V} used the magic of {oa_art} together so that everyone in 
         titulo: "🐾 {P} to the Rescue in {E}",
         cuerpo: `It was a calm afternoon in {E} when {P} heard a peculiar sound: somewhere between a whimper and a little giggle, coming from behind the bushes. Moving closer, they found a tiny lost animal—and right beside it, {V}.
 
-{V} had tried to help the little creature find its way home, but being as scatterbrained as they were, the two of them had ended up lost together in a corner of {E} that neither of them had ever seen before.
+[[p: {V} had tried to help the little creature find its way home, but being as scatterbrained as they were, the two of them had ended up lost together in a corner of {E} that neither of them had ever seen before. | e: The passing of {V} had confused the little animal, which now couldn't find its way back through the leaves and sand. ]]
 
-"{pe} What a funny muddle we've made!" admitted {V}, scratching their head.
+[[p: "{pe} What a funny muddle we've made!" admitted {V}, scratching their head. | e: It seemed that nature needed a bit of calm for the little animal to see the way again. ]]
 
 {P} couldn't help laughing, but quickly produced {oa_art}. The object began to glow with a warm, steady light, drawing a shining path through the air that led directly to the little animal's home.
 
 Along the way, {P} explained to {V} how to find direction using stars and flowers. "The forest flowers always face the sun, so if you know where the sun is at midday, you'll never be lost."
 
-{V} listened carefully, making a mental note of every tip. When the little animal arrived home safe and sound, their family greeted them with such fierce love that tears of joy were visible all around.
+[[p: {V} listened carefully, making a mental note of every tip. | e: Gradually, the weather calmed down as they followed the trail of light. ]] When the little animal arrived home safe and sound, their family greeted them with such fierce love that tears of joy were visible all around.
 
-"{pe} You're so brave," whispered the little animal to {P}. "And you, {V}—even though you got lost, you never left me on my own!"
+"{pe} You're so brave," whispered the little animal to {P}. [[p: "And you, {V}—even though you got lost, you never left me on my own!" | e: "And thanks for helping me find the calm!" ]]
 
-{V} flushed with happiness. They had failed at guiding, but triumphed at what truly mattered: being there.
+[[p: {V} flushed with happiness. They had failed at guiding, but triumphed at what truly mattered: being there. | e: The air became soft and peaceful, as if celebrating the return home. ]]
 
 With hearts at peace and a lesson well learned, everyone made their way back to rest under the stars of {E}. 🌛💨`
       },
@@ -773,13 +773,13 @@ Un matin doré, en explorant les recoins cachés du lieu, quelque chose brilla e
 
 "{pe} Quelle merveille !" s'exclama {P}, les yeux grands ouverts.
 
-Mais à cet instant précis, {V} apparut — le personnage le plus surprenant de {E}. {V} n'était pas vraiment méchant(e) : il/elle était si petit(e) et distrait(e) qu'il/elle trébucha sur {oa_art} et le/la cacha accidentellement sous son énorme oreiller de nuages.
+Mais à cet instant précis, {V} apparut — [[p: le personnage le plus surprenant de {E}. {V} n'était pas vraiment méchant(e) : il/elle était si petit(e) et distrait(e) qu'il/elle trébucha sur {oa_art} et le/la cacha accidentellement sous son énorme oreiller de nuages. | e: changeant l'atmosphère même de {E}. Ce n'était pas quelque chose de mauvais, mais c'était si fort qu'il/elle déplaça accidentellement {oa_art} et le/la cacha dans un coin profond. ]]
 
-"C'est à moi !" dit {V} en bâillant. "J'ai besoin de quelque chose de doux pour dormir !"
+[[p: "C'est à moi !" dit {V} en bâillant. "J'ai besoin de quelque chose de doux pour dormir !" | e: ]]
 
-{P} ne se fâcha pas. Au contraire, il(elle) s'assit à côté de {V} et demanda doucement : "Pourquoi tu n'arrives pas à dormir ?" Et ainsi il(elle) découvrit que {V} avait peur du noir.
+{P} ne se fâcha pas. [[p: Au contraire, il(elle) s'assit à côté de {V} et demanda doucement : "Pourquoi tu n'arrives pas à dormir ?" Et ainsi il(elle) découvrit que {V} avait peur du noir. | e: Au contraire, il(elle) chercha patiemment une solution et découvrit que le lieu avait besoin d'un peu de lumière et de calme pour que tout revienne à la normale. ]]
 
-{P} utilisa le pouvoir de {oa_art} pour créer une petite lumière douce et chaude qui éclaira le coin de {V}. Dès lors, {V} n'eut plus besoin de rien voler, car il/elle avait sa propre lumière magique — et un tout nouvel ami(e) !
+{P} utilisa le pouvoir de {oa_art} pour créer une petite lumière douce et chaude qui éclaira [[p: le coin de {V}. Dès lors, {V} n'eut plus besoin de rien voler, car il/elle avait sa propre lumière magique — et un tout nouvel ami(e) ! | e: chaque recoin de {E}. Dès lors, la force de {V} se calma et devint une brise légère qui accompagnait les rêves de tous. ]]
 
 Ensemble, ils firent de {E} l'endroit le plus beau et accueillant du monde. Avant de s'endormir, {P} murmura : "La plus grande magie n'est pas dans les objets, mais dans le cœur de ceux qui les partagent." 🌙✨`
       },
@@ -1471,15 +1471,15 @@ Juntos, fizeram de {E} o lugar mais bonito e acolhedor do mundo. Antes de dormir
 
 Um dia, {P} partiu em jornada com um coração cheio de coragem. Atravessou pontes de arco-íris, caminhou por trilhos de poeira de estrelas e passou por jardins onde as flores sussurravam canções.
 
-Mas então {V} apareceu. Essa personagem bastante peculiar havia chegado a {E} primeiro e, sem má intenção, havia embaralhado todos os caminhos enquanto tentava brincar. As trilhas estavam todas misturadas e ninguém sabia mais por onde ir!
+Mas então {V} apareceu. [[p: Essa personagem bastante peculiar havia chegado a {E} primeiro e, sem má intenção, havia embaralhado todos os caminhos enquanto tentava brincar. As trilhas estavam todas misturadas e ninguém sabia mais por onde ir! | e: Um fenómeno natural que varreu {E} e, sem má intenção, baralhou todos os caminhos. As trilhas estavam cobertas de folhas e poeira, e ninguém sabia por onde ir! ]]
 
-"{pe} Ah, sinto muito!" gritou {V}, corado. "Só queria construir um labirinto para brincar..."
+[[p: "{pe} Ah, sinto muito!" gritou {V}, corado. "Só queria construir um labirinto para brincar..." | e: ]]
 
-{P} respirou fundo e sorriu. "Não se preocupe. Podemos resolver juntos!" E os dois passaram uma tarde inteira desembaraçando caminhos, rindo e trocando histórias.
+{P} respirou fundo e sorriu. "Não se preocupe. [[p: Podemos resolver juntos!" E os dois passaram uma tarde inteira desembaraçando caminhos, rindo e trocando histórias. | e: Só temos de esperar que passe!" E com paciência, esperaram que o ambiente acalmasse para encontrar o rumo novamente. ]]
 
-No final do dia, quando tudo estava em ordem, {P} avistou {oa_art} brilhando no coração de {E}. Mas a coisa mais preciosa encontrada naquele dia não foi o objeto mágico — foi aprender que paciência e amizade são o maior tesouro de todos.
+No final do dia, quando tudo estava em ordem, {P} avistou {oa_art} brilhando no coração de {E}. Mas a coisa mais preciosa encontrada naquele dia não foi o objeto mágico — foi aprender que paciência e [[p: amizade são o maior tesouro de todos. | e: calma são o maior tesouro de todos. ]]
 
-Aconchegaram-se juntos sob as estrelas, e {P} entendeu que cada aventura se torna mais bonita quando é compartilhada. 🌟💤`
+[[p: Aconchegaram-se juntos sob as estrelas, e {P} entendeu que cada aventura se torna mais bonita quando é compartilhada. | e: Tudo voltou a estar em paz sob as estrelas, e {P} entendeu que depois da tempestade, o sol sempre brilha. ]] 🌟💤`
       },
       {
         titulo: "🌙 {P} e {O} sob as estrelas",

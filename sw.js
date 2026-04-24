@@ -1,4 +1,4 @@
-const CACHE_NAME = 'creacuentos-v16';
+const CACHE_NAME = 'creacuentos-v17';
 const ASSETS = [
   './',
   './index.html',
