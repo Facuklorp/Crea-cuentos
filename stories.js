@@ -44,8 +44,8 @@ const STORY_DATA = {
         { id: 'brujita', nombre: 'Brujita del Frío', emoji: '🥶🧙‍♀️', tipo: 'personaje', genero: 'f' },
         { id: 'duende', nombre: 'Duende Goloso', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'ratoncito', nombre: 'Ratoncito Revoltoso', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
-        { id: 'nubecilla', nombre: 'Nubecilla Llorona', emoji: '🌧️☁️', tipo: 'personaje', genero: 'f' },
-        { id: 'sombra', nombre: 'Sombra Traviesa', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
+        { id: 'nubecilla', nombre: 'Honguito Parlante', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'sombra', nombre: 'Caracol Baboso', emoji: '🐌💧', tipo: 'personaje', genero: 'm' },
         // Conflictos del entorno
         { id: 'tormenta', nombre: 'una tormenta repentina', emoji: '⛈️', tipo: 'entorno', genero: 'f' },
         { id: 'viento', nombre: 'un viento curioso y revoltoso', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
@@ -91,13 +91,13 @@ Una mañana dorada, mientras exploraba los rincones más escondidos del lugar, a
 
 "¡{pe} Qué maravilla!" — exclamó {P} con los ojos bien abiertos.
 
-Pero justo en ese momento apareció {V}, el villano más... sorprendente de {E}. {V} no era malvado de verdad: era tan pequeño y despistado que sin querer tropezó con {oa_art} y lo escondió debajo de su enorme almohada de nubes.
+Pero justo en ese momento apareció {V}, [[p: el villano más... sorprendente de {E}. {V} no era malvado de verdad: era tan pequeño y despistado que sin querer tropezó con {oa_art} y lo escondió debajo de su enorme almohada de nubes. | e: que cambió el clima de {E}. No era algo malo, pero fue tan fuerte que sin querer movió {oa_art} y lo escondió en un rincón profundo. ]]
 
-"¡Eso es mío!" — dijo {V} bostezando —. "¡Necesito algo suave para dormir!"
+[[p: "¡Eso es mío!" — dijo {V} bostezando —. "¡Necesito algo suave para dormir!" | e: ]]
 
-{P} no se enojó. En vez de eso, se sentó junto a {V} y le preguntó con dulzura: "¿Por qué no puedes dormir?" Y así descubrió que {V} tenía miedo de la oscuridad.
+{P} no se enojó. [[p: En vez de eso, se sentó junto a {V} y le preguntó con dulzura: "¿Por qué no puedes dormir?" Y así descubrió que {V} tenía miedo de la oscuridad. | e: En vez de eso, buscó pacientemente una solución y descubrió que el lugar necesitaba un poco de luz y calma para que todo volviera a la normalidad. ]]
 
-{P} usó el poder de {oa_art} para crear una pequeña luz suave y cálida que iluminó el rincón de {V}. Desde ese momento, {V} ya no necesitaba robar nada porque tenía su propia luz mágica... ¡y un nuevo amigo!
+{P} usó el poder de {oa_art} para crear una pequeña luz suave y cálida que iluminó [[p: el rincón de {V}. A partir de ese momento, {V} ya no necesitaba robar nada porque tenía su propia luz mágica... ¡y un nuevo amigo! | e: cada rincón de {E}. A partir de ese momento, la fuerza de {V} se calmó y se convirtió en una brisa suave que acompañaba los sueños de todos. ]]
 
 Juntos hicieron de {E} el lugar más bonito y acogedor del mundo. Antes de dormir, {P} susurró: "La magia más grande no está en los objetos, sino en el corazón de quienes los comparten." 🌙✨`
       },
@@ -107,15 +107,15 @@ Juntos hicieron de {E} el lugar más bonito y acogedor del mundo. Antes de dormi
 
 Un día, {P} emprendió el viaje con el corazón lleno de valentía. Cruzó puentes de arcoíris, caminó por caminos de polvo de estrellas y atravesó jardines donde las flores susurraban canciones.
 
-Pero entonces apareció {V}. Este peculiar personaje había llegado antes a {E} y, sin mala intención, había enredado todos los caminos mientras intentaba jugar. ¡Los senderos estaban mezclados y nadie sabía por dónde ir!
+Pero entonces apareció {V}. [[p: Este peculiar personaje había llegado antes a {E} y, sin mala intención, había enredado todos los caminos mientras intentaba jugar. ¡Los senderos estaban mezclados y nadie sabía por dónde ir! | e: Un fenómeno natural que recorrió {E} y, sin querer, revolvió todos los caminos. ¡Los senderos estaban cubiertos de hojas y nadie sabía por dónde ir! ]]
 
-"{V} ¡Ay, lo siento mucho!" — dijo {V} poniéndose muy colorado —. "Solo quería hacer un laberinto para jugar..."
+[[p: "{V} ¡Ay, lo siento mucho!" — dijo {V} poniéndose muy colorado —. "Solo quería hacer un laberinto para jugar..." | e: ]]
 
-{P} respiró hondo y sonrió. "No te preocupes. ¡Podemos resolverlo juntos!" Y los dos pasaron una tarde entera desenredando caminos, riendo y contándose historias.
+{P} respiró hondo y sonrió. "No te preocupes. [[p: ¡Podemos resolverlo juntos!" Y los dos pasaron una tarde entera desenredando caminos, riendo y contándose historias. | e: ¡Solo hay que esperar a que pase!" Y con paciencia, esperó a que el ambiente se calmara para volver a encontrar el rumbo. ]]
 
-Al final, cuando todo estaba en orden, {P} encontró {oa_art} brillando en el centro de {E}. Pero lo más valioso del día no fue el objeto mágico: fue haber aprendido que la paciencia y la amistad son el mayor tesoro.
+Al final, cuando todo estaba en orden, {P} encontró {oa_art} brillando en el centro de {E}. Pero lo más valioso del día no fue el objeto mágico: fue haber aprendido que la paciencia y [[p: la amistad son el mayor tesoro. | e: la calma son el mayor tesoro. ]]
 
-Se acurrucaron juntos viendo las estrellas, y {P} comprendió que cada aventura es más bonita cuando se comparte. 🌟💤`
+[[p: Se acurrucaron juntos viendo las estrellas, y {P} comprendió que cada aventura es más bonita cuando se comparte. | e: Todo volvió a estar en paz bajo las estrellas, y {P} comprendió que después de la tormenta siempre sale el sol. ]] 🌟💤`
       },
       {
         titulo: "🌙 {P} y {O} bajo las estrellas",
@@ -125,13 +125,13 @@ Una noche muy especial, algo cayó con un suave destello justo frente a {P}. Era
 
 "¡{pe} ¿Qué haces aquí, pequeñ{ao} {O_base}?" — preguntó {P} asombrad{oa}.
 
-Pero antes de que {O} pudiera responder, llegó {V} corriendo. Había estado persiguiendo {oa_art} toda la noche porque pensaba que era una estrella caída y quería regodeársela al cielo. ¡Pobre {V}, estaba agotad{ao} de tanto correr!
+Pero antes de que {O} pudiera responder, llegó {V} [[p: corriendo. Había estado persiguiendo {oa_art} toda la noche porque pensaba que era una estrella caída y quería regodeársela al cielo. ¡Pobre {V}, estaba agotad{ao} de tanto correr! | e: de repente. El ambiente se volvió inquieto y {oa_art} parecía moverse de un lado a otro, como si quisiera volver al firmamento. ]]
 
-{P} le explicó con cariño que {oa_art} no era una estrella sino algo mucho más especial: un objeto capaz de hacer realidad los sueños de quien lo necesita. Y {V} necesitaba algo en realidad: un amigo que le acompañara por las noches, porque se sentía muy sol{ao}.
+{P} le explicó con cariño que {oa_art} no era una estrella sino algo mucho más especial: un objeto capaz de hacer realidad los sueños de quien lo necesita. [[p: Y {V} necesitaba algo en realidad: un amigo que le acompañara por las noches, porque se sentía muy sol{ao}. | e: Y en ese momento, lo que más se necesitaba era un poco de paz en el cielo para que todo descansara. ]]
 
-Esa noche, {P} usó el poder de {oa_art} para que {V} pudiera entender el idioma de las estrellas. Y así, mientras {P} escuchaba sus secretos brillantes, {V} aprendió que nunca más estaría sol{ao}.
+Esa noche, {P} usó el poder de {oa_art} para que [[p: {V} pudiera entender el idioma de las estrellas. Y así, mientras {P} escuchaba sus secretos brillantes, {V} aprendió que nunca más estaría sol{ao}. | e: la calma volviera a {E}. El cielo se volvió sereno y las estrellas brillaron con más fuerza que nunca. ]]
 
-Los tres —{P}, {V} y las estrellas de {E}— se convirtieron en los mejores amigos del universo. 🌙🌟`
+Los tres —{P}, [[p: {V} | e: la calma ]] y las estrellas de {E}— se convirtieron en los mejores amigos del universo. 🌙🌟`
       },
       {
         titulo: "{pe} {P}, {O} y el misterio de {E}",
@@ -139,15 +139,15 @@ Los tres —{P}, {V} y las estrellas de {E}— se convirtieron en los mejores am
 
 ¡{P} no lo dudó ni un segundo! Siguió las huellas de polvo de estrellas que serpenteaban por {E} hasta llegar a un claro escondido entre árboles enormes.
 
-Allí estaba {V}, rodeado de toda la alegría de {E}: risas en frasquitos, colores en bolsitas y melodías en cajitas pequeñas. Pero {V} no estaba riendo; estaba sentad{ao} en el suelo, muy triste.
+Allí estaba [[p: {V}, rodeado de toda la alegría de {E}: risas en frasquitos, colores en bolsitas y melodías en cajitas pequeñas. Pero {V} no estaba riendo; estaba sentad{ao} en el suelo, muy triste. | e: el efecto de {V}, que había atrapado toda la alegría de {E}: las risas, los colores y las melodías estaban envueltas en un remolino de confusión. ]]
 
-"¿Por qué recogiste todo esto?" — preguntó {P} con voz dulce.
+[[p: "¿Por qué recogiste todo esto?" — preguntó {P} con voz dulce. | e: ]]
 
-{V} explicó entre sollozos que había querido guardar la alegría de {E} porque tenía miedo de que se acabara. "Me da tanto pánico que un día no haya más cosas bonitas..."
+[[p: {V} explicó entre sollozos que había querido guardar la alegría de {E} porque tenía miedo de que se acabara. "Me da tanto pánico que un día no haya más cosas bonitas..." | e: Parecía que el ambiente había atrapado la alegría por miedo a perderla, creando un clima de melancolía en todo el lugar. ]]
 
 {P} sacó {oa_art} y con su magia creó algo increíble: una fuente de alegría inagotable en el corazón de {E}, una que nunca se acabaría mientras hubiera alguien que quisiera compartir.
 
-{V} abrió todos los frasquitos, bolsitas y cajitas, y la alegría inundó {E} de colores. Fue el día más bonito que nadie en ese lugar recordaba.
+[[p: {V} abrió todos los frasquitos, bolsitas y cajitas, y la alegría inundó {E} de colores. | e: El remolino de {V} se disipó suavemente, liberando toda la alegría acumulada, y los colores inundaron {E}. ]] Fue el día más bonito que nadie en ese lugar recordaba.
 
 Esa noche, {P} se acurrucó bajo las estrellas sabiendo que la alegría, cuando se comparte, no disminuye: ¡se multiplica! 🌜💫`
       },
@@ -211,19 +211,19 @@ Esa noche, {P} y {V} usaron juntos la magia de {oa_art} para que todos en {E} tu
         titulo: "🐾 {P} al rescate en {E}",
         cuerpo: `Era una tarde tranquila en {E} cuando {P} escuchó un sonido extraño: una mezcla entre gemido y risita que venía de entre los matorrales. Al acercarse, encontró a un pequeño animalito perdido... y junto a él, a {V}.
 
-{V} había intentado ayudar al animalito a encontrar su camino, pero siendo tan despistado como era, habían terminado los dos perdidos en un rincón de {E} que ninguno de los dos conocía.
+[[p: {V} había intentado ayudar al animalito a encontrar su camino, pero siendo tan despistado como era, habían terminado los dos perdidos en un rincón de {E} que ninguno de los dos conocía. | e: El paso de {V} había confundido al animalito, que ahora no encontraba el camino de regreso entre las hojas y la arena. ]]
 
-"¡{pe} Qué lío tan gracioso hemos armado!" — admitió {V} rascándose la cabeza.
+[[p: "¡{pe} Qué lío tan gracioso hemos armado!" — admitió {V} rascándose la cabeza. | e: Parecía que la naturaleza necesitaba un poco de calma para que el pequeño animalito pudiera ver de nuevo el camino. ]]
 
 {P} no pudo evitar reír, pero rápidamente sacó {oa_art}. El objeto empezó a brillar con una luz cálida y constante, trazando en el aire un camino luminoso que llevaba directo al hogar del pequeño animalito.
 
 Mientras caminaban, {P} le explicó a {V} cómo orientarse con las estrellas y las flores: "Las flores del bosque siempre miran al sol, así que si sabes dónde está el sol al mediodía, nunca te perderás."
 
-{V} escuchaba con atención, tomando nota mental de cada consejo. Cuando el animalito llegó a casa sano y salvo, su familia lo recibió con tanto amor que las lágrimas de alegría eran visibles.
+[[p: {V} escuchaba con atención, tomando nota mental de cada consejo. | e: Poco a poco, el clima se fue calmando mientras seguían el rastro de luz. ]] Cuando el animalito llegó a casa sano y salvo, su familia lo recibió con tanto amor que las lágrimas de alegría eran visibles.
 
-"{pe} {P} eres muy valiente" — susurró el animalito —. "Y tú, {V}, aunque te perdiste, ¡nunca me abandonaste!"
+"{pe} {P} eres muy valiente" — susurró el animalito —. [[p: "Y tú, {V}, aunque te perdiste, ¡nunca me abandonaste!" | e: "¡Y gracias por ayudarme a encontrar la calma!" ]]
 
-{V} se sonrojó de felicidad. Había fallado en lo de guiar, pero había triunfado en lo que de verdad importaba: estar ahí.
+[[p: {V} se sonrojó de felicidad. Había fallado en lo de guiar, pero había triunfado en lo que de verdad importaba: estar ahí. | e: El aire se volvió suave y tranquilo, como si celebrara el regreso a casa. ]]
 
 Con paz en el corazón y la lección aprendida, todos regresaron a descansar bajo las estrellas de {E}. 🌛💨`
       },
@@ -403,8 +403,8 @@ La brisa suave de {E} los arrulló hasta que ambos se quedaron dormidos, uno jun
         { id: 'frostitwitch', nombre: 'Frostie the Forgetful', emoji: '🥶🧙', tipo: 'personaje', genero: 'f' },
         { id: 'snackgoblin', nombre: 'Snack Goblin', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'scramblerat', nombre: 'Scramble Rat', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
-        { id: 'crybcloud', nombre: 'Crying Cloud', emoji: '🌧️☁️', tipo: 'personaje', genero: 'f' },
-        { id: 'mischievshadow', nombre: 'Mischief Shadow', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
+        { id: 'crybcloud', nombre: 'Talking Mushroom', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'mischievshadow', nombre: 'Slimy Snail', emoji: '🐌💧', tipo: 'personaje', genero: 'm' },
         // Environmental conflicts
         { id: 'storm', nombre: 'a sudden wild storm', emoji: '⛈️', tipo: 'entorno', genero: 'f' },
         { id: 'wind', nombre: 'a curious, restless wind', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
@@ -744,8 +744,8 @@ The gentle breeze of {E} rocked them both until they fell asleep, side by side, 
         { id: 'gelfroide', nombre: 'Fée Frissonnante', emoji: '🥶🧚', tipo: 'personaje', genero: 'f' },
         { id: 'gobgourmand', nombre: 'Glouton Lutin', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'sourischao', nombre: 'Souriceau Espiègle', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
-        { id: 'nuagepleur', nombre: 'Nuage Pleurnicheur', emoji: '🌧️☁️', tipo: 'personaje', genero: 'm' },
-        { id: 'ombrejoueuse', nombre: 'Ombre Joueuse', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
+        { id: 'nuagepleur', nombre: 'Petit Champignon', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'ombrejoueuse', nombre: 'Escargot Baveux', emoji: '🐌💧', tipo: 'personaje', genero: 'm' },
         // Conflits naturels
         { id: 'orage', nombre: 'un orage soudain', emoji: '⛈️', tipo: 'entorno', genero: 'm' },
         { id: 'vent', nombre: 'un vent curieux et espiègle', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
@@ -1085,8 +1085,8 @@ La douce brise de {E} les berça tous les deux jusqu'à ce qu'ils s'endorment, c
         { id: 'froststörer', nombre: 'Frostige Störerin', emoji: '🥶🧙', tipo: 'personaje', genero: 'f' },
         { id: 'naschelch', nombre: 'Naschhafter Kobold', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'wirrimaus', nombre: 'Wirre Maus', emoji: '🐭💨', tipo: 'personaje', genero: 'f' },
-        { id: 'weinwolke', nombre: 'Weinende Wolke', emoji: '🌧️☁️', tipo: 'personaje', genero: 'f' },
-        { id: 'schabernack', nombre: 'Schabernak-Schatten', emoji: '👤✨', tipo: 'personaje', genero: 'm' },
+        { id: 'weinwolke', nombre: 'Sprechender Pilz', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'schabernack', nombre: 'Schleimige Schnecke', emoji: '🐌💧', tipo: 'personaje', genero: 'm' },
         // Natürliche Konflikte
         { id: 'gewitter', nombre: 'ein plötzliches Gewitter', emoji: '⛈️', tipo: 'entorno', genero: 'm' },
         { id: 'windboee', nombre: 'ein neugieriger, unruhiger Wind', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
@@ -1426,8 +1426,8 @@ Die sanfte Brise von {E} wiegte sie beide, bis sie nebeneinander einschliefen, w
         { id: 'bruxadogelo', nombre: 'Bruxinha do Gelo', emoji: '🥶🧙', tipo: 'personaje', genero: 'f' },
         { id: 'duendegolosobt', nombre: 'Duende Guloso', emoji: '🍭👺', tipo: 'personaje', genero: 'm' },
         { id: 'ratinhobag', nombre: 'Ratinho Bagunçeiro', emoji: '🐭💨', tipo: 'personaje', genero: 'm' },
-        { id: 'nuvemchoro', nombre: 'Nuvem Choro', emoji: '🌧️☁️', tipo: 'personaje', genero: 'f' },
-        { id: 'sombratrav', nombre: 'Sombra Travessa', emoji: '👤✨', tipo: 'personaje', genero: 'f' },
+        { id: 'nuvemchoro', nombre: 'Cogumelo Falante', emoji: '🍄💬', tipo: 'personaje', genero: 'm' },
+        { id: 'sombratrav', nombre: 'Caracol Baboso', emoji: '🐌💧', tipo: 'personaje', genero: 'm' },
         // Conflitos naturais
         { id: 'tempestade', nombre: 'uma tempestade repentina', emoji: '⛈️', tipo: 'entorno', genero: 'f' },
         { id: 'ventocurioso', nombre: 'um vento curioso e inquieto', emoji: '🌬️', tipo: 'entorno', genero: 'm' },
@@ -1818,6 +1818,12 @@ function generateStory(personajeId, escenarioId, objetoId) {
 
   let titulo = tpl.titulo;
   let cuerpo = tpl.cuerpo;
+
+  // Manejo de bloques condicionales [[p: texto personaje | e: texto entorno ]]
+  const tipo = villano ? (villano.tipo || 'personaje') : 'personaje';
+  const blockRegex = /\[\[p:\s*([\s\S]*?)\|\s*e:\s*([\s\S]*?)\]\]/g;
+  titulo = titulo.replace(blockRegex, (match, pPart, ePart) => (tipo === 'personaje' ? pPart.trim() : ePart.trim()));
+  cuerpo = cuerpo.replace(blockRegex, (match, pPart, ePart) => (tipo === 'personaje' ? pPart.trim() : ePart.trim()));
 
   for (const [k, v] of Object.entries(reps)) {
     const re = new RegExp(k.replace(/[{}]/g, '\\$&'), 'g');

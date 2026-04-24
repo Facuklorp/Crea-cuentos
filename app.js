@@ -198,6 +198,14 @@ const AudioManager = (() => {
     return isMuted;
   }
 
+  function silenceMusic() {
+    if (currentAudio) {
+      if (currentAudio.fadeInterval) clearInterval(currentAudio.fadeInterval);
+      currentAudio.pause();
+      currentAudio.volume = VOLUME; // Reset volume for next time
+    }
+  }
+
   function updateMuteButton() {
     const btn = document.getElementById('btnMute');
     if (!btn) return;
@@ -248,7 +256,7 @@ const AudioManager = (() => {
     }
   }
 
-  return { play, toggleMute, initMuteButton, resumeOnGesture, getMuted, playRandomHome, getCurrentTrack, pauseMusic, resumeMusic };
+  return { play, toggleMute, initMuteButton, resumeOnGesture, getMuted, playRandomHome, getCurrentTrack, pauseMusic, resumeMusic, silenceMusic };
 })();
 
 
@@ -675,6 +683,7 @@ function onReadStory() {
   };
 
   currentUtterance = utterance;
+  AudioManager.silenceMusic(); // Use immediate silence for better experience during narration
   window.speechSynthesis.speak(utterance);
 }
 
