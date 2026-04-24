@@ -235,9 +235,20 @@ const AudioManager = (() => {
     play(trackKey);
   }
 
-  function getCurrentTrack() { return currentTrack; }
+  function pauseMusic() {
+    if (currentAudio && !isMuted) {
+      fadeOut(currentAudio);
+    }
+  }
 
-  return { play, toggleMute, initMuteButton, resumeOnGesture, getMuted, playRandomHome, getCurrentTrack };
+  function resumeMusic() {
+    if (currentAudio && !isMuted && currentAudio.paused) {
+      currentAudio.play().catch(() => {});
+      fadeIn(currentAudio);
+    }
+  }
+
+  return { play, toggleMute, initMuteButton, resumeOnGesture, getMuted, playRandomHome, getCurrentTrack, pauseMusic, resumeMusic };
 })();
 
 
@@ -646,18 +657,21 @@ function onReadStory() {
   utterance.onstart = () => {
     btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnStop}</span>`;
     btn.classList.add('reading');
+    AudioManager.pauseMusic();
   };
 
   utterance.onend = () => {
     btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnRead}</span>`;
     btn.classList.remove('reading');
     currentUtterance = null;
+    AudioManager.resumeMusic();
   };
 
   utterance.onerror = () => {
     btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnRead}</span>`;
     btn.classList.remove('reading');
     currentUtterance = null;
+    AudioManager.resumeMusic();
   };
 
   currentUtterance = utterance;
@@ -666,6 +680,7 @@ function onReadStory() {
 
 function stopReading() {
   window.speechSynthesis.cancel();
+  AudioManager.resumeMusic();
   const btn = document.getElementById('btnReadStory');
   if (btn) {
     btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnRead}</span>`;
