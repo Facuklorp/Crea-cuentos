@@ -628,16 +628,16 @@ function onShareStory() {
 }
 
 const CHARACTER_VOICES = {
-  princesa:    { pitch: 1.1, rate: 0.95, gender: 'female' },
-  caballero:   { pitch: 0.9, rate: 0.9,  gender: 'male'   },
-  dragon:      { pitch: 0.7, rate: 0.85, gender: 'male'   },
-  hada:        { pitch: 1.2, rate: 1.0,  gender: 'female' },
-  pirata:      { pitch: 0.8, rate: 0.85, gender: 'male'   },
-  unicornio:   { pitch: 1.2, rate: 1.0,  gender: 'female' },
-  robot:       { pitch: 1.0, rate: 1.1,  gender: 'male'   }, // Rate 1.1 gives it a techy feel
-  sirena:      { pitch: 1.1, rate: 0.9,  gender: 'female' },
-  conejito:    { pitch: 1.3, rate: 1.05, gender: 'female' },
-  bruja_buena: { pitch: 0.9, rate: 0.9,  gender: 'female' }
+  princesa:    { pitch: 1.0, rate: 1.0, gender: 'female' },
+  caballero:   { pitch: 1.0, rate: 1.0, gender: 'male'   },
+  dragon:      { pitch: 1.0, rate: 1.0, gender: 'male'   },
+  hada:        { pitch: 1.0, rate: 1.0, gender: 'female' },
+  pirata:      { pitch: 1.0, rate: 1.0, gender: 'male'   },
+  unicornio:   { pitch: 1.0, rate: 1.0, gender: 'female' },
+  robot:       { pitch: 1.0, rate: 1.0, gender: 'male'   },
+  sirena:      { pitch: 1.0, rate: 1.0, gender: 'female' },
+  conejito:    { pitch: 1.0, rate: 1.0, gender: 'female' },
+  bruja_buena: { pitch: 1.0, rate: 1.0, gender: 'female' }
 };
 
 let currentUtterance = null;
@@ -656,7 +656,15 @@ function onReadStory() {
   const btn = document.getElementById('btnReadStory');
   const config = CHARACTER_VOICES[currentStory.personajeId] || { pitch: 1.0, rate: 1.0, gender: 'female' };
   
-  const utterance = new SpeechSynthesisUtterance(currentStory.titulo + ". " + currentStory.cuerpo);
+  // Eliminar emojis para que el TTS no lea los iconos
+  let textToRead = currentStory.titulo + ". " + currentStory.cuerpo;
+  try {
+    textToRead = textToRead.replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '');
+  } catch (e) {
+    textToRead = textToRead.replace(/[^\w\s.,;:!?ñÑáéíóúÁÉÍÓÚüÜçÇàèìòùÀÈÌÒÙâêîôûÂÊÎÔÛäëïöüÄËÏÖÜß¿¡'"-]/g, '');
+  }
+
+  const utterance = new SpeechSynthesisUtterance(textToRead);
   
   // Try to find a matching voice
   const voices = window.speechSynthesis.getVoices();
