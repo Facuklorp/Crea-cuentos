@@ -677,6 +677,8 @@ function onReadStory() {
   let bestVoice = null;
   let bestScore = -1;
   const preferredTerms = ['google', 'premium', 'natural', 'multilingual', 'online'];
+  const knownMaleNames = ['pablo', 'raul', 'diego', 'jorge', 'carlos', 'alvaro', 'enrique', 'antonio', 'david', 'martin', 'alejandro'];
+  const knownFemaleNames = ['helena', 'sabina', 'laura', 'conchita', 'lucia', 'mia', 'lupe', 'penelope', 'victoria'];
 
   for (let v of validVoices) {
     let score = 0;
@@ -685,8 +687,12 @@ function onReadStory() {
     // Preferir voces de alta calidad
     if (preferredTerms.some(term => nameLower.includes(term))) score += 10;
     
-    // Coincidencia de género aproximada
-    if (nameLower.includes(config.gender) || (config.gender === 'female' && nameLower.includes('mujer')) || (config.gender === 'male' && nameLower.includes('hombre'))) score += 5;
+    // Coincidencia de género avanzada
+    let isMaleVoice = nameLower.includes('male') || nameLower.includes('hombre') || knownMaleNames.some(n => nameLower.includes(n));
+    let isFemaleVoice = nameLower.includes('female') || nameLower.includes('mujer') || knownFemaleNames.some(n => nameLower.includes(n));
+    
+    if (config.gender === 'male' && isMaleVoice) score += 20;
+    if (config.gender === 'female' && isFemaleVoice) score += 20;
     
     // Voces de red suelen ser mejores en Android/Chrome
     if (v.localService === false) score += 5;
@@ -698,7 +704,18 @@ function onReadStory() {
   }
 
   utterance.voice = bestVoice || validVoices[0] || voices[0];
-  utterance.pitch = config.pitch;
+  
+  // Fallback inteligente de Pitch
+  let isSelectedVoiceMale = bestVoice ? (bestVoice.name.toLowerCase().includes('male') || bestVoice.name.toLowerCase().includes('hombre') || knownMaleNames.some(n => bestVoice.name.toLowerCase().includes(n))) : false;
+  
+  if (config.gender === 'male' && !isSelectedVoiceMale) {
+      utterance.pitch = 0.8; // Simular voz masculina bajando el pitch si no hay ninguna instalada
+  } else if (config.gender === 'female' && !bestVoice?.name.toLowerCase().includes('female')) {
+      utterance.pitch = 1.05; // Levemente más agudo
+  } else {
+      utterance.pitch = config.pitch;
+  }
+
   utterance.rate = config.rate;
   utterance.lang = langCode;
 
