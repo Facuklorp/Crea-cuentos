@@ -1829,6 +1829,14 @@ function generateStory(personajeId, escenarioId, objetoId) {
     cuerpo = cuerpo.replace(re, v);
   }
 
+  // Asegurar que cada párrafo comience con mayúscula
+  cuerpo = cuerpo.split('\n').map(p => {
+    let trimmed = p.trim();
+    if (!trimmed) return "";
+    // Buscar la primera letra alfanumérica y pasarla a mayúscula
+    return trimmed.replace(/([a-zñáéíóúü])/, (match) => match.toUpperCase());
+  }).filter(p => p !== "").join('\n\n');
+
   return {
     titulo, cuerpo,
     personaje: personaje.nombre, escenario: escenario.nombre, objeto: objeto.nombre,
