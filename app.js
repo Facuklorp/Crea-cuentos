@@ -312,6 +312,10 @@ function createStars() {
 // Screen Navigation
 // ============================================
 function showScreen(id) {
+  if (window.speechSynthesis && window.speechSynthesis.speaking) {
+    stopReading();
+  }
+
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
 
@@ -624,15 +628,15 @@ function onShareStory() {
 }
 
 const CHARACTER_VOICES = {
-  princesa:    { pitch: 1.3, rate: 0.95, gender: 'female' },
+  princesa:    { pitch: 1.1, rate: 0.95, gender: 'female' },
   caballero:   { pitch: 0.9, rate: 0.9,  gender: 'male'   },
-  dragon:      { pitch: 0.5, rate: 0.85, gender: 'male'   },
-  hada:        { pitch: 1.5, rate: 1.0,  gender: 'female' },
-  pirata:      { pitch: 0.7, rate: 0.85, gender: 'male'   },
-  unicornio:   { pitch: 1.3, rate: 1.0,  gender: 'female' },
+  dragon:      { pitch: 0.7, rate: 0.85, gender: 'male'   },
+  hada:        { pitch: 1.2, rate: 1.0,  gender: 'female' },
+  pirata:      { pitch: 0.8, rate: 0.85, gender: 'male'   },
+  unicornio:   { pitch: 1.2, rate: 1.0,  gender: 'female' },
   robot:       { pitch: 1.0, rate: 1.1,  gender: 'male'   }, // Rate 1.1 gives it a techy feel
-  sirena:      { pitch: 1.0, rate: 0.85, gender: 'female' },
-  conejito:    { pitch: 1.4, rate: 1.1,  gender: 'female' },
+  sirena:      { pitch: 1.1, rate: 0.9,  gender: 'female' },
+  conejito:    { pitch: 1.3, rate: 1.05, gender: 'female' },
   bruja_buena: { pitch: 0.9, rate: 0.9,  gender: 'female' }
 };
 
@@ -658,12 +662,34 @@ function onReadStory() {
   const voices = window.speechSynthesis.getVoices();
   const langCode = currentLang === 'es-latam' ? 'es' : currentLang;
   
-  // Filter by language and gender if possible
-  let bestVoice = voices.find(v => v.lang.startsWith(langCode) && v.name.toLowerCase().includes(config.gender)) 
-               || voices.find(v => v.lang.startsWith(langCode))
-               || voices[0];
+  // Filter by language
+  let validVoices = voices.filter(v => v.lang.toLowerCase().startsWith(langCode.toLowerCase()) || v.lang.toLowerCase().startsWith(langCode.split('-')[0].toLowerCase()));
+  if (validVoices.length === 0) validVoices = voices;
 
-  utterance.voice = bestVoice;
+  let bestVoice = null;
+  let bestScore = -1;
+  const preferredTerms = ['google', 'premium', 'natural', 'multilingual', 'online'];
+
+  for (let v of validVoices) {
+    let score = 0;
+    let nameLower = v.name.toLowerCase();
+    
+    // Preferir voces de alta calidad
+    if (preferredTerms.some(term => nameLower.includes(term))) score += 10;
+    
+    // Coincidencia de género aproximada
+    if (nameLower.includes(config.gender) || (config.gender === 'female' && nameLower.includes('mujer')) || (config.gender === 'male' && nameLower.includes('hombre'))) score += 5;
+    
+    // Voces de red suelen ser mejores en Android/Chrome
+    if (v.localService === false) score += 5;
+
+    if (score > bestScore) {
+      bestScore = score;
+      bestVoice = v;
+    }
+  }
+
+  utterance.voice = bestVoice || validVoices[0] || voices[0];
   utterance.pitch = config.pitch;
   utterance.rate = config.rate;
   utterance.lang = langCode;
@@ -689,7 +715,12 @@ function onReadStory() {
   };
 
   currentUtterance = utterance;
-  window.speechSynthesis.speak(utterance);
+  
+  // Asegurar que el motor TTS esté limpio antes de hablar (evita bloqueos)
+  window.speechSynthesis.cancel();
+  setTimeout(() => {
+    window.speechSynthesis.speak(utterance);
+  }, 50);
 }
 
 function stopReading() {
@@ -724,6 +755,14 @@ document.addEventListener('DOMContentLoaded', () => {
   setLanguage(currentLang); // Initializes language
   createStars();
   AudioManager.initMuteButton();
+
+  // Precargar voces del sistema
+  if (window.speechSynthesis) {
+    window.speechSynthesis.getVoices();
+    window.speechSynthesis.onvoiceschanged = () => {
+      window.speechSynthesis.getVoices();
+    };
+  }
 
   // Iniciar música imperceptible al primer gesto real en la pantalla
   const startAudioOnFirstInteraction = () => {
