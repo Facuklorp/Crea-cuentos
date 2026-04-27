@@ -641,9 +641,13 @@ const CHARACTER_VOICES = {
 };
 
 let currentUtterance = null;
+let currentCloudAudio = null;
+let isFetchingAudio = false;
 
-function onReadStory() {
-  if (window.speechSynthesis.speaking) {
+async function onReadStory() {
+  if (isFetchingAudio) return;
+
+  if (currentCloudAudio || window.speechSynthesis.speaking) {
     stopReading();
     return;
   }
@@ -664,13 +668,59 @@ function onReadStory() {
     textToRead = textToRead.replace(/[^\w\s.,;:!?ñÑáéíóúÁÉÍÓÚüÜçÇàèìòùÀÈÌÒÙâêîôûÂÊÎÔÛäëïöüÄËÏÖÜß¿¡'"-]/g, '');
   }
 
+  isFetchingAudio = true;
+  btn.innerHTML = `<span>⏳ Cargando...</span>`;
+  btn.classList.add('reading');
+
+  try {
+    const response = await fetch('/api/tts', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        text: textToRead,
+        lang: currentLang,
+        gender: config.gender
+      })
+    });
+
+    if (!response.ok) {
+      throw new Error('TTS API falló');
+    }
+
+    const data = await response.json();
+    if (!data.audioContent) throw new Error('No audio content');
+
+    const audioSrc = 'data:audio/mp3;base64,' + data.audioContent;
+    currentCloudAudio = new Audio(audioSrc);
+    
+    currentCloudAudio.onended = () => {
+      btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnRead}</span>`;
+      btn.classList.remove('reading');
+      currentCloudAudio = null;
+      AudioManager.resumeMusic();
+    };
+    
+    currentCloudAudio.onerror = () => {
+      stopReading();
+      showToast('Error al reproducir el audio de Google TTS');
+    };
+
+    btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnStop}</span>`;
+    await currentCloudAudio.play();
+
+  } catch (error) {
+    console.warn('Google TTS falló, usando voz local:', error);
+    fallbackLocalTTS(textToRead, config, btn);
+  } finally {
+    isFetchingAudio = false;
+  }
+}
+
+function fallbackLocalTTS(textToRead, config, btn) {
   const utterance = new SpeechSynthesisUtterance(textToRead);
-  
-  // Try to find a matching voice
   const voices = window.speechSynthesis.getVoices();
   const langCode = currentLang === 'es-latam' ? 'es' : currentLang;
   
-  // Filter by language
   let validVoices = voices.filter(v => v.lang.toLowerCase().startsWith(langCode.toLowerCase()) || v.lang.toLowerCase().startsWith(langCode.split('-')[0].toLowerCase()));
   if (validVoices.length === 0) validVoices = voices;
 
@@ -684,17 +734,14 @@ function onReadStory() {
     let score = 0;
     let nameLower = v.name.toLowerCase();
     
-    // Preferir voces de alta calidad
     if (preferredTerms.some(term => nameLower.includes(term))) score += 10;
     
-    // Coincidencia de género avanzada
     let isMaleVoice = nameLower.includes('male') || nameLower.includes('hombre') || knownMaleNames.some(n => nameLower.includes(n));
     let isFemaleVoice = nameLower.includes('female') || nameLower.includes('mujer') || knownFemaleNames.some(n => nameLower.includes(n));
     
     if (config.gender === 'male' && isMaleVoice) score += 20;
     if (config.gender === 'female' && isFemaleVoice) score += 20;
     
-    // Voces de red suelen ser mejores en Android/Chrome
     if (v.localService === false) score += 5;
 
     if (score > bestScore) {
@@ -705,13 +752,12 @@ function onReadStory() {
 
   utterance.voice = bestVoice || validVoices[0] || voices[0];
   
-  // Fallback inteligente de Pitch
   let isSelectedVoiceMale = bestVoice ? (bestVoice.name.toLowerCase().includes('male') || bestVoice.name.toLowerCase().includes('hombre') || knownMaleNames.some(n => bestVoice.name.toLowerCase().includes(n))) : false;
   
   if (config.gender === 'male' && !isSelectedVoiceMale) {
-      utterance.pitch = 0.8; // Simular voz masculina bajando el pitch si no hay ninguna instalada
+      utterance.pitch = 0.8; 
   } else if (config.gender === 'female' && !bestVoice?.name.toLowerCase().includes('female')) {
-      utterance.pitch = 1.05; // Levemente más agudo
+      utterance.pitch = 1.05;
   } else {
       utterance.pitch = config.pitch;
   }
@@ -722,7 +768,7 @@ function onReadStory() {
   utterance.onstart = () => {
     btn.innerHTML = `<span>${TRANSLATIONS[currentLang].btnStop}</span>`;
     btn.classList.add('reading');
-    AudioManager.silenceMusic(); // Double check music is off
+    AudioManager.silenceMusic();
   };
 
   utterance.onend = () => {
@@ -741,7 +787,6 @@ function onReadStory() {
 
   currentUtterance = utterance;
   
-  // Asegurar que el motor TTS esté limpio antes de hablar (evita bloqueos)
   window.speechSynthesis.cancel();
   setTimeout(() => {
     window.speechSynthesis.speak(utterance);
@@ -749,6 +794,11 @@ function onReadStory() {
 }
 
 function stopReading() {
+  if (currentCloudAudio) {
+    currentCloudAudio.pause();
+    currentCloudAudio.currentTime = 0;
+    currentCloudAudio = null;
+  }
   window.speechSynthesis.cancel();
   AudioManager.resumeMusic();
   const btn = document.getElementById('btnReadStory');
