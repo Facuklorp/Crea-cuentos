@@ -312,9 +312,7 @@ function createStars() {
 // Screen Navigation
 // ============================================
 function showScreen(id) {
-  if (window.speechSynthesis && window.speechSynthesis.speaking) {
-    stopReading();
-  }
+  stopReading();
 
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
