@@ -129,9 +129,10 @@ body {
 .app-logo-img {
   width: 120px;
   height: 120px;
-  border-radius: 28px;
+  border-radius: 40px; /* Aumentado para evitar esquinas blancas */
   box-shadow: 0 8px 32px rgba(155, 125, 255, 0.3), 0 0 40px rgba(255, 214, 102, 0.15);
   object-fit: cover;
+  overflow: hidden;
 }
 
 @keyframes floatEmoji {
@@ -520,10 +521,31 @@ body {
   color: var(--text-primary);
   white-space: pre-wrap;
   background: var(--bg-card);
-  border-radius: var(--radius-lg);
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg); /* Solo abajo para unir con el botón */
   padding: 28px 24px;
   border: 1px solid rgba(255,255,255,0.05);
+  border-top: none;
   box-shadow: var(--shadow-card);
+}
+
+/* === Botón de Escuchar Inline === */
+.btn-read-inline {
+  width: 100%;
+  margin-bottom: 0;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  padding: 10px 20px;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 0.9rem;
+  height: auto;
+  min-height: 44px;
+  color: var(--accent-gold);
+}
+
+.btn-read-inline.reading {
+  background: var(--accent-gold);
+  color: #1a1040;
 }
 
 .story-actions {
