@@ -32,7 +32,7 @@ const TRANSLATIONS = {
     footerSupport: "Soporte Mágico",
     footerPrivacy: "Privacidad",
     btnShare: "📤 Compartir",
-    btnRead: "📢 Escuchar",
+    btnRead: "📢 Escuchar Audiocuento",
     btnStop: "⏹️ Parar",
     copiedToClipboard: "¡Cuento copiado al portapapeles! 📋"
   },
@@ -69,7 +69,7 @@ const TRANSLATIONS = {
     footerSupport: "Magic Support",
     footerPrivacy: "Privacy",
     btnShare: "📤 Share",
-    btnRead: "📢 Listen",
+    btnRead: "📢 Listen to Audio Story",
     btnStop: "⏹️ Stop",
     copiedToClipboard: "Story copied to clipboard! 📋"
   },
@@ -106,7 +106,7 @@ const TRANSLATIONS = {
     footerSupport: "Support Magique",
     footerPrivacy: "Confidentialité",
     btnShare: "📤 Partager",
-    btnRead: "📢 Écouter",
+    btnRead: "📢 Écouter l'Audioconte",
     btnStop: "⏹️ Arrêter",
     copiedToClipboard: "Histoire copiée ! 📋"
   },
@@ -143,7 +143,7 @@ const TRANSLATIONS = {
     footerSupport: "Magischer Support",
     footerPrivacy: "Datenschutz",
     btnShare: "📤 Teilen",
-    btnRead: "📢 Hören",
+    btnRead: "📢 Audio-Geschichte hören",
     btnStop: "⏹️ Stopp",
     copiedToClipboard: "Geschichte kopiert! 📋"
   },
@@ -180,7 +180,7 @@ const TRANSLATIONS = {
     footerSupport: "Suporte Mágico",
     footerPrivacy: "Privacidade",
     btnShare: "📤 Compartilhar",
-    btnRead: "📢 Ouvir",
+    btnRead: "📢 Ouvir Audioconto",
     btnStop: "⏹️ Parar",
     copiedToClipboard: "Cento copiado! 📋"
   }
