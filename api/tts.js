@@ -27,6 +27,11 @@ export default async function handler(req, res) {
   const languageCode = l.code;
   const voiceName = gender === 'male' ? l.male : l.female;
 
+  // Ajustes para que la voz femenina suene menos robótica y más dulce
+  const isFemale = gender !== 'male';
+  const pitchAdjust = isFemale ? 2.0 : 0.0;
+  const rateAdjust = isFemale ? 0.95 : 1.0;
+
   try {
     const response = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${apiKey}`, {
       method: 'POST',
@@ -36,7 +41,11 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         input: { text },
         voice: { languageCode, name: voiceName },
-        audioConfig: { audioEncoding: 'MP3' }
+        audioConfig: { 
+          audioEncoding: 'MP3',
+          pitch: pitchAdjust,
+          speakingRate: rateAdjust
+        }
       })
     });
 

@@ -643,6 +643,7 @@ const CHARACTER_VOICES = {
 let currentUtterance = null;
 let currentCloudAudio = null;
 let isFetchingAudio = false;
+let isReadingStopped = false;
 
 async function onReadStory() {
   if (isFetchingAudio) return;
@@ -669,6 +670,7 @@ async function onReadStory() {
   }
 
   isFetchingAudio = true;
+  isReadingStopped = false;
   btn.innerHTML = `<span>⏳ Cargando...</span>`;
   btn.classList.add('reading');
 
@@ -687,8 +689,12 @@ async function onReadStory() {
       throw new Error('TTS API falló');
     }
 
+    if (isReadingStopped) return;
+
     const data = await response.json();
     if (!data.audioContent) throw new Error('No audio content');
+
+    if (isReadingStopped) return;
 
     const audioSrc = 'data:audio/mp3;base64,' + data.audioContent;
     currentCloudAudio = new Audio(audioSrc);
@@ -709,6 +715,7 @@ async function onReadStory() {
     await currentCloudAudio.play();
 
   } catch (error) {
+    if (isReadingStopped) return;
     console.warn('Google TTS falló, usando voz local:', error);
     fallbackLocalTTS(textToRead, config, btn);
   } finally {
@@ -794,6 +801,7 @@ function fallbackLocalTTS(textToRead, config, btn) {
 }
 
 function stopReading() {
+  isReadingStopped = true;
   if (currentCloudAudio) {
     currentCloudAudio.pause();
     currentCloudAudio.currentTime = 0;
